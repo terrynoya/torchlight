@@ -1,0 +1,16 @@
+NAME:Black Palace
+LEVELNAME:PalaceBoss
+AMBIENT:128,128,128
+DIRECTION_COLOR:255,128,128
+DIRECTION_DIR:40,150,40
+FOG_COLOR:23,7,20
+FOG_BEGIN:35
+FOG_END:50
+MINCHUNK:0
+MAXCHUNK:0
+[CHUNKTYPE]
+CHUNK_NAME:1X1SINGLE_ROOM_BOSS
+CHUNK_FILE:palace/1x1single_room_boss/1x1_boss_ordrak_pb.layout
+CHUNK_FILE:palace/1x1single_room_boss/1x1_miniboss_lm_a.layout
+CHUNK_FILE:palace/1x1single_room_boss/1x1_miniboss_pb_a.layout
+[/CHUNKTYPE]

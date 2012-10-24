@@ -1,0 +1,15 @@
+NAME:Tu'tara Caverns
+LEVELNAME:CaveTreasure
+AMBIENT:74,74,74
+DIRECTION_COLOR:200,219,238
+DIRECTION_DIR:40,150,40
+FOG_COLOR:5,35,23
+FOG_BEGIN:23
+FOG_END:45
+MINCHUNK:0
+MAXCHUNK:0
+[CHUNKTYPE]
+CHUNK_NAME:1X1SINGLE_ROOM_TREASURE
+CHUNK_FILE:cave/1x1single_room_treasure/1x1_treasureroom_lm_a.layout
+CHUNK_FILE:cave/1x1single_room_treasure/1x1_treasureroom_lm_b.layout
+[/CHUNKTYPE]

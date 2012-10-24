@@ -1,0 +1,16 @@
+NAME:Lair
+LEVELNAME:OrdrakBoss
+AMBIENT:74,74,74
+DIRECTION_COLOR:238,219,155
+DIRECTION_DIR:40,150,40
+FOG_COLOR:28,49,47
+FOG_BEGIN:24
+FOG_END:45
+MINCHUNK:0
+MAXCHUNK:0
+[CHUNKTYPE]
+CHUNK_NAME:1X1SINGLE_ROOM_BOSS
+CHUNK_FILE:palace/1x1single_room_boss/1x1_boss_ordrak_pb.layout
+CHUNK_FILE:palace/1x1single_room_boss/1x1_miniboss_lm_a.layout
+CHUNK_FILE:palace/1x1single_room_boss/1x1_miniboss_pb_a.layout
+[/CHUNKTYPE]
