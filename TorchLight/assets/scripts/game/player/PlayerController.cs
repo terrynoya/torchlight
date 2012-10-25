@@ -128,11 +128,11 @@ public class PlayerController : MonoBehaviour {
 
     void UpdateAnimation()
     {
-        //if (InputController.GetButton("Fire1"))
-        //{
-        //    if (AnimController.IsSpecialAnimationFinished())
-        //        AnimController.PlaySpecialAnimation("rwand1");
-        //}
+        if (InputController.GetButton("Fire1"))
+        {
+            if (AnimController.IsSpecialAnimationFinished())
+                AnimController.PlaySpecialAnimation("rwand1");
+        }
     }
 
     public void SpecialAnimationEffect()
