@@ -37,6 +37,23 @@ public class InputController
         return Vector2.zero;
     }
 
+    public static Vector3 GetCursorWorldPosition()
+    {
+        Vector2 ScreenPos = InputController.MousePosition();
+        return InputController.ScreenPointToWorldPoint(ScreenPos);
+    }
+
+    public static Vector3 GetCursorOffsetInWorldPosition(Vector3 Center)
+    {
+        Vector2 ScreenPos = InputController.MousePosition();
+        Vector3 CursorWorldPosition = InputController.ScreenPointToWorldPoint(ScreenPos);
+
+        Vector3 Offset = CursorWorldPosition - Center;
+        Offset.y = 0.0f;
+        Offset = Offset.normalized;
+        return Offset;
+    }
+
     public static bool IsScreenTouched()
     {
         return Input.GetMouseButtonDown(0);
