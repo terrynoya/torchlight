@@ -54,9 +54,20 @@ public class InputController
         return Offset;
     }
 
+    private static bool bTouchScreen = false;
+    public static void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+            bTouchScreen = true;
+
+        if (Input.GetMouseButtonUp(0))
+            bTouchScreen = false;
+    }
+
     public static bool IsScreenTouched()
     {
-        return Input.GetMouseButtonDown(0);
+        //return Input.GetMouseButtonDown(0);
+        return bTouchScreen;
     }
 
     public static Vector2 MousePosition()

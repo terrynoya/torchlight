@@ -5,19 +5,18 @@ using System.Collections;
 public class PlayerControllerX : MonoBehaviour
 {
 
-    public float MovementFactor = 7.5f;
-    public float RotateFactor = 10.0f;
-    public Vector3 CameraOffset = new Vector3(3.0f, 7.5f, 3.0f);
+    public float    MovementSpeedFactor = 7.5f;
+    public float    RotateSpeedFactor   = 5.0f;
+    public Vector3  CameraOffset = new Vector3(3.0f, 7.5f, 3.0f);
 
-    private bool bIsMoving = false;
-
-    private Vector3 CurMoveDirection = Vector3.zero;
-    private Vector3 TargetDirection = Vector3.zero;
-    private Vector3 TargetPosition = Vector3.zero;
+    private Vector3 CurMoveDirection    = Vector3.zero;
+    private Vector3 TargetDirection     = Vector3.zero;
+    private Vector3 TargetPosition      = Vector3.zero;
 
     private AnimationController AnimController = null;
     private CharacterController CharactoerContllor = null;
 
+    private bool bIsMoving = false;
     public bool IsMoving()
     {
         return bIsMoving;
@@ -36,6 +35,8 @@ public class PlayerControllerX : MonoBehaviour
 
     void Update()
     {
+        InputController.Update();
+
         UpdateSmoothRotation();
 
         UpdateMovment();
@@ -60,7 +61,7 @@ public class PlayerControllerX : MonoBehaviour
     {
         if (InputController.IsScreenTouched())
         {
-            TargetPosition      = InputController.GetCursorWorldPosition();
+            TargetPosition    = InputController.GetCursorWorldPosition();
             TargetDirection   = TargetPosition - transform.position;
             TargetDirection.y = 0.0f;
         }
@@ -69,7 +70,7 @@ public class PlayerControllerX : MonoBehaviour
         {
             if (AnimController.IsSpecialAnimationFinished())
                 transform.rotation = Quaternion.LookRotation(
-                    Vector3.Lerp(CurMoveDirection, TargetDirection, Time.deltaTime * RotateFactor));
+                    Vector3.Lerp(CurMoveDirection, TargetDirection, Time.deltaTime * RotateSpeedFactor));
         }
     }
 
@@ -106,13 +107,13 @@ public class PlayerControllerX : MonoBehaviour
         Vector3 DistOffset = TargetPosition - CurPosition;
         DistOffset.y = 0.0f;
 
-        if (DistOffset.magnitude > 0.1f && IsFinishRotating())
+        if (DistOffset.magnitude > 0.1f)
         {
             DistOffset = DistOffset.normalized;
 
             // Apply gravity
-            VerticalMovment.y -= 20.0f * Time.deltaTime;
-            Vector3 Movment = (DistOffset * MovementFactor + VerticalMovment) * Time.deltaTime;
+            VerticalMovment.y   -= 20.0f * Time.deltaTime;
+            Vector3 Movment     = (DistOffset * MovementSpeedFactor + VerticalMovment) * Time.deltaTime;
 
             // Move the controller
             CollisionFlags Flags = CharactoerContllor.Move(Movment);
