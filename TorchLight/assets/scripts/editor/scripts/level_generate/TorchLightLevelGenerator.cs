@@ -104,11 +104,14 @@ public class TorchLightLevelGenerator : EditorWindow {
         ProcessReloadDungeons(ButtonPress);
         GUILayout.EndHorizontal();
         
-        BeginWindows();
-        GUI.Window(0, new Rect(0, WindowY, DungeonWindowWidth, windowHeight), DoDrawDungeonListWindow, "", GUI.skin.box);
-        GUI.Window(1, new Rect(DungeonWindowWidth +1, WindowY, StrataWindowWidth, windowHeight), DoDrawRuleListWindow, "", GUI.skin.box);
-        PropertyWindowRect = GUI.Window(2, new Rect(StrataWindowWidth + DungeonWindowWidth + 2, WindowY, WindowWidth - StrataWindowWidth - DungeonWindowWidth - 3, windowHeight), DoDrawPropertyWindow, "", GUI.skin.box);
-        EndWindows();
+		try
+		{
+        	BeginWindows();
+        	GUI.Window(0, new Rect(0, WindowY, DungeonWindowWidth, windowHeight), DoDrawDungeonListWindow, "", GUI.skin.box);
+        	GUI.Window(1, new Rect(DungeonWindowWidth +1, WindowY, StrataWindowWidth, windowHeight), DoDrawRuleListWindow, "", GUI.skin.box);
+        	PropertyWindowRect = GUI.Window(2, new Rect(StrataWindowWidth + DungeonWindowWidth + 2, WindowY, WindowWidth - StrataWindowWidth - DungeonWindowWidth - 3, windowHeight), DoDrawPropertyWindow, "", GUI.skin.box);
+        	EndWindows();
+		}catch(Exception){}
     }
 
     void ProcessConvertTorchLightResource(bool ButtonPress)
@@ -302,8 +305,9 @@ public class TorchLightLevelGenerator : EditorWindow {
         GUILayout.Space(15);
         GUILayout.BeginHorizontal();
         {
-            CreateNewScene  = GUILayout.Toggle(false, "Create New Scene", GUILayout.Width(150));
+            CreateNewScene  = GUILayout.Toggle(CreateNewScene, "Create New Scene", GUILayout.Width(150));
             SaveAfterCreate = GUILayout.Toggle(SaveAfterCreate, "Save After Create", GUILayout.Width(150));
+			SplitToSubScene = GUILayout.Toggle(SplitToSubScene, "Split Scene Into SubScene", GUILayout.Width(150));
         }
         GUILayout.EndHorizontal();
         bool ButtonPress = false;
@@ -313,6 +317,7 @@ public class TorchLightLevelGenerator : EditorWindow {
 
     bool CreateNewScene  = true;
     bool SaveAfterCreate = true;
+	bool SplitToSubScene = false;
     void ProcessGenerateLevel(bool ButtonPress)
     {
         if (ButtonPress)
@@ -321,7 +326,7 @@ public class TorchLightLevelGenerator : EditorWindow {
                 EditorApplication.NewScene();
 
             TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
-            Loader.LoadLevelRuleFileToScene(CurSelectStrata.RuleSet);
+            Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene);
 
             if (SaveAfterCreate)
                 EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + "temp.unity");

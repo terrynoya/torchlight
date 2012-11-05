@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
@@ -213,17 +214,34 @@ public class TorchLightLevelRandomGenerater
         return ChunkLists;
     }
 
-    public void LoadLevelRuleFileToScene(string RuleFilePath)
+    public void LoadLevelRuleFileToScene(FStrata Strata, bool SplitToSubScene)
     {
+		string RuleFilePath = Strata.RuleSet;
         if (LoadLevelRuleFile(RuleFilePath))
         {
+			int SubSceneIndex = 0;
             List<TorchLightLevelRandomGenerater.LevelChunk> LevelChunks = BuildLevel();
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
             {
+				if (SplitToSubScene)
+					EditorApplication.NewScene();
+				
                 string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
                 GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
                 Level.transform.position = Chunk.Offset * 100.0f;
+				
+				SetGlobalRenderSetting(Strata);
+				
+				if (SplitToSubScene)
+					EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + "SubScene-" + SubSceneIndex + ".unity");
+				
+				SubSceneIndex++;
             }
         }
     }
+	
+	public void SetGlobalRenderSetting(FStrata Strata)
+	{
+		
+	}
 }
