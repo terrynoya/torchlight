@@ -214,11 +214,13 @@ public class TorchLightLevelRandomGenerater
         return ChunkLists;
     }
 
-    public void LoadLevelRuleFileToScene(FStrata Strata, bool SplitToSubScene)
+    public void LoadLevelRuleFileToScene(FStrata Strata, bool SplitToSubScene, string RelateSavePath)
     {
 		string RuleFilePath = Strata.RuleSet;
         if (LoadLevelRuleFile(RuleFilePath))
         {
+            GameObject SubSceneObj = null;
+
 			int SubSceneIndex = 0;
             List<TorchLightLevelRandomGenerater.LevelChunk> LevelChunks = BuildLevel();
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
@@ -229,19 +231,47 @@ public class TorchLightLevelRandomGenerater
                 string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
                 GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
                 Level.transform.position = Chunk.Offset * 100.0f;
-				
-				SetGlobalRenderSetting(Strata);
+
+                SetGlobalRenderSetting(Strata, (SubSceneIndex == 0 && !SplitToSubScene) || SplitToSubScene);
+
+                if (SubSceneObj == null && SplitToSubScene)
+                {
+                    SubSceneObj = new GameObject("SubSceneInfos");
+                    SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
+                    for (int i = 0; i < LevelChunks.Count; i++ )
+                        Info.AllSubScenes.Add(RemoveAssetsTag(TorchLightConfig.TorchLightSceneFolder + RelateSavePath + "SubScene-" + i));
+                }
 				
 				if (SplitToSubScene)
-					EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + "SubScene-" + SubSceneIndex + ".unity");
+					EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelateSavePath + "SubScene-" + SubSceneIndex + ".unity");
 				
 				SubSceneIndex++;
             }
         }
     }
-	
-	public void SetGlobalRenderSetting(FStrata Strata)
+
+    static Vector3 RIGHT_VECTOR = new Vector3(1.0f, 0.0f, 0.0f);
+	public void SetGlobalRenderSetting(FStrata Strata, bool CreateDirectionLight)
 	{
-		
+        RenderSettings.ambientLight = Strata.AmbientColor;
+        RenderSettings.fogColor = Strata.FogColor;
+        RenderSettings.fogStartDistance = Strata.FogStart;
+        RenderSettings.fogEndDistance = Strata.FogEnd;
+
+        if (CreateDirectionLight)
+        {
+            GameObject LightObj = new GameObject("DirectionalLight");
+            Light ALight = LightObj.AddComponent<Light>();
+            ALight.type = LightType.Directional;
+            ALight.color = Strata.LightColor;
+            ALight.intensity = 0.2f;
+            ALight.transform.rotation = Quaternion.Euler(new Vector3(50.0f, -30.0f, 0.0f));
+        }
 	}
+
+    static string RemoveAssetsTag(string Path)
+    {
+        //"assets/scenes/xxx"
+        return Path.Substring(7);
+    }
 }

@@ -69,8 +69,11 @@ public class PlayerControllerX : MonoBehaviour
         if (!IsFinishRotating())
         {
             if (AnimController.IsSpecialAnimationFinished())
-                transform.rotation = Quaternion.LookRotation(
-                    Vector3.Lerp(CurMoveDirection, TargetDirection, Time.deltaTime * RotateSpeedFactor));
+            {
+                Vector3 Rotation = Vector3.Lerp(CurMoveDirection, TargetDirection, Time.deltaTime * RotateSpeedFactor);
+                if (Rotation != Vector3.zero)
+                    transform.rotation = Quaternion.LookRotation(Rotation);
+            }
         }
     }
 

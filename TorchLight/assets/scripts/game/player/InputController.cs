@@ -21,20 +21,10 @@ public class InputController
 
     public static Vector2 GetMoveDirection()
     {
-        if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            if (Joystick.GJoysticks != null)
-                return Joystick.GJoysticks.Position;
-        }
-        else
-        {
-            Vector2 Movement = new Vector2();
-            Movement.x = Input.GetAxis("Horizontal");
-            Movement.y = Input.GetAxis("Vertical");
-            return Movement;
-        }
-
-        return Vector2.zero;
+        Vector2 Movement = new Vector2();
+        Movement.x = Input.GetAxis("Horizontal");
+        Movement.y = Input.GetAxis("Vertical");
+        return Movement;
     }
 
     public static Vector3 GetCursorWorldPosition()

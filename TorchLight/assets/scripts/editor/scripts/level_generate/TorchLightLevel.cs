@@ -13,7 +13,7 @@ public class FStrata
     public string BackgroundMusic = "";
     public Vector3 LightDir = Vector3.zero;
     public Color LightColor = Color.white;
-    public Color AmbientColot = Color.white;
+    public Color AmbientColor = Color.white;
     public Color FogColor = Color.white;
     public float FogStart = 0.0f;
     public float FogEnd = 1.0f;
@@ -36,7 +36,7 @@ public class FStrata
             if (Tag == "LEVELNAME")
                 RuleSetName = Value;
             else if (Tag == "AMBIENT")
-                AmbientColot = TorchLightTools.ParseColor(Value);
+                AmbientColor = TorchLightTools.ParseColor(Value);
             else if (Tag == "BGMUSIC")
                 BackgroundMusic = Value;
             else if (Tag == "DIRECTION_COLOR")

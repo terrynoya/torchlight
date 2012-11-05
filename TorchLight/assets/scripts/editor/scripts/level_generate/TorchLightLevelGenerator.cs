@@ -174,6 +174,7 @@ public class TorchLightLevelGenerator : EditorWindow {
         }
     }
 
+    int CurStrataNum = 0;
     FStrata CurSelectStrata = null;
     Vector2 RuleListScrollPosition = Vector2.zero;
     void DoDrawRuleListWindow(int WindowID)
@@ -207,7 +208,7 @@ public class TorchLightLevelGenerator : EditorWindow {
                         GUI.color = Color.green;
 
                     bool ButtonPress = GUILayout.Button("Starta" + Num + "  (" + Strata.RuleSetName + ")", GUI.skin.label);
-                    ProcessSelectStrata(ButtonPress, Strata);
+                    ProcessSelectStrata(ButtonPress, Strata, Num);
                     Num++;
 
                     GUI.color = Color.white;
@@ -218,11 +219,12 @@ public class TorchLightLevelGenerator : EditorWindow {
         GUILayout.Space(5);
     }
 
-    void ProcessSelectStrata(bool PressButton, FStrata Strata)
+    void ProcessSelectStrata(bool PressButton, FStrata Strata, int Num)
     {
         if (PressButton)
         {
             CurSelectStrata = Strata;
+            CurStrataNum = Num;
         }
     }
 
@@ -284,7 +286,7 @@ public class TorchLightLevelGenerator : EditorWindow {
             }
             GUILayout.EndHorizontal();
 
-            CurSelectStrata.AmbientColot = EditorGUILayout.ColorField("Ambient Color", CurSelectStrata.AmbientColot, GUILayout.Width(300));
+            CurSelectStrata.AmbientColor = EditorGUILayout.ColorField("Ambient Color", CurSelectStrata.AmbientColor, GUILayout.Width(300));
 
             GUILayout.BeginHorizontal();
             {
@@ -307,7 +309,7 @@ public class TorchLightLevelGenerator : EditorWindow {
         {
             CreateNewScene  = GUILayout.Toggle(CreateNewScene, "Create New Scene", GUILayout.Width(150));
             SaveAfterCreate = GUILayout.Toggle(SaveAfterCreate, "Save After Create", GUILayout.Width(150));
-			SplitToSubScene = GUILayout.Toggle(SplitToSubScene, "Split Scene Into SubScene", GUILayout.Width(150));
+			SplitToSubScene = GUILayout.Toggle(SplitToSubScene, "Split Scene Into SubScenes", GUILayout.Width(150));
         }
         GUILayout.EndHorizontal();
         bool ButtonPress = false;
@@ -322,14 +324,26 @@ public class TorchLightLevelGenerator : EditorWindow {
     {
         if (ButtonPress)
         {
-            if (CreateNewScene)
+            if (CreateNewScene && !SplitToSubScene)
                 EditorApplication.NewScene();
 
-            TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
-            Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene);
+            string RelativePath = GetSceneRelatePath();
+            EditorTools.CheckFolderExit(TorchLightConfig.TorchLightSceneFolder + RelativePath);
 
-            if (SaveAfterCreate)
-                EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + "temp.unity");
+            TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
+            Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene, RelativePath);
+
+            if (SaveAfterCreate && !SplitToSubScene)
+                EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelativePath + "Scene-Full.unity");
+
+            Debug.Log("Generate Level Finished!");
         }
+    }
+
+    string GetSceneRelatePath()
+    {
+        string DungeonName = EditorTools.GetName(CurSelectDungeon.FilePath);
+        string StrataName = "Starta" + CurStrataNum;
+        return DungeonName + "/" + StrataName + "/";
     }
 }

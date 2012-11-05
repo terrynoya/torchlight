@@ -4,7 +4,7 @@ using System.Collections;
 
 public class FTextureAtlas
 {
-    public string Name = "";
+    public string       Name = "";
     public Texture2D    Texture         = null;
     public Rect         PixelAtlasRect  = new Rect(0, 0, 1, 1); // Pixel Rect [0~TextureWidth] [0~TexureHeight]
 
@@ -32,7 +32,7 @@ public class FSkillLevelInfo
     public float DamageValue = 1.0f;
     public float ManaValue = 1.0f;
 
-    Dictionary<string, float> ExternPower = new Dictionary<string, float>();
+    public Dictionary<string, float> ExternPower = new Dictionary<string, float>();
 }
 
 public class FSkillInfo

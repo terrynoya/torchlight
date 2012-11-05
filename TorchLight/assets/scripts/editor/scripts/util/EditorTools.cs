@@ -86,6 +86,7 @@ public class EditorTools : MonoBehaviour {
         if (FileName.IndexOf('/') != -1)
             StartIndex = FileName.LastIndexOf('/') + 1;
 
-        return FileName.Substring(StartIndex, FileName.LastIndexOf('.') - StartIndex);
+        //return FileName.Substring(StartIndex, FileName.LastIndexOf('.') - StartIndex);
+        return FileName.Substring(StartIndex, FileName.IndexOf('.', StartIndex + 1) - StartIndex);
     }
 }
