@@ -33,10 +33,7 @@ public class SceneManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (AsyncOp != null && AsyncOp.isDone)
-		{
-			// Async Load Scene Finished.
-			LoadSubScenes();
-			
+		{			
 			AsyncOp = null;
 			guiTexture.gameObject.SetActiveRecursively(false);
 		}
@@ -56,7 +53,7 @@ public class SceneManager : MonoBehaviour {
 	static public void LoadScene(string SceneName, bool Async)
 	{
 		SceneToLoad = SceneName;
-		LoadAsync 		= Async;
+		LoadAsync 	= Async;
 		
 		Application.LoadLevel("Loading");
 	}
@@ -68,9 +65,5 @@ public class SceneManager : MonoBehaviour {
 		else
 			Application.LoadLevel(SceneToLoad);
 	}
-	
-	static void LoadSubScenes()
-	{
-		
-	}
+
 }
