@@ -78,6 +78,9 @@ public class TorchLightLevelGenerator : EditorWindow {
     {
         Dungeons = LoadAllDungeons();
         GetBackgroundTexture();
+		
+		foreach(EditorBuildSettingsScene S in EditorBuildSettings.scenes)
+			Debug.Log(S);
     }
 
     static Texture2D BackgroundTexture = null;
@@ -326,15 +329,17 @@ public class TorchLightLevelGenerator : EditorWindow {
         {
             if (CreateNewScene && !SplitToSubScene)
                 EditorApplication.NewScene();
-
+			
             string RelativePath = GetSceneRelatePath();
+			string Prefix = RelativePath.Replace('/', '-');
+			
             EditorTools.CheckFolderExit(TorchLightConfig.TorchLightSceneFolder + RelativePath);
 
             TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
             Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene, RelativePath);
 
             if (SaveAfterCreate && !SplitToSubScene)
-                EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelativePath + "Scene-Full.unity");
+                EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelativePath + Prefix + "Scene-Full.unity");
 
             Debug.Log("Generate Level Finished!");
         }

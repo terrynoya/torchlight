@@ -225,32 +225,41 @@ public class TorchLightLevelRandomGenerater
             List<TorchLightLevelRandomGenerater.LevelChunk> LevelChunks = BuildLevel();
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
             {
+				// Create a new Scene
 				if (SplitToSubScene)
 					EditorApplication.NewScene();
 				
+				// Load Objects into Scene
                 string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
                 GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
                 Level.transform.position = Chunk.Offset * 100.0f;
-
+				
+				// Set Global Render Settings, directional light, fog etc.
                 SetGlobalRenderSetting(Strata, (SubSceneIndex == 0 && !SplitToSubScene) || SplitToSubScene);
-
+				
+				string Prefix = RelateSavePath.Replace('/', '-');
+				string ScenePath = TorchLightConfig.TorchLightSceneFolder + RelateSavePath;
+				
+				// Here we create a Gameobject to hold subScene infos for addtion async loading
+				// for Unity Appilcation.LoadLevelXXX, the parameter LevelName is only the .unity file's Name NOT include the path
                 if (SubSceneObj == null && SplitToSubScene)
                 {
                     SubSceneObj = new GameObject("SubSceneInfos");
                     SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
                     for (int i = 0; i < LevelChunks.Count; i++ )
-                        Info.AllSubScenes.Add(RemoveAssetsTag(TorchLightConfig.TorchLightSceneFolder + RelateSavePath + "SubScene-" + i));
+                        Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
                 }
 				
+				// Save this scene to .unity file
+				// Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName-Scene-N.unity
 				if (SplitToSubScene)
-					EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelateSavePath + "SubScene-" + SubSceneIndex + ".unity");
+					EditorApplication.SaveScene(ScenePath + Prefix + "SubScene-" + SubSceneIndex + ".unity");
 				
 				SubSceneIndex++;
             }
         }
     }
 
-    static Vector3 RIGHT_VECTOR = new Vector3(1.0f, 0.0f, 0.0f);
 	public void SetGlobalRenderSetting(FStrata Strata, bool CreateDirectionLight)
 	{
         RenderSettings.ambientLight = Strata.AmbientColor;
@@ -268,10 +277,4 @@ public class TorchLightLevelRandomGenerater
             ALight.transform.rotation = Quaternion.Euler(new Vector3(50.0f, -30.0f, 0.0f));
         }
 	}
-
-    static string RemoveAssetsTag(string Path)
-    {
-        //"assets/scenes/xxx"
-        return Path.Substring(7);
-    }
 }
