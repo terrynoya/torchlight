@@ -7,21 +7,12 @@ public class SceneManager : MonoBehaviour {
 	static private string SceneToLoad = "Unknow";
 	static private AsyncOperation AsyncOp = null;
 	
-	public string TestSceneToLoad = "";
-	public bool TestLoadAsync = false;
-	
 	// Use this for initialization
 	void Start () {
 		if (guiTexture == null)
 		{
 			Debug.LogError("SceneManager MUST Attact to a GUITexture");
 			return;
-		}
-		
-		if (TestSceneToLoad.Length > 0)
-		{
-			SceneToLoad = TestSceneToLoad;
-			LoadAsync = TestLoadAsync;
 		}
 		
 		guiTexture.transform.position = Vector3.zero;

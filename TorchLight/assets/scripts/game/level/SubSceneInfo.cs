@@ -19,7 +19,16 @@ public class SubSceneInfo : MonoBehaviour {
 	Light DirectionalLight = null;
 	void Start()
 	{
-		
+		MainCamera = Camera.mainCamera;
+		Light[] Lights = FindObjectsOfType(typeof(Light)) as Light[];
+		foreach(Light L in Lights)
+		{
+			if (L.type == LightType.Directional)
+			{
+				DirectionalLight = L;
+				break;
+			}
+		}
 	}
 	
 	void Update()
@@ -50,6 +59,24 @@ public class SubSceneInfo : MonoBehaviour {
 	
 	void RemoveUselessLightAndCamera()
 	{
+		Camera[] Cameras = FindObjectsOfType(typeof(Camera)) as Camera[];
+		foreach(Camera C in Cameras)
+		{
+			if (C != MainCamera)
+				Destroy(C.gameObject);
+		}
 		
+		Light[] Lights = FindObjectsOfType(typeof(Light)) as Light[];
+		foreach(Light L in Lights)
+		{
+			if (L != DirectionalLight)
+				Destroy(L.gameObject);
+		}
+	}
+	
+	void OnGUI()
+	{
+		if (CurIndex > AllSubScenes.Count - 1)
+			GUILayout.Label("Level Load Finished");
 	}
 }
