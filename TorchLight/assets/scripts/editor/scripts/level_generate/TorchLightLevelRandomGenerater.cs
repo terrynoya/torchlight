@@ -219,8 +219,8 @@ public class TorchLightLevelRandomGenerater
 		string RuleFilePath = Strata.RuleSet;
         if (LoadLevelRuleFile(RuleFilePath))
         {
-            GameObject SubSceneObj = null;
-
+			bool FirstFlag = true;
+			
 			int SubSceneIndex = 0;
             List<TorchLightLevelRandomGenerater.LevelChunk> LevelChunks = BuildLevel();
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
@@ -242,12 +242,14 @@ public class TorchLightLevelRandomGenerater
 				
 				// Here we create a Gameobject to hold subScene infos for addtion async loading
 				// for Unity Appilcation.LoadLevelXXX, the parameter LevelName is only the .unity file's Name NOT include the path
-                if (SubSceneObj == null && SplitToSubScene)
+                if (FirstFlag && SplitToSubScene)
                 {
-                    SubSceneObj = new GameObject("SubSceneInfos");
+                    GameObject SubSceneObj = new GameObject("SubSceneInfos");
                     SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
                     for (int i = 0; i < LevelChunks.Count; i++ )
                         Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
+					
+					FirstFlag = false;
                 }
 				
 				// Save this scene to .unity file

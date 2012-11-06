@@ -78,9 +78,6 @@ public class TorchLightLevelGenerator : EditorWindow {
     {
         Dungeons = LoadAllDungeons();
         GetBackgroundTexture();
-		
-		foreach(EditorBuildSettingsScene S in EditorBuildSettings.scenes)
-			Debug.Log(S);
     }
 
     static Texture2D BackgroundTexture = null;
