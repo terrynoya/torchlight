@@ -6,7 +6,7 @@ using System;
 
 public class TorchLightLevelGenerator : EditorWindow {
 
-    [MenuItem("TorchLight/LevelGenerator")]
+    [MenuItem("TorchLight/Editor/LevelGenerator")]
     static void Execute()
     {
         TorchLightLevelGenerator LevelGenerator = CreateInstance<TorchLightLevelGenerator>();

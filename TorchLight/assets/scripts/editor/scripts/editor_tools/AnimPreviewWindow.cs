@@ -25,7 +25,7 @@ public class AnimPreviewWindow : EditorWindow {
 
     string          LogInfo = "";
 
-    [MenuItem("TorchLight/Editor/AnimPreviewWindow")]
+    [MenuItem("TorchLight/Tools/AnimPreviewWindow")]
     static void ShowEditor()
     {
         AnimPreviewWindow EditorWindow          = CreateInstance<AnimPreviewWindow>();

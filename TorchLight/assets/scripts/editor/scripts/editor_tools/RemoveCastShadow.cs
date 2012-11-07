@@ -5,7 +5,7 @@ using System;
 
 public class RemoveCastShadow : EditorWindow {
 
-    [MenuItem("TorchLight/Editor/RemoveCastShadow")]
+    [MenuItem("TorchLight/Commands/RemoveCastShadow")]
     static void ExecuteRemoveCastShadow()
     {
 
@@ -27,7 +27,7 @@ public class RemoveCastShadow : EditorWindow {
         }
     }
 
-    [MenuItem("TorchLight/Editor/ComputeSceneTrangles")]
+    [MenuItem("TorchLight/Commands/ComputeSceneTrangles")]
     static void ExecuteComputeSceneTrangles()
     {
         int TotalTranglesNum = 0;
