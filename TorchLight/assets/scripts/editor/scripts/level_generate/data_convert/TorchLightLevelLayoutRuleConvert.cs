@@ -31,7 +31,7 @@ public class TorchLightLevelLayoutRuleConvert
 
     static TorchLightLevelRandomGenerater.LevelBuildInfo LoadLevelRuleFile(string RulePath)
     {
-        StreamReader Reader = TorchLightTools.GetStreamReaderFromFile(RulePath);
+        StreamReader Reader = EditorTools.GetStreamReaderFromFile(RulePath);
 
         TorchLightLevelRandomGenerater.LevelBuildInfo LevelInfo = new TorchLightLevelRandomGenerater.LevelBuildInfo();
         while (!Reader.EndOfStream)
@@ -39,7 +39,7 @@ public class TorchLightLevelLayoutRuleConvert
             string Line = Reader.ReadLine().Trim();
 
             string Tag = ""; string Value = "";
-            TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+            EditorTools.ParseLine(Line, ref Tag, ref Value);
 
             if (Tag == "LEVELNAME")         LevelInfo.LevelName             = Value;
             if (Tag == "NAME")              LevelInfo.DisplayName           = Value;
@@ -72,13 +72,13 @@ public class TorchLightLevelLayoutRuleConvert
                 TorchLightLevelRandomGenerater.LevelChunk Chunk = new TorchLightLevelRandomGenerater.LevelChunk();
                 while (Line != LEVEL_SUB_CHUNK_END)
                 {
-                    TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+                    EditorTools.ParseLine(Line, ref Tag, ref Value);
 
                     if (Tag == "NAME")
                     {
                         Chunk.ChunkName = Value;
 
-                        string ChunFolder   = EditorTools.GetFolder(RulePath) + "/" + Value;
+                        string ChunFolder   = EditorTools.GetFullFolder(RulePath) + "/" + Value;
                         Chunk.SceneNames    = EditorTools.GetAllFileInFolder(ChunFolder, ".layout");
                     }
 

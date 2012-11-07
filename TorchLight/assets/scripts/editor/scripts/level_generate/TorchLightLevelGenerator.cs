@@ -28,13 +28,13 @@ public class TorchLightLevelGenerator : EditorWindow {
                     FDungeon Dungeon    = new FDungeon();
                     Dungeon.FilePath    = AFile;
 
-                    StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(AFile);
+                    StreamReader Reader = EditorTools.GetStreamReaderFromAsset(AFile);
 
                     while (!Reader.EndOfStream)
                     {
                         string Line = Reader.ReadLine();
                         string Tag = "", Value = "";
-                        TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+                        EditorTools.ParseLine(Line, ref Tag, ref Value);
 
                         if (Tag == "NAME")
                             Dungeon.Name = Value;
@@ -344,7 +344,7 @@ public class TorchLightLevelGenerator : EditorWindow {
 
     string GetSceneRelatePath()
     {
-        string DungeonName = EditorTools.GetName(CurSelectDungeon.FilePath);
+        string DungeonName = EditorTools.GetNameWithoutSuffix(CurSelectDungeon.FilePath);
         string StrataName = "Starta" + CurStrataNum;
         return DungeonName + "/" + StrataName + "/";
     }

@@ -9,7 +9,7 @@ public class EditorUtil
     public static string LoadTextFromFile(string Path)
     {
         string Str = "";
-        StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(Path);
+        StreamReader Reader = EditorTools.GetStreamReaderFromAsset(Path);
         Str = Reader.ReadToEnd();
         Reader.Close();
 

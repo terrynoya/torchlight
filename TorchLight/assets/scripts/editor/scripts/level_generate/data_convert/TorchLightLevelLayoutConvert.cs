@@ -11,12 +11,12 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
 
         foreach (string Layout in AllLayouts)
         {
-            string Folder = EditorTools.GetFolder(Layout).ToLower();
+            string Folder = EditorTools.GetFullFolder(Layout).ToLower();
             Folder = EditorTools.ConvertBasePath(Folder, TorchLightConfig.TorchLightConvertedLayoutFolder, TorchLightConfig.FolderOrignalLevelLayout);
             
             EditorTools.CheckFolderExit(Folder);
 
-            string FileName = EditorTools.GetName(Layout) + ".layout.txt";
+            string FileName = EditorTools.GetNameWithoutSuffix(Layout) + ".layout.txt";
             string SavePath = Folder + "/" + FileName;
             StreamWriter Writer = new StreamWriter(SavePath.ToLower());
 
@@ -46,7 +46,7 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
     {
         List<TorchLightLevel.LevelItem> LevelItems = new List<TorchLightLevel.LevelItem>();
         {
-            StreamReader Reader = TorchLightTools.GetStreamReaderFromFile(LayoutPath);
+            StreamReader Reader = EditorTools.GetStreamReaderFromFile(LayoutPath);
 
             while (!Reader.EndOfStream)
             {
@@ -57,7 +57,7 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                     Line = Reader.ReadLine().Trim();
 
                     string Tag = ""; string Value = "";
-                    TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+                    EditorTools.ParseLine(Line, ref Tag, ref Value);
 
                     if (Value == TorchLightLevel.DESCREPTION_ROOM_PIECE ||
                         Value == TorchLightLevel.DESCREPTION_MONSTER ||
@@ -73,7 +73,7 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                         Line = Reader.ReadLine().Trim();
                         while (Line != TorchLightLevel.ChunkEnd)
                         {
-                            TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+                            EditorTools.ParseLine(Line, ref Tag, ref Value);
 
                             if (Tag == "NAME") AItem.Name = Value;
                             else if (Tag == "POSITIONX")    AItem.Position.x = float.Parse(Value);

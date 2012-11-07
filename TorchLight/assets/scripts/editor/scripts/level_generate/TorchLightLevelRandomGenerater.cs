@@ -86,7 +86,7 @@ public class TorchLightLevelRandomGenerater
 
     public bool LoadLevelRuleFile(string LevelRuleFile)
     {
-        StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(LevelRuleFile);
+        StreamReader Reader = EditorTools.GetStreamReaderFromAsset(LevelRuleFile);
 
         CurLevelInfo = new LevelBuildInfo();
         while (!Reader.EndOfStream)
@@ -94,14 +94,14 @@ public class TorchLightLevelRandomGenerater
             string Line = Reader.ReadLine().Trim();
 
             string Tag = "", Value = "";
-            TorchLightTools.ParseTag(Line, ref Tag, ref Value);
+            EditorTools.ParseTag(Line, ref Tag, ref Value);
 
             if (Tag == "LEVELNAME")         CurLevelInfo.LevelName              = Value;
             if (Tag == "BGMUSIC")           CurLevelInfo.BackgroundMusic        = Value;
-            if (Tag == "AMBIENT")           CurLevelInfo.AmbientColor           = TorchLightTools.ParseColor(Value);
-            if (Tag == "DIRECTION_COLOR")   CurLevelInfo.DirectionLightColor    = TorchLightTools.ParseColor(Value);
-            if (Tag == "DIRECTION_DIR")     CurLevelInfo.DirectionLightDir      = TorchLightTools.ParseVector3(Value);
-            if (Tag == "FOG_COLOR")         CurLevelInfo.FogColor               = TorchLightTools.ParseColor(Value);
+            if (Tag == "AMBIENT")           CurLevelInfo.AmbientColor           = EditorTools.ParseColor(Value);
+            if (Tag == "DIRECTION_COLOR")   CurLevelInfo.DirectionLightColor    = EditorTools.ParseColor(Value);
+            if (Tag == "DIRECTION_DIR")     CurLevelInfo.DirectionLightDir      = EditorTools.ParseVector3(Value);
+            if (Tag == "FOG_COLOR")         CurLevelInfo.FogColor               = EditorTools.ParseColor(Value);
             if (Tag == "FOG_BEGIN")         CurLevelInfo.FogBegin               = float.Parse(Value);
             if (Tag == "FOG_END")           CurLevelInfo.FogEnd                 = float.Parse(Value);
             if (Tag == "MINCHUNK")          CurLevelInfo.MinChunkNum            = int.Parse(Value);
@@ -112,7 +112,7 @@ public class TorchLightLevelRandomGenerater
                 LevelChunk Chunk = new LevelChunk();
                 while (Line != "[/CHUNKTYPE]")
                 {
-                    TorchLightTools.ParseTag(Line, ref Tag, ref Value);
+                    EditorTools.ParseTag(Line, ref Tag, ref Value);
                     if (Tag == "CHUNK_NAME") Chunk.ChunkName = Value;
                     if (Tag == "CHUNK_FILE") Chunk.SceneNames.Add(Value);
 

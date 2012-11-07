@@ -136,7 +136,7 @@ public class TorchLightLevelBuilder : MonoBehaviour
         List<TorchLightLevel.LevelItem> LevelItems = TorchLightLevel.ParseLevelLayout(LayoutPath);
         if (LevelItems != null)
         {
-            GameObject Level                = new GameObject(TorchLightTools.GetUpFolderName(LayoutPath));
+            GameObject Level                = new GameObject(EditorTools.GetUpFolderName(LayoutPath));
             GameObject LevelObjects         = new GameObject("LevelObjects");
             GameObject LevelNpcs            = new GameObject("LevelNpcs");
             GameObject LevelLights          = new GameObject("LevelLights");

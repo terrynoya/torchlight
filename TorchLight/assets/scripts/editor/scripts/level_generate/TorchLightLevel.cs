@@ -26,25 +26,25 @@ public class FStrata
 
     void LoadRuleSet()
     {
-        StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(RuleSet);
+        StreamReader Reader = EditorTools.GetStreamReaderFromAsset(RuleSet);
         while (!Reader.EndOfStream)
         {
             string Line = Reader.ReadLine();
             string Tag = "", Value = "";
 
-            TorchLightTools.ParseTag(Line, ref Tag, ref Value);
+            EditorTools.ParseTag(Line, ref Tag, ref Value);
             if (Tag == "LEVELNAME")
                 RuleSetName = Value;
             else if (Tag == "AMBIENT")
-                AmbientColor = TorchLightTools.ParseColor(Value);
+                AmbientColor = EditorTools.ParseColor(Value);
             else if (Tag == "BGMUSIC")
                 BackgroundMusic = Value;
             else if (Tag == "DIRECTION_COLOR")
-                LightColor = TorchLightTools.ParseColor(Value);
+                LightColor = EditorTools.ParseColor(Value);
             else if (Tag == "DIRECTION_DIR")
-                LightDir = TorchLightTools.ParseVector3(Value);
+                LightDir = EditorTools.ParseVector3(Value);
             else if (Tag == "FOG_COLOR")
-                FogColor = TorchLightTools.ParseColor(Value);
+                FogColor = EditorTools.ParseColor(Value);
             else if (Tag == "FOG_BEGIN")
                 FogStart = float.Parse(Value);
             else if (Tag == "FOG_END")
@@ -90,7 +90,7 @@ public class TorchLightLevel {
 
         Dictionary<string, PirceItem> PieceItems = new Dictionary<string, PirceItem>();
         {
-            StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(LayoutSetItemPath);
+            StreamReader Reader = EditorTools.GetStreamReaderFromAsset(LayoutSetItemPath);
 
             while (!Reader.EndOfStream)
             {
@@ -105,7 +105,7 @@ public class TorchLightLevel {
                     {
                         string Tag = ""; string Value = "";
 
-                        TorchLightTools.ParseTag(Line, ref Tag, ref Value);
+                        EditorTools.ParseTag(Line, ref Tag, ref Value);
 
                         if (Tag == "NAME")              AItem.Name = Value;
                         else if (Tag == "GUID")         AItem.GUID = Value;
@@ -158,7 +158,7 @@ public class TorchLightLevel {
     {
         List<LevelItem> LevelItems = new List<LevelItem>();
         {
-            StreamReader Reader = TorchLightTools.GetStreamReaderFromAsset(LayoutPath + ".txt");
+            StreamReader Reader = EditorTools.GetStreamReaderFromAsset(LayoutPath + ".txt");
             while (!Reader.EndOfStream)
             {
                 string Line = Reader.ReadLine().Trim();
@@ -171,12 +171,12 @@ public class TorchLightLevel {
                     while (Line != ChunkEnd)
                     {
                         string Tag = "", Value = "";
-                        TorchLightTools.ParseTag(Line, ref Tag, ref Value);
+                        EditorTools.ParseTag(Line, ref Tag, ref Value);
                         if      (Tag == "TAG")          AItem.Tag           = Value;
                         else if (Tag == "NAME")         AItem.Name          = Value;
                         else if (Tag == "GUID")         AItem.GUID          = Value;
-                        else if (Tag == "POSITION")     AItem.Position      = TorchLightTools.ParseVector3(Value);
-                        else if (Tag == "ROTARION")     AItem.Rotation      = Quaternion.Euler(TorchLightTools.ParseVector3(Value));
+                        else if (Tag == "POSITION")     AItem.Position      = EditorTools.ParseVector3(Value);
+                        else if (Tag == "ROTARION")     AItem.Rotation      = Quaternion.Euler(EditorTools.ParseVector3(Value));
                         else if (Tag == "SCALE")        AItem.Scaling       = float.Parse(Value);
                         else if (Tag == "RESFILE")      AItem.ResFile       = Value;
                         else if (Tag == "EXTERNINFO")   AItem.ExternInfo    = Value;

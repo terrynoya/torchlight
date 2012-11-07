@@ -19,7 +19,7 @@ public class TorchLightLevelLayoutSetConvert
     {
         string LevelSetPath = TorchLightConfig.TorchLightOrignalLevelSetPath;
 
-        StreamReader Reader = TorchLightTools.GetStreamReaderFromFile(LevelSetPath);
+        StreamReader Reader = EditorTools.GetStreamReaderFromFile(LevelSetPath);
 
         List<TorchLightLevel.PirceItem> Pieces = new List<TorchLightLevel.PirceItem>();
         while (!Reader.EndOfStream)
@@ -35,7 +35,7 @@ public class TorchLightLevelLayoutSetConvert
                 {
                     string Tag = ""; string Value = "";
 
-                    TorchLightTools.ParseLine(Line, ref Tag, ref Value);
+                    EditorTools.ParseLine(Line, ref Tag, ref Value);
 
                     if      (Tag == "NAME")             AItem.Name = Value;
                     else if (Tag == "GUID")             AItem.GUID = Value;
