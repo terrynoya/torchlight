@@ -10,7 +10,7 @@ public class TorchLightLevelBuilder : MonoBehaviour
 
     static Dictionary<string, GameObject>                   PrefabsCache        = new Dictionary<string, GameObject>();
     static Dictionary<string, Mesh>                         CollisionMeshCache  = new Dictionary<string, Mesh>();
-    static Dictionary<string, TorchLightLevel.PirceItem>  GAllPieceItems      = null;
+    static Dictionary<string, TorchLightLevel.PirceItem>    GAllPieceItems      = null;
 
     static GameObject GetCachedGameObject(string FbxPath, TorchLightLevel.LevelItem AItem)
     {

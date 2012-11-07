@@ -5,14 +5,11 @@ Shader "TorchLight/AlphaShadowed" {
 	}
 
 	SubShader {
-		Tags { "Queue"="AlphaTest"
-"IgnoreProjector"="True"
-"RenderType"="Transparent"
-"LightMode" = "ForwardBase" }
+		Tags { "Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="Transparent" "LightMode" = "ForwardBase" }
 		LOD 200
 		Blend SrcAlpha OneMinusSrcAlpha
 		CGPROGRAM
-		#pragma surface surf BlinnPhong alpha fullforwardshadows approxview
+		#pragma surface surf Lambert alpha fullforwardshadows approxview
 	
 		sampler2D _MainTex;
 		fixed4 _Color;

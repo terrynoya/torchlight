@@ -279,6 +279,6 @@ public class TorchLightLevelRandomGenerater
             ALight.transform.rotation = Quaternion.Euler(new Vector3(50.0f, -30.0f, 0.0f));
         }
 		
-		Object.Destroy(Camera.mainCamera.gameObject);
+		Object.DestroyImmediate(Camera.mainCamera.gameObject);
 	}
 }

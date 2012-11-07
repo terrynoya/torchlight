@@ -5,9 +5,10 @@ using System.Collections;
 public class TrochLightAssetSetting : AssetPostprocessor 
 {
     void OnPreprocessModel()		
-    {	
+    {
+        string AssetPath = assetImporter.assetPath.ToLower();
         ModelImporter AModelImporter = assetImporter as ModelImporter;
-        if(assetImporter.assetPath.ToLower().Contains(".fbx"))
+        if (AssetPath.EndsWith(".fbx"))
         {
             AModelImporter.globalScale          = 1.0f;
             AModelImporter.optimizeMesh         = true;
@@ -15,8 +16,16 @@ public class TrochLightAssetSetting : AssetPostprocessor
             AModelImporter.tangentImportMode    = ModelImporterTangentSpaceMode.None;
 			
 			AModelImporter.swapUVChannels	= false;
-            if (assetImporter.assetPath.ToLower().Contains("levelsets") && !assetImporter.assetPath.ToLower().Contains("collision"))
-                AModelImporter.generateSecondaryUV  = true;
+
+            if (AssetPath.Contains("levelsets"))
+            {
+                // collision mesh don't need normal
+                if (AssetPath.Contains("collision"))
+                    AModelImporter.normalImportMode = ModelImporterTangentSpaceMode.None;
+                else
+                    // for static mesh, we need seconderyUV for lightmapping
+                    AModelImporter.generateSecondaryUV = true;
+            }
         }
     }
 	
