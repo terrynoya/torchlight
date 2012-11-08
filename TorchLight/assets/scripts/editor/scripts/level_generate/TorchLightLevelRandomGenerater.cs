@@ -105,7 +105,7 @@ public class TorchLightLevelRandomGenerater
             if (Tag == "FOG_BEGIN")         CurLevelInfo.FogBegin               = float.Parse(Value);
             if (Tag == "FOG_END")           CurLevelInfo.FogEnd                 = float.Parse(Value);
             if (Tag == "MINCHUNK")          CurLevelInfo.MinChunkNum            = int.Parse(Value);
-            if (Tag == "MAXCHUNK")          CurLevelInfo.MaxChunkNum            = int.Parse(Value);
+            if (Tag == "MAXCHUNK")          CurLevelInfo.MaxChunkNum            = Mathf.Min(int.Parse(Value), TorchLightConfig.TorchLightStartaChunkNum_MAX);
 
             if (Line == "[CHUNKTYPE]")
             {

@@ -3,6 +3,9 @@ using System.Collections;
 
 public class TorchLightConfig
 {
+    // MAX Chunk(SubScenes) Num for a Starta
+    public static int TorchLightStartaChunkNum_MAX          = 4;
+
     public static string TorchLightAssetFolder              = "assets/";
     public static string TorchLigthRunTimeResourceFolder    = "assets/resources/";
     public static string TorchLightEditorResourceFolder     = "assets/medias/";
