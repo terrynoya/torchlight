@@ -219,10 +219,40 @@ public class TorchLightLevelRandomGenerater
 		string RuleFilePath = Strata.RuleSet;
         if (LoadLevelRuleFile(RuleFilePath))
         {
-			bool FirstFlag = true;
+            string Prefix = RelateSavePath.Replace('/', '-');
+            string ScenePath = TorchLightConfig.TorchLightSceneFolder + RelateSavePath;
 			
-			int SubSceneIndex = 0;
             List<TorchLightLevelRandomGenerater.LevelChunk> LevelChunks = BuildLevel();
+
+            // if we spliting the scene into subscenes, we need a full scene for navmesh building
+            // here we save a full scene for navmesh, and the resource is cached for later subscenes.
+            if (SplitToSubScene)
+            {
+                EditorApplication.NewScene();
+                {
+                    // Set Global Render Settings, directional light, fog etc.
+                    SetGlobalRenderSetting(Strata, true);
+
+                    // Here we create a Gameobject to hold subScene infos for addtion async loading
+                    // for Unity Appilcation.LoadLevelXXX, the parameter LevelName is only the .unity file's Name NOT include the path
+                    GameObject SubSceneObj = new GameObject("SubSceneInfos");
+                    SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
+                    for (int i = 0; i < LevelChunks.Count; i++)
+                        Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
+
+                    // if we split to subscenes, we need a fully scene to build navmesh
+                    foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
+                    {
+                        // Load Objects into Scene
+                        string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
+                        GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
+                        Level.transform.position = Chunk.Offset * 100.0f;
+                    }
+                }
+                EditorApplication.SaveScene(ScenePath + Prefix + "SubScene-0-Full-NavMesh.unity");
+            }
+
+            int SubSceneIndex = 0;
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
             {
 				// Create a new Scene
@@ -237,19 +267,14 @@ public class TorchLightLevelRandomGenerater
 				// Set Global Render Settings, directional light, fog etc.
                 SetGlobalRenderSetting(Strata, (SubSceneIndex == 0 && !SplitToSubScene) || SplitToSubScene);
 				
-				string Prefix = RelateSavePath.Replace('/', '-');
-				string ScenePath = TorchLightConfig.TorchLightSceneFolder + RelateSavePath;
-				
 				// Here we create a Gameobject to hold subScene infos for addtion async loading
 				// for Unity Appilcation.LoadLevelXXX, the parameter LevelName is only the .unity file's Name NOT include the path
-                if (FirstFlag && SplitToSubScene)
+                if (SubSceneIndex == 0 && SplitToSubScene)
                 {
                     GameObject SubSceneObj = new GameObject("SubSceneInfos");
                     SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
                     for (int i = 0; i < LevelChunks.Count; i++ )
                         Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
-					
-					FirstFlag = false;
                 }
 				
 				// Save this scene to .unity file

@@ -91,6 +91,8 @@ public class TorchLightLevelGenerator : EditorWindow {
     Rect PropertyWindowRect;
     void OnGUI()
     {
+        if (Event.current == null) { EditorGUIUtility.ExitGUI(); }
+
         float DungeonWindowWidth    = 340.0f;
         float StrataWindowWidth     = 230.0f;
         float WindowY               = 24.0f;
@@ -307,11 +309,18 @@ public class TorchLightLevelGenerator : EditorWindow {
         GUILayout.Space(15);
         GUILayout.BeginHorizontal();
         {
-            CreateNewScene  = GUILayout.Toggle(CreateNewScene, "Create New Scene", GUILayout.Width(150));
-            SaveAfterCreate = GUILayout.Toggle(SaveAfterCreate, "Save After Create", GUILayout.Width(150));
-			SplitToSubScene = GUILayout.Toggle(SplitToSubScene, "Split Scene Into SubScenes", GUILayout.Width(150));
+            CreateNewScene  = GUILayout.Toggle(CreateNewScene, "Create New Scene", GUILayout.Width(200));
+            SaveAfterCreate = GUILayout.Toggle(SaveAfterCreate, "Save After Create", GUILayout.Width(200));
         }
         GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        {
+            SplitToSubScene = GUILayout.Toggle(SplitToSubScene, "Split Scene Into SubScenes", GUILayout.Width(200));
+            GUILayout.Toggle(SplitToSubScene, "Output A Full Scene for Navmesh", GUILayout.Width(200));
+        }
+        GUILayout.EndHorizontal();
+
         bool ButtonPress = false;
         ButtonPress = GUILayout.Button("Generate Level", GUILayout.Width(150));
         ProcessGenerateLevel(ButtonPress);
