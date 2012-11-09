@@ -276,6 +276,8 @@ public class TorchLightLevelRandomGenerater
                     SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
                     for (int i = 0; i < LevelChunks.Count; i++ )
                         Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
+                    // handly set diasble, here the SubSceneInfo is just for test.
+                    SubSceneObj.SetActiveRecursively(false);
                 }
 				
 				// Save this scene to .unity file
