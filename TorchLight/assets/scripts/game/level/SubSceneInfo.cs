@@ -28,7 +28,7 @@ public class SubSceneInfo : MonoBehaviour {
 		{
 			AsyncLoadNextSubScene();
 
-            if (CurIndex == 1)
+            if (CurIndex == 2)
             {
                 SplashManager Splash = FindObjectOfType(typeof(SplashManager)) as SplashManager;
                 if (Splash != null)

@@ -8,16 +8,7 @@ public class SceneManager : MonoBehaviour {
 	static private AsyncOperation AsyncOp = null;
 	
 	// Use this for initialization
-	void Start () {
-		if (guiTexture == null)
-		{
-			Debug.LogError("SceneManager MUST Attact to a GUITexture");
-			return;
-		}
-		
-		guiTexture.transform.position = Vector3.zero;
-		guiTexture.pixelInset = new Rect(0, 0, Screen.width, Screen.height);
-		
+	void Start () {		
 		LoadScene();
 	}
 	
