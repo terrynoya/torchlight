@@ -59,7 +59,7 @@ function Locomotion_JumpAnimation() {
 		yield;
 	} while(anim_[linkAnimationName].normalizedTime < 1);
 
-	anim_.Play("Idle");
+	anim_.Play("idle");
 	agent_.CompleteOffMeshLink();
 	agent_.Resume();
 	transform.position = linkEnd_;
@@ -97,7 +97,7 @@ function Locomotion_LadderAnimation() {
 	} while(anim_[linkAnimationName].normalizedTime < 1);
 	agent_.ActivateCurrentOffMeshLink(true);
 
-	anim_.Play("Idle");
+	anim_.Play("idle");
 	transform.position = linkEnd_;
 	agent_.CompleteOffMeshLink();
 	agent_.Resume();
@@ -133,37 +133,26 @@ private function AnimationSetup() {
 	anim_  = GetComponent.<Animation>();
 
 	// loop in sync
-	anim_["Walk"].layer = 1;
-	anim_["Run"].layer = 1;
-	anim_.SyncLayer(1);
+	anim_["run"].layer = -1;
+	anim_["run"].layer = -1;
 
-	// speed up & play once
-	anim_["RunJump"].wrapMode = WrapMode.ClampForever;
-	anim_["RunJump"].speed = 2;
-	anim_["Ladder Up"].wrapMode = WrapMode.ClampForever;
-	anim_["Ladder Up"].speed = 2;
-	anim_["Ladder Down"].wrapMode = WrapMode.ClampForever;
-	anim_["Ladder Down"].speed = 2;
+	anim_.SyncLayer(-1);
 
-	anim_.CrossFade("Idle", 0.1, PlayMode.StopAll);
+	anim_.CrossFade("idle");
 }
 
 private function UpdateAnimationBlend() {
-	var walkAnimationSpeed : float = 1.5;
 	var runAnimationSpeed : float = 4.0;
 	var speedThreshold : float = 0.1;
 
 	var velocityXZ : Vector3 = Vector3(agent_.velocity.x, 0.0f , agent_.velocity.z);
 	var speed : float = velocityXZ.magnitude;
-	anim_["Run"].speed = speed / runAnimationSpeed;
-	anim_["Walk"].speed = speed / walkAnimationSpeed;
+	anim_["run"].speed = speed / runAnimationSpeed;
 
-	if(speed > (walkAnimationSpeed+runAnimationSpeed)/2.0f) {
-		anim_.CrossFade("Run");
+	if(speed > 0.0) {
+		anim_.CrossFade("run");
 	}
-	else if(speed > speedThreshold) {
-		anim_.CrossFade("Walk");
-	} else {
-		anim_.CrossFade("Idle", 0.1, PlayMode.StopAll);
+	else {
+		anim_.CrossFade("idle");
 	}
 }

@@ -15,20 +15,8 @@ public class SubSceneInfo : MonoBehaviour {
 	int 			CurIndex = 0;
 	AsyncOperation 	AsyncOp = null;
 
-	Camera MainCamera = null;
-	Light DirectionalLight = null;
 	void Start()
 	{
-		MainCamera = Camera.mainCamera;
-		Light[] Lights = FindObjectsOfType(typeof(Light)) as Light[];
-		foreach(Light L in Lights)
-		{
-			if (L.type == LightType.Directional)
-			{
-				DirectionalLight = L;
-				break;
-			}
-		}
 	}
 	
 	void Update()
@@ -39,11 +27,15 @@ public class SubSceneInfo : MonoBehaviour {
 		if (AsyncOp == null || AsyncOp.isDone)
 		{
 			AsyncLoadNextSubScene();
-		}
-		
-		if (CurIndex == AllSubScenes.Count)
-		{
-			RemoveUselessLightAndCamera();
+
+            if (CurIndex == 1)
+            {
+                SplashManager Splash = FindObjectOfType(typeof(SplashManager)) as SplashManager;
+                if (Splash != null)
+                    Splash.HideSplash();
+
+                Debug.Log("Hide Splash");
+            }
 		}
 	}
 	
@@ -55,23 +47,6 @@ public class SubSceneInfo : MonoBehaviour {
 			AsyncOp = Application.LoadLevelAdditiveAsync(AllSubScenes[CurIndex]);
 		}
         CurIndex++;
-	}
-	
-	void RemoveUselessLightAndCamera()
-	{
-		Camera[] Cameras = FindObjectsOfType(typeof(Camera)) as Camera[];
-		foreach(Camera C in Cameras)
-		{
-			if (C != MainCamera)
-				Destroy(C.gameObject);
-		}
-		
-		Light[] Lights = FindObjectsOfType(typeof(Light)) as Light[];
-		foreach(Light L in Lights)
-		{
-			if (L != DirectionalLight)
-				Destroy(L.gameObject);
-		}
 	}
 	
 	void OnGUI()
