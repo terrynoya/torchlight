@@ -249,7 +249,8 @@ public class TorchLightLevelRandomGenerater
                         Level.transform.position = Chunk.Offset * 100.0f;
                     }
                 }
-                EditorApplication.SaveScene(ScenePath + Prefix + "SubScene-0-Full-NavMesh.unity");
+                // Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName.unity
+                EditorApplication.SaveScene(ScenePath + Prefix + ".unity");
             }
 
             int SubSceneIndex = 0;
@@ -278,7 +279,7 @@ public class TorchLightLevelRandomGenerater
                 }
 				
 				// Save this scene to .unity file
-				// Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName-Scene-N.unity
+				// Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName-SubScene-N.unity
 				if (SplitToSubScene)
 					EditorApplication.SaveScene(ScenePath + Prefix + "SubScene-" + SubSceneIndex + ".unity");
 				

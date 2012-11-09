@@ -12,7 +12,7 @@ public class SubSceneInfo : MonoBehaviour {
 	public int 		PlayerLevelMin = 0;
 	public int 		PlayerLevelMax = 999;
 	
-	int 						CurIndex = 0;
+	int 			CurIndex = 0;
 	AsyncOperation 	AsyncOp = null;
 
 	Camera MainCamera = null;
@@ -49,12 +49,12 @@ public class SubSceneInfo : MonoBehaviour {
 	
 	void AsyncLoadNextSubScene()
 	{
-		CurIndex++;
 		if (CurIndex < AllSubScenes.Count)
 		{
 			Debug.Log(AllSubScenes[CurIndex]);
 			AsyncOp = Application.LoadLevelAdditiveAsync(AllSubScenes[CurIndex]);
 		}
+        CurIndex++;
 	}
 	
 	void RemoveUselessLightAndCamera()
