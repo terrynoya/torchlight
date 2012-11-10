@@ -1,4 +1,9 @@
-Shader "TorchLight/AlphaShadowed" {
+
+
+/**
+	A Alpha blend shader(Vertex lighting) that can receive shadow from main direction light
+*/
+Shader "TorchLight/Alpha/AlphaShadowed" {
 	Properties {
 		_Color ("Main Color", Color) = (1,1,1,1)
 		_MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}

@@ -48,10 +48,4 @@ public class SubSceneInfo : MonoBehaviour {
 		}
         CurIndex++;
 	}
-	
-	void OnGUI()
-	{
-		if (CurIndex > AllSubScenes.Count - 1)
-			GUILayout.Label("Level Load Finished");
-	}
 }

@@ -100,10 +100,15 @@ public class TorchLightLevelGenerator : EditorWindow {
 
         bool ButtonPress = false;
         GUILayout.BeginHorizontal();
-        ButtonPress = GUILayout.Button("Convert TorchLight Resource", GUILayout.Width(200));
-        ProcessConvertTorchLightResource(ButtonPress);
-        ButtonPress = GUILayout.Button("Reload Dungeons", GUILayout.Width(200));
-        ProcessReloadDungeons(ButtonPress);
+        {
+            ButtonPress = GUILayout.Button("Convert TorchLight Resource", GUILayout.Width(200));
+            ProcessConvertTorchLightResource(ButtonPress);
+            ButtonPress = GUILayout.Button("Reload Dungeons", GUILayout.Width(200));
+            ProcessReloadDungeons(ButtonPress);
+            GUILayout.Space(20);
+            ButtonPress = GUILayout.Button("(Test) Load A Level Layout", GUILayout.Width(200));
+            ProcessLoadALevelLayout(ButtonPress);
+        }
         GUILayout.EndHorizontal();
         
 		try
@@ -114,6 +119,20 @@ public class TorchLightLevelGenerator : EditorWindow {
         	PropertyWindowRect = GUI.Window(2, new Rect(StrataWindowWidth + DungeonWindowWidth + 2, WindowY, WindowWidth - StrataWindowWidth - DungeonWindowWidth - 3, windowHeight), DoDrawPropertyWindow, "", GUI.skin.box);
         	EndWindows();
 		}catch(Exception){}
+    }
+
+    void ProcessLoadALevelLayout(bool ButtonPress)
+    {
+        if (ButtonPress)
+        {
+            string Path = "";
+            if (EditorGUIUtil.OpenFile("Select Level Layout to Scene", "txt", ref Path))
+            {
+                Path = EditorTools.GetUnityRelativePath(Path);
+                Path = EditorTools.GetFullFolder(Path) + EditorTools.GetNameWithoutSuffix(Path);
+                TorchLightLevelBuilder.LoadLevelLayoutToScene(Path + ".layout");
+            }
+        }
     }
 
     void ProcessConvertTorchLightResource(bool ButtonPress)

@@ -5,26 +5,22 @@ using System;
 
 public class RemoveCastShadow : EditorWindow {
 
-    [MenuItem("TorchLight/Commands/RemoveCastShadow")]
+    [MenuItem("TorchLight/Commands/RemoveAlphaCastShadow")]
     static void ExecuteRemoveCastShadow()
-    {
-
-        RemoveCastShadowWithName("rubble");
-        RemoveCastShadowWithName("dust");
-
-        Debug.Log("Remove Cast Shadow Finished");
-    }
-
-    static void RemoveCastShadowWithName(string Name)
     {
         MeshRenderer[] Objs = UnityEngine.Object.FindObjectsOfType(typeof(MeshRenderer)) as MeshRenderer[];
         foreach (MeshRenderer Render in Objs)
         {
-            if (Render.gameObject.name.IndexOf(Name, StringComparison.CurrentCultureIgnoreCase) != -1)
+            Material Mat = Render.sharedMaterial != null ? Render.sharedMaterial : Render.material;
+            if (Mat.shader.name == "TorchLight/Alpha/Alpha" ||
+                Mat.shader.name == "TorchLight/Alpha/AlphaShadowed" ||
+                Mat.shader.name == "TorchLight/Alpha/AlphaTest")
             {
                 Render.castShadows = false;
             }
         }
+
+        Debug.Log("Remove Cast Shadow Finished");
     }
 
     [MenuItem("TorchLight/Commands/ComputeSceneTrangles")]

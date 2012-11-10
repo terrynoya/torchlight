@@ -60,4 +60,9 @@ public class FPS : MonoBehaviour {
 	        frames = 0;
 	    }
 	}
+
+    void OnGUI()
+    {
+        GUILayout.Label(guiText.text);
+    }
 }
