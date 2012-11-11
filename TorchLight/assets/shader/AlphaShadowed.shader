@@ -10,7 +10,7 @@ Shader "TorchLight/Alpha/AlphaShadowed" {
 	}
 
 	SubShader {
-		Tags { "Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="Transparent" "LightMode" = "ForwardBase" }
+		Tags { "Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="Transparent" "LightMode" = "ForwardBase" }
 		LOD 200
 		Blend SrcAlpha OneMinusSrcAlpha
 		CGPROGRAM

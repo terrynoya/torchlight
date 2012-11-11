@@ -40,4 +40,11 @@ public class RemoveCastShadow : EditorWindow {
         Debug.Log("Total Vertex Num : " + TotalVertexNum);
         Debug.Log("----------------------------------------");
     }
+
+    [MenuItem("TorchLight/Commands/CaptureScreen")]
+    static void ExecuteCaptureScreen()
+    {
+        string Date = DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss");
+        Application.CaptureScreenshot(Date + ".png");
+    }
 }

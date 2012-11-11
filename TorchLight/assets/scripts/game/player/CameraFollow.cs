@@ -7,10 +7,12 @@ public class CameraFollow : MonoBehaviour {
     public Transform Target = null;
     public Camera BindCamera = null;
 
+    public bool bLockRotation = false;
+
     // The distance in the x-z plane to the target
-    float Distance = 7.5f;
+    public float Distance = 10.0f;
     // the height we want the camera to be above the target
-    float Height = 15.0f;
+    public float Height = 15.0f;
     // How much we 
     float HeightDamping = 2.0f;
     float RotationDamping = 3.0f;
@@ -29,6 +31,9 @@ public class CameraFollow : MonoBehaviour {
         CamObj.transform.position = InTarget.position + new Vector3(0.0f, Height, 0.0f);
         BindCamera = CamObj.AddComponent<Camera>();
         BindCamera.backgroundColor = Color.black;
+
+        // We need add a component for drawing GUI
+        CamObj.AddComponent<GUILayer>();
     }
 	
 	// Update is called once per frame
@@ -62,7 +67,7 @@ public class CameraFollow : MonoBehaviour {
 	    // Set the position of the camera on the x-z plane to:
 	    // distance meters behind the target
         Trans.position = Target.position;
-        Trans.position -= CurrentRotation * Vector3.forward * Distance;
+        Trans.position -= Vector3.forward * Distance;
 
 	    // Set the height of the camera
         Vector3 Position = Trans.position;

@@ -11,7 +11,7 @@ Shader "TorchLight/Alpha/AlphaTest"
 
 	SubShader 
 	{
-		Tags {"Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="TransparentCutout"}
+		Tags {"Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="TransparentCutout"}
 		LOD 200
 	
 		CGPROGRAM
