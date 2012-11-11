@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b04920d4084c714283a45066fa0dde3
+guid: 95353e487be7f48bf91cda92e036e632
 TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -29,9 +29,5 @@ TextureImporter:
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
-    maxTextureSize: 256
-    textureFormat: 33
-    compressionQuality: 50
+  textureType: -1
+  buildTargetSettings: []
