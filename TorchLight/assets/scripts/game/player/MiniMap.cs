@@ -58,7 +58,7 @@ public class MiniMap : MonoBehaviour {
             CharactorTransform = Follower.Target;
         }
 	}
-
+	
     void OnGUI()
     {
         if (bEnableMinimap && CharactorTransform != null)
@@ -67,10 +67,8 @@ public class MiniMap : MonoBehaviour {
 
             float PosX = ImageOffsetX + (ImageCenterX + CurPos.x / SceneX) * ImageWidth;
             float PosY = ImageOffsetY + (ImageCenterY - CurPos.z / SceneY) * ImageHeight;
-
-            GUILayout.BeginArea(new Rect(PosX - 10.0f, PosY - 10.0f, 20.0f, 20.0f));
-            GUILayout.Label("+");
-            GUILayout.EndArea();
+			
+			GUI.Label(new Rect(PosX - 10.0f, PosY - 10.0f, 20.0f, 20.0f), "+");
         }
     }
 }
