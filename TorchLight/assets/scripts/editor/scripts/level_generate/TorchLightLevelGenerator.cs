@@ -347,7 +347,7 @@ public class TorchLightLevelGenerator : EditorWindow {
 
     bool CreateNewScene  = true;
     bool SaveAfterCreate = true;
-	bool SplitToSubScene = false;
+	bool SplitToSubScene = true;
     void ProcessGenerateLevel(bool ButtonPress)
     {
         if (ButtonPress)

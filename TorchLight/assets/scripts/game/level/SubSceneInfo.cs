@@ -6,13 +6,13 @@ public class SubSceneInfo : MonoBehaviour {
     // AllSubScenes include all the subscenes to load, normally we
     // load subscene from index of 1 becouse 0 had been loaded!
     public List<string> AllSubScenes = new List<string>();
-	
+
 	public string 	Name = "";
 	public string 	DisplayName = "";
 	public int 		PlayerLevelMin = 0;
 	public int 		PlayerLevelMax = 999;
-	
-	int 			CurIndex = 0;
+
+	int 			NextIndex = 0;
 	AsyncOperation 	AsyncOp = null;
 
 	void Start()
@@ -21,14 +21,14 @@ public class SubSceneInfo : MonoBehaviour {
 	
 	void Update()
 	{
-		if (CurIndex > AllSubScenes.Count)
+		if (NextIndex > AllSubScenes.Count)
 			return;
 		
 		if (AsyncOp == null || AsyncOp.isDone)
 		{
 			AsyncLoadNextSubScene();
 
-            if (CurIndex == 2)
+            if (NextIndex == 2)
             {
                 SplashManager Splash = FindObjectOfType(typeof(SplashManager)) as SplashManager;
                 if (Splash != null)
@@ -41,11 +41,11 @@ public class SubSceneInfo : MonoBehaviour {
 	
 	void AsyncLoadNextSubScene()
 	{
-		if (CurIndex < AllSubScenes.Count)
+		if (NextIndex < AllSubScenes.Count)
 		{
-			Debug.Log(AllSubScenes[CurIndex]);
-			AsyncOp = Application.LoadLevelAdditiveAsync(AllSubScenes[CurIndex]);
+			Debug.Log(AllSubScenes[NextIndex]);
+			AsyncOp = Application.LoadLevelAdditiveAsync(AllSubScenes[NextIndex]);
 		}
-        CurIndex++;
+        NextIndex++;
 	}
 }

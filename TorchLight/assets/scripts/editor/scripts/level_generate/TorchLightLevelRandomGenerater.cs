@@ -123,6 +123,7 @@ public class TorchLightLevelRandomGenerater
             }
         }
 
+        CurLevelInfo.MaxChunkNum = Mathf.Min(CurLevelInfo.MaxChunkNum, TorchLightConfig.TorchLightStartaChunkNum_MAX);
         Reader.Close();
         return true;
     }
@@ -250,7 +251,7 @@ public class TorchLightLevelRandomGenerater
                     }
                 }
                 // Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName.unity
-                EditorApplication.SaveScene(ScenePath + Prefix + ".unity");
+                EditorApplication.SaveScene(ScenePath + Prefix.Substring(0, Prefix.Length - 1) + ".unity");
             }
 
             int SubSceneIndex = 0;
@@ -273,8 +274,10 @@ public class TorchLightLevelRandomGenerater
                 if (SubSceneIndex == 0 && SplitToSubScene)
                 {
                     GameObject SubSceneObj = new GameObject("SubSceneInfos");
-                    SubSceneInfo Info = SubSceneObj.AddComponent<SubSceneInfo>();
-                    for (int i = 0; i < LevelChunks.Count; i++ )
+                    SubSceneInfo Info   = SubSceneObj.AddComponent<SubSceneInfo>();
+
+                    // Add Other subscene into load list, we START from the second subscene.
+                    for (int i = 1; i < LevelChunks.Count; i++ )
                         Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
                     // handly set diasble, here the SubSceneInfo is just for test.
                     SubSceneObj.SetActiveRecursively(false);
