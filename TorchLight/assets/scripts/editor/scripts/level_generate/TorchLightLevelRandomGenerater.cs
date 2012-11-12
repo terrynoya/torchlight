@@ -105,7 +105,7 @@ public class TorchLightLevelRandomGenerater
             if (Tag == "FOG_BEGIN")         CurLevelInfo.FogBegin               = float.Parse(Value);
             if (Tag == "FOG_END")           CurLevelInfo.FogEnd                 = float.Parse(Value);
             if (Tag == "MINCHUNK")          CurLevelInfo.MinChunkNum            = int.Parse(Value);
-            if (Tag == "MAXCHUNK")          CurLevelInfo.MaxChunkNum            = Mathf.Min(int.Parse(Value), TorchLightConfig.TorchLightStartaChunkNum_MAX);
+            if (Tag == "MAXCHUNK")          CurLevelInfo.MaxChunkNum            = int.Parse(Value);
 
             if (Line == "[CHUNKTYPE]")
             {
@@ -123,7 +123,6 @@ public class TorchLightLevelRandomGenerater
             }
         }
 
-        CurLevelInfo.MaxChunkNum = Mathf.Min(CurLevelInfo.MaxChunkNum, TorchLightConfig.TorchLightStartaChunkNum_MAX);
         Reader.Close();
         return true;
     }
@@ -140,6 +139,10 @@ public class TorchLightLevelRandomGenerater
         else
         {
             int ChunkNum = Random.Range(CurLevelInfo.MinChunkNum, CurLevelInfo.MaxChunkNum + 1);
+
+            Debug.Log(CurLevelInfo.MinChunkNum + " - " + CurLevelInfo.MaxChunkNum + " - " + ChunkNum);
+            ChunkNum = Mathf.Min(ChunkNum, TorchLightConfig.TorchLightStartaChunkNum_MAX - 2);
+
             List<LevelChunk> EnteranceChunks    = new List<LevelChunk>();
             List<LevelChunk> ExitChunks         = new List<LevelChunk>();
             List<LevelChunk> LinkChunks         = new List<LevelChunk>();
@@ -232,7 +235,7 @@ public class TorchLightLevelRandomGenerater
                 EditorApplication.NewScene();
                 {
                     // Set Global Render Settings, directional light, fog etc.
-                    SetGlobalRenderSetting(Strata, true);
+                    SetGlobalRenderSetting(Strata, false);
 
                     // Here we create a Gameobject to hold subScene infos for addtion async loading
                     // for Unity Appilcation.LoadLevelXXX, the parameter LevelName is only the .unity file's Name NOT include the path
@@ -241,6 +244,28 @@ public class TorchLightLevelRandomGenerater
                     for (int i = 0; i < LevelChunks.Count; i++)
                         Info.AllSubScenes.Add(Prefix + "SubScene-" + i);
 
+                    // Minimap GameObject if for Minimap builder
+                    GameObject Minimap = new GameObject("Minimap");
+                    GameObject CamObj = new GameObject("Camera");
+                    {
+                        CamObj.transform.parent = Minimap.transform;
+                        CamObj.AddComponent<GUILayer>();
+                        Camera Cam = CamObj.GetComponent<Camera>();
+                        {
+                            Cam.backgroundColor = Color.black;
+                            Cam.transform.position = new Vector3(0.0f, 100.0f, 0.0f);
+                            Cam.transform.rotation = Quaternion.Euler(new Vector3(90.0f, 0.0f, 0.0f));
+                            Cam.isOrthoGraphic = true;
+                            Cam.orthographicSize = 120.0f;
+                        }
+                    }
+
+                    GameObject Chunks = new GameObject("Chunks");
+                    {
+                        Chunks.AddComponent<LevelChunkShower>();
+                        Chunks.transform.parent = Minimap.transform;
+                    }
+
                     // if we split to subscenes, we need a fully scene to build navmesh
                     foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
                     {
@@ -248,6 +273,15 @@ public class TorchLightLevelRandomGenerater
                         string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
                         GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
                         Level.transform.position = Chunk.Offset * 100.0f;
+
+                        Level.SetActiveRecursively(true);
+
+                        // Add a Node to the Minimap GameObject
+                        GameObject MinimapNode = new GameObject(Chunk.SceneNames[0]);
+                        {
+                            MinimapNode.transform.position = Level.transform.position;
+                            MinimapNode.transform.parent = Chunks.transform;
+                        }
                     }
                 }
                 // Assets/Scenes/DungeonName/StartaName/DungoneName-StartaName.unity
@@ -265,6 +299,8 @@ public class TorchLightLevelRandomGenerater
                 string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
                 GameObject Level = TorchLightLevelBuilder.LoadLevelLayoutToScene(Path);
                 Level.transform.position = Chunk.Offset * 100.0f;
+
+                Level.SetActiveRecursively(true);
 				
 				// Set Global Render Settings, directional light, fog etc.
                 SetGlobalRenderSetting(Strata, (SubSceneIndex == 0 && !SplitToSubScene) || SplitToSubScene);
