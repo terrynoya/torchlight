@@ -29,5 +29,5 @@ Shader "TorchLight/Diffuse" {
 	ENDCG
 	}
 	
-	Fallback "Mobile/VertexLight"
+	Fallback "Diffuse"
 }
