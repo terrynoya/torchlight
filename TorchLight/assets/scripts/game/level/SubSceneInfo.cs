@@ -14,21 +14,17 @@ public class SubSceneInfo : MonoBehaviour {
 
 	int 			NextIndex = 0;
 	AsyncOperation 	AsyncOp = null;
-
-	void Start()
-	{
-	}
 	
 	void Update()
 	{
 		if (NextIndex > AllSubScenes.Count)
 			return;
-		
-		if (AsyncOp == null || AsyncOp.isDone)
+
+        if (AsyncOp == null || AsyncOp.isDone)
 		{
 			AsyncLoadNextSubScene();
 
-            if (NextIndex == 2)
+            if (NextIndex == 2 || NextIndex > AllSubScenes.Count - 1)
             {
                 SplashManager Splash = FindObjectOfType(typeof(SplashManager)) as SplashManager;
                 if (Splash != null)
