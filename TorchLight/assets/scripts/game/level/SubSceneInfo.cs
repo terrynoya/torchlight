@@ -24,8 +24,9 @@ public class SubSceneInfo : MonoBehaviour {
 		{
 			AsyncLoadNextSubScene();
 
-            if (NextIndex == 2 || NextIndex > AllSubScenes.Count - 1)
+            if (NextIndex == 2)
             {
+                Debug.Log(NextIndex);
                 SplashManager Splash = FindObjectOfType(typeof(SplashManager)) as SplashManager;
                 if (Splash != null)
                     Splash.HideSplash();
