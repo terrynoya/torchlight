@@ -233,6 +233,7 @@ public class TorchLightLevelRandomGenerater
             if (SplitToSubScene)
             {
                 EditorApplication.NewScene();
+                System.GC.Collect();
                 {
                     // Set Global Render Settings, directional light, fog etc.
                     SetGlobalRenderSetting(Strata, false);
@@ -292,8 +293,11 @@ public class TorchLightLevelRandomGenerater
             foreach (TorchLightLevelRandomGenerater.LevelChunk Chunk in LevelChunks)
             {
 				// Create a new Scene
-				if (SplitToSubScene)
-					EditorApplication.NewScene();
+                if (SplitToSubScene)
+                {
+                    EditorApplication.NewScene();
+                    System.GC.Collect();
+                }
 				
 				// Load Objects into Scene
                 string Path = TorchLightConfig.TorchLightConvertedLayoutFolder + Chunk.SceneNames[0];
@@ -325,6 +329,12 @@ public class TorchLightLevelRandomGenerater
 					EditorApplication.SaveScene(ScenePath + Prefix + "SubScene-" + SubSceneIndex + ".unity");
 				
 				SubSceneIndex++;
+            }
+
+            if (SplitToSubScene)
+            {
+                EditorApplication.NewScene();
+                System.GC.Collect();
             }
         }
     }

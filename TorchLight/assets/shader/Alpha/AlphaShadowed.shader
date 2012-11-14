@@ -3,14 +3,14 @@
 /**
 	A Alpha blend shader(Vertex lighting) that can receive shadow from main direction light
 */
-Shader "TorchLight/Alpha/AlphaShadowed" {
+Shader "Hidden/TorchLight/Alpha/AlphaShadowed" {
 	Properties {
 		_Color ("Main Color", Color) = (1,1,1,1)
 		_MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
 	}
 
 	SubShader {
-		Tags { "Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="Transparent" "LightMode" = "ForwardBase" }
+		Tags { "Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="TransparentCutout" "LightMode" = "ForwardBase" }
 		LOD 200
 		//Blend SrcAlpha OneMinusSrcAlpha
 		CGPROGRAM
@@ -31,5 +31,6 @@ Shader "TorchLight/Alpha/AlphaShadowed" {
 		ENDCG
 	}
 
-	Fallback "Transparent/VertexLit"
+	//Fallback "Transparent/VertexLit"
+	Fallback "TorchLight/Alpha/AlphaTest-VertexLit"
 }

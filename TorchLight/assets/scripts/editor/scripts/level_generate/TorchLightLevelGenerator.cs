@@ -340,34 +340,36 @@ public class TorchLightLevelGenerator : EditorWindow {
         }
         GUILayout.EndHorizontal();
 
-        bool ButtonPress = false;
-        ButtonPress = GUILayout.Button("Generate Level", GUILayout.Width(150));
-        ProcessGenerateLevel(ButtonPress);
+        bool ButtonPress = GUILayout.Button("Generate Level", GUILayout.Width(150));
+        if (ButtonPress)
+        {
+            bGenerateLevel = ButtonPress;
+            Repaint();
+        }
     }
 
     bool CreateNewScene  = true;
     bool SaveAfterCreate = true;
 	bool SplitToSubScene = true;
-    void ProcessGenerateLevel(bool ButtonPress)
+    void ProcessGenerateLevel()
     {
-        if (ButtonPress)
-        {
-            if (CreateNewScene && !SplitToSubScene)
-                EditorApplication.NewScene();
+        if (CreateNewScene && !SplitToSubScene)
+            EditorApplication.NewScene();
 			
-            string RelativePath = GetSceneRelatePath();
-			string Prefix = RelativePath.Replace('/', '-');
+        string RelativePath = GetSceneRelatePath();
+		string Prefix = RelativePath.Replace('/', '-');
 			
-            EditorTools.CheckFolderExit(TorchLightConfig.TorchLightSceneFolder + RelativePath);
+        EditorTools.CheckFolderExit(TorchLightConfig.TorchLightSceneFolder + RelativePath);
 
-            TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
-            Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene, RelativePath);
+        TorchLightLevelRandomGenerater Loader = new TorchLightLevelRandomGenerater();
+        Loader.LoadLevelRuleFileToScene(CurSelectStrata, SplitToSubScene, RelativePath);
 
-            if (SaveAfterCreate && !SplitToSubScene)
-                EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelativePath + Prefix + "Scene-Full.unity");
+        if (SaveAfterCreate && !SplitToSubScene)
+            EditorApplication.SaveScene(TorchLightConfig.TorchLightSceneFolder + RelativePath + Prefix + "Scene-Full.unity");
 
-            Debug.Log("Generate Level Finished!");
-        }
+        Debug.Log("Generate Level Finished!");
+
+        EditorUtility.DisplayDialog("Info", "Generate Level Finished!", "OK");
     }
 
     string GetSceneRelatePath()
@@ -375,5 +377,16 @@ public class TorchLightLevelGenerator : EditorWindow {
         string DungeonName = EditorTools.GetNameWithoutSuffix(CurSelectDungeon.FilePath);
         string StrataName = "Starta" + CurStrataNum;
         return DungeonName + "/" + StrataName + "/";
+    }
+
+
+    bool bGenerateLevel = false;
+    void OnInspectorUpdate()
+    {
+        if (bGenerateLevel)
+        {
+            ProcessGenerateLevel();
+            bGenerateLevel = false;
+        }
     }
 }
