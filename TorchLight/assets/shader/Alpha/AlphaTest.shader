@@ -34,5 +34,5 @@ Shader "TorchLight/Alpha/AlphaTest"
 		ENDCG
 	}
 
-	Fallback "Transparent/Cutout/VertexLit"
+	Fallback "Hidden/TorchLight/Alpha/AlphaTest-VertexLit"
 }

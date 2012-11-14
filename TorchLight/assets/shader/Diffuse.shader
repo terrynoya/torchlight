@@ -8,8 +8,8 @@ Shader "TorchLight/Diffuse" {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 	}
 	SubShader {
-		Tags { "RenderType"="Opaque" }
-		LOD 150
+		Tags { "RenderType"="Opaque" "IgnoreProjector"="False" }
+		LOD 200
 	
 	CGPROGRAM
 	#pragma surface surf Lambert

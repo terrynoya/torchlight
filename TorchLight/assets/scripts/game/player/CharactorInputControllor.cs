@@ -1,8 +1,19 @@
 using UnityEngine;
 using System.Collections;
 
+enum TorchLight_MaskLayer
+{
+
+}
+
 [RequireComponent(typeof(NavMeshAgent))]
 public class CharactorInputControllor : MonoBehaviour {
+
+    static int MaskLayer_Charactor = 1 << 8;
+    static int MaskLayer_Enemy     = 1 << 9;
+    static int MaskLayer_DropItem  = 1 << 10;
+    static int MaskLayer_Trigger   = 1 << 11;
+    static int MaskLayer_Building   = 1 << 12;
 
     private Camera CharactorCamera  = null;
     private NavMeshAgent NavAgent   = null;
@@ -38,8 +49,8 @@ public class CharactorInputControllor : MonoBehaviour {
 
     bool RayCast(Camera Cam, Vector3 MousePosition, out RaycastHit Hit)
     {
-        Ray ARay = Cam.ScreenPointToRay(MousePosition);
-        return Physics.Raycast(ARay.origin, ARay.direction, out Hit); 
+        Ray RayCache = Cam.ScreenPointToRay(MousePosition);
+        return Physics.Raycast(RayCache.origin, RayCache.direction, out Hit, Mathf.Infinity, ~MaskLayer_Building); 
     }
 
     //////////////////////////////////////////////////////////////////////////

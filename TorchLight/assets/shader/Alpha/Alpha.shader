@@ -7,7 +7,7 @@ Shader "TorchLight/Alpha/Alpha"
 	}
 	
 	SubShader {
-		Tags {"Queue"="Transparent" "IgnoreProjector"="False" "RenderType"="Transparent"}
+		Tags {"Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="Transparent"}
 		LOD 200
 	
 		CGPROGRAM
@@ -30,5 +30,5 @@ Shader "TorchLight/Alpha/Alpha"
 		ENDCG
 	}
 	
-	Fallback "Transparent/VertexLit"
+	Fallback "Hidden/TorchLight/Alpha-VertexLit"
 }

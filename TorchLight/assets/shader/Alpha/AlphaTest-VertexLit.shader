@@ -7,7 +7,7 @@ Properties {
 
 // 2/3 texture stage GPUs
 SubShader {
-	Tags {"Queue"="AlphaTest" "IgnoreProjector"="True" "RenderType"="TransparentCutout"}
+	Tags {"Queue"="AlphaTest" "IgnoreProjector"="False" "RenderType"="TransparentCutout"}
 	LOD 100
 	
 	// Non-lightmapped
