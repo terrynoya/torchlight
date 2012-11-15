@@ -5,8 +5,6 @@ Shader "TorchLight/Water" {
 		_Alpha("Alpha", Range(0, 2)) = 1.0
 	}
 
-
-
 	SubShader {
 		Tags {"Queue"="AlphaTest" "RenderType"="Transparent" }
 
