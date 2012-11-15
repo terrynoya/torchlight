@@ -1,18 +1,13 @@
 using UnityEngine;
 using System.Collections;
 
-enum TorchLight_MaskLayer
-{
-
-}
-
 [RequireComponent(typeof(NavMeshAgent))]
 public class CharactorInputControllor : MonoBehaviour {
 
-    static int MaskLayer_Charactor = 1 << 8;
-    static int MaskLayer_Enemy     = 1 << 9;
-    static int MaskLayer_DropItem  = 1 << 10;
-    static int MaskLayer_Trigger   = 1 << 11;
+    static int MaskLayer_Charactor  = 1 << 8;
+    static int MaskLayer_Enemy      = 1 << 9;
+    static int MaskLayer_DropItem   = 1 << 10;
+    static int MaskLayer_Trigger    = 1 << 11;
     static int MaskLayer_Building   = 1 << 12;
 
     private Camera CharactorCamera  = null;
@@ -36,6 +31,7 @@ public class CharactorInputControllor : MonoBehaviour {
             RaycastHit HitInfo;
             if (RayCast(CharactorCamera, Input.mousePosition, out HitInfo)) 
             {
+                Debug.Log(HitInfo.collider.name);
                 UpdateAgentTarget(HitInfo.point);
             }
         }
