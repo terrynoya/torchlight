@@ -73,10 +73,12 @@ public class TorchLightLevelBuilder : MonoBehaviour
 
     static public void InstanceObj(TorchLightLevel.LevelItem AItem, GameObject LevelObjects)
     {
+        bool bNpcs = true;
         string MeshFile = "";
         string ConllisionMeshFile = "";
         bool bHasCollision = false;
 
+        // Item that has a GUID is static mesh
         if (AItem.GUID != null && AItem.GUID.Length > 0)
         {
             if (!GAllPieceItems.ContainsKey(AItem.GUID))
@@ -86,7 +88,8 @@ public class TorchLightLevelBuilder : MonoBehaviour
             }
 
             TorchLightLevel.PirceItem PieceItem = GAllPieceItems[AItem.GUID];
-            MeshFile = PieceItem.Meshes[0];
+            MeshFile    = PieceItem.Meshes[0];
+            bNpcs       = false;
 
             if (PieceItem.CollisionMeshes.Count > 0)
             {
@@ -115,9 +118,10 @@ public class TorchLightLevelBuilder : MonoBehaviour
                 }
             }
 
-            Obj.name = AItem.Name;
-            Obj.transform.localScale = OneVector3 * AItem.Scaling;
-            Obj.transform.parent = LevelObjects.transform;
+            Obj.isStatic                = !bNpcs;
+            Obj.name                    = AItem.Name;
+            Obj.transform.localScale    = OneVector3 * AItem.Scaling;
+            Obj.transform.parent        = LevelObjects.transform;
         }
         else
             Debug.LogError(MeshFile + "  Not Found");
@@ -142,11 +146,19 @@ public class TorchLightLevelBuilder : MonoBehaviour
             GameObject LevelLights          = new GameObject("LevelLights");
             GameObject LevelTriggers        = new GameObject("LevelTriggers");
             GameObject LevelWarpers         = new GameObject("LevelWarpers");
+
             LevelObjects.transform.parent   = Level.transform;
             LevelNpcs.transform.parent      = Level.transform;
             LevelLights.transform.parent    = Level.transform;
             LevelTriggers.transform.parent  = Level.transform;
             LevelWarpers.transform.parent   = Level.transform;
+
+            LevelNpcs.isStatic              = false;
+            LevelObjects.isStatic           = true;
+            LevelLights.isStatic            = true;
+            LevelTriggers.isStatic          = true;
+            LevelWarpers.isStatic           = true;
+
 
             foreach (TorchLightLevel.LevelItem AItem in LevelItems)
             {

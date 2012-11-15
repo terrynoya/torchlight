@@ -1,13 +1,12 @@
 using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class MaterialAnim : MonoBehaviour {
 
-    public bool bCreateNewMaterial = false;
     public float USpeed = 0.0f;
     public float VSpeed = 0.0f;
 
-    protected Material CurMaterial = null;
+    protected Material[] Materials = null;
 
 	// Use this for initialization
 	public void Start () {
@@ -17,13 +16,7 @@ public class MaterialAnim : MonoBehaviour {
 
         if (Render != null)
         {
-            CurMaterial = Render.material != null ? Render.material : Render.sharedMaterial;
-            if (CurMaterial != null && bCreateNewMaterial)
-            {
-                CurMaterial = Instantiate(CurMaterial) as Material;
-                Render.material = CurMaterial;
-                Render.sharedMaterial = null;
-            }
+            Materials = Render.materials != null ? Render.materials : Render.sharedMaterials;
         }
 	}
 
@@ -31,11 +24,14 @@ public class MaterialAnim : MonoBehaviour {
 	// Update is called once per frame
 	public void Update () 
     {
-        if (CurMaterial != null)
+        if (Materials != null)
         {
-            Offset.x += USpeed * Time.deltaTime;
-            Offset.y += VSpeed * Time.deltaTime;
-            CurMaterial.mainTextureOffset = Offset;
+            for (int i = 0; i < Materials.Length; i++)
+            {
+                Offset.x += USpeed * Time.deltaTime;
+                Offset.y += VSpeed * Time.deltaTime;
+                Materials[i].mainTextureOffset = Offset;
+            }
         }
 	}
 }
