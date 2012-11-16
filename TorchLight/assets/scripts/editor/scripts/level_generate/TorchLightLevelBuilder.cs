@@ -104,6 +104,7 @@ public class TorchLightLevelBuilder : MonoBehaviour
         if (Obj != null)
         {
             Obj = Instantiate(Obj, AItem.Position, AItem.Rotation) as GameObject;
+
             if (bHasCollision)
             {
                 Mesh CollisionMesh = GetCachedCollisionMesh(ConllisionMeshFile, AItem);
@@ -118,7 +119,19 @@ public class TorchLightLevelBuilder : MonoBehaviour
                 }
             }
 
-            Obj.isStatic                = !bNpcs;
+            if (!bNpcs)
+            {
+                GameObject ObjRemove = Obj;
+                GameObject MeshObj = Obj.GetComponentInChildren<MeshRenderer>().gameObject;
+                {
+                    MeshObj.transform.parent = null;
+                    MeshObj.transform.position = AItem.Position;
+                    MeshObj.transform.rotation = AItem.Rotation;
+                    Obj = MeshObj;
+                }
+                DestroyImmediate(ObjRemove);
+            }
+
             Obj.name                    = AItem.Name;
             Obj.transform.localScale    = OneVector3 * AItem.Scaling;
             Obj.transform.parent        = LevelObjects.transform;
@@ -152,12 +165,6 @@ public class TorchLightLevelBuilder : MonoBehaviour
             LevelLights.transform.parent    = Level.transform;
             LevelTriggers.transform.parent  = Level.transform;
             LevelWarpers.transform.parent   = Level.transform;
-
-            LevelNpcs.isStatic              = false;
-            LevelObjects.isStatic           = true;
-            LevelLights.isStatic            = true;
-            LevelTriggers.isStatic          = true;
-            LevelWarpers.isStatic           = true;
 
 
             foreach (TorchLightLevel.LevelItem AItem in LevelItems)
