@@ -157,12 +157,14 @@ public class TorchLightLevelBuilder : MonoBehaviour
             GameObject LevelObjects         = new GameObject("LevelObjects");
             GameObject LevelNpcs            = new GameObject("LevelNpcs");
             GameObject LevelLights          = new GameObject("LevelLights");
+            GameObject LevelEffects         = new GameObject("LevelEffects");
             GameObject LevelTriggers        = new GameObject("LevelTriggers");
             GameObject LevelWarpers         = new GameObject("LevelWarpers");
 
             LevelObjects.transform.parent   = Level.transform;
             LevelNpcs.transform.parent      = Level.transform;
             LevelLights.transform.parent    = Level.transform;
+            LevelEffects.transform.parent   = Level.transform;
             LevelTriggers.transform.parent  = Level.transform;
             LevelWarpers.transform.parent   = Level.transform;
 

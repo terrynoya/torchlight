@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
+using System.Collections.Generic;
 using System;
 
 public class TorchLightCommands : EditorWindow {
@@ -21,6 +21,46 @@ public class TorchLightCommands : EditorWindow {
         }
 
         Debug.Log("Remove Cast Shadow Finished");
+    }
+
+    [MenuItem("TorchLight/Commands/OptimizeGameObjects")]
+    static void ExecuteOptimizeGameObjects()
+    {
+        GameObject CurSelect = Selection.activeGameObject;
+        if (CurSelect != null && CurSelect.name == "LevelObjects")
+        {
+            GameObject NewSelectObj = new GameObject(CurSelect.name);
+            NewSelectObj.transform.parent = CurSelect.transform.parent;
+            NewSelectObj.transform.localPosition = CurSelect.transform.localPosition;
+            NewSelectObj.transform.localRotation = CurSelect.transform.localRotation;
+
+            List<GameObject> DestoryObjs = new List<GameObject>();
+            for (int i = 0; i < CurSelect.transform.GetChildCount(); i++)
+            {
+                GameObject Child = CurSelect.transform.GetChild(i).gameObject;
+                MeshRenderer Render = Child.GetComponentInChildren<MeshRenderer>();
+                if (Render != null)
+                {
+                    Render.gameObject.transform.parent = null;
+                    Render.gameObject.name = Child.name;
+                    Render.gameObject.transform.parent = NewSelectObj.transform;
+                    Render.gameObject.transform.localPosition = Child.transform.localPosition;
+                    Render.gameObject.transform.localRotation = Child.transform.localRotation;
+
+                    DestoryObjs.Add(Child);
+                }
+            }
+
+            Debug.Log("Remove [" + DestoryObjs.Count * 2 + "] Useless GameObjects");
+
+            foreach (GameObject Obj in DestoryObjs)
+                DestroyImmediate(Obj);
+
+            DestroyImmediate(CurSelect);
+            Selection.activeGameObject = NewSelectObj;
+        }
+        else
+            Debug.LogError("You MUST Select LevelObjects GameObject Under Level Before Operation.");
     }
 
     [MenuItem("TorchLight/Commands/ComputeSceneTrangles")]
