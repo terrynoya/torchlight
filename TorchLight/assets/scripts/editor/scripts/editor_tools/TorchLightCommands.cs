@@ -3,7 +3,7 @@ using UnityEditor;
 using System.Collections;
 using System;
 
-public class RemoveCastShadow : EditorWindow {
+public class TorchLightCommands : EditorWindow {
 
     [MenuItem("TorchLight/Commands/RemoveAlphaCastShadow")]
     static void ExecuteRemoveCastShadow()
@@ -46,5 +46,18 @@ public class RemoveCastShadow : EditorWindow {
     {
         string Date = DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss");
         Application.CaptureScreenshot(Date + ".png");
+    }
+
+    [MenuItem("GameObject/Create Other/Game Object", false, -1)]
+    static void ExecuteCreateNewGameObject()
+    {
+        GameObject NewGameObj = new GameObject("GameObject");
+        GameObject CurSelect = Selection.activeGameObject;
+        if (CurSelect != null)
+        {
+            NewGameObj.transform.parent         = CurSelect.transform;
+            NewGameObj.transform.localPosition  = Vector3.zero;
+            NewGameObj.transform.localRotation  = Quaternion.identity;
+        }
     }
 }

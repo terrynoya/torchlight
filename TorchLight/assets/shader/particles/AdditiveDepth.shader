@@ -4,7 +4,7 @@
 // - no AlphaTest
 // - no ColorMask
 
-Shader "TorchLight/Particles/Additive" {
+Shader "TorchLight/Particles/AdditiveDepth" {
 Properties {
 	_TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
 	_MainTex ("Particle Texture", 2D) = "white" {}
@@ -12,7 +12,6 @@ Properties {
 
 Category {
 	Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
-	ZTest Always
 	Blend SrcAlpha One
 	Cull Off Lighting Off ZWrite Off Fog { Color (0,0,0,0) }
 	
