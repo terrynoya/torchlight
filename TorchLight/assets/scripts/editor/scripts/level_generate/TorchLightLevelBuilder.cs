@@ -173,11 +173,17 @@ public class TorchLightLevelBuilder : MonoBehaviour
                     }
                     else if (TmpItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
                     {
-
+                        TorchLightLevelBuilder.InstanceParticle(TmpItem, LevelEffects);
                     }
                 }
             }
         }
+    }
+
+    static void InstanceParticle(TorchLightLevel.LevelItem AItem, GameObject LevelEffects)
+    {
+        //List<TorchLightLevel.LevelItem> LayoutLinkObjs = TorchLightLevel.ParseLevelLayout(TorchLightConfig.TorchLightParticleFolder + AItem.ResFile);
+
     }
 
     static public void InitiAllPieceItems()
@@ -223,9 +229,13 @@ public class TorchLightLevelBuilder : MonoBehaviour
                 {
                     TorchLightLevelBuilder.InstanceObj(AItem, LevelObjects);
                 }
-                else if (AItem.Tag == TorchLightLevel.DESCREPTION_LAYOUT_LINK || AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_LAYOUT_LINK)
                 {
                     TorchLightLevelBuilder.InstanceLayoutLinkObject(AItem, LevelObjects, LevelEffects);
+                }
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
+                {
+                    TorchLightLevelBuilder.InstanceParticle(AItem, LevelEffects);
                 }
                 else if (AItem.Tag == TorchLightLevel.DESCREPTION_UNIT_TRIGGER)
                 {

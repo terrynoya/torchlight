@@ -27,6 +27,7 @@ public class TorchLightLevelGenerator : EditorWindow {
                     FStrata CurStrata   = null;
                     FDungeon Dungeon    = new FDungeon();
                     Dungeon.FilePath    = AFile;
+                    Dungeon.ShortPath   = AFile.Substring(AFile.IndexOf("dungeons/", StringComparison.CurrentCultureIgnoreCase));
 
                     StreamReader Reader = EditorTools.GetStreamReaderFromAsset(AFile);
 
@@ -193,7 +194,7 @@ public class TorchLightLevelGenerator : EditorWindow {
                 if (Dungeon == CurSelectDungeon)
                     GUI.color = Color.green;
 
-                bool ButtonPress = GUILayout.Button(Dungeon.FilePath, GUI.skin.label);
+                bool ButtonPress = GUILayout.Button(Dungeon.ShortPath, GUI.skin.label);
                 ProcessSelectDungeon(ButtonPress, Dungeon);
                 GUI.color = Color.white;
             }

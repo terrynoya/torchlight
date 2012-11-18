@@ -57,6 +57,7 @@ public class FStrata
 public class FDungeon
 {
     public string FilePath = "";
+    public string ShortPath = "";
 
     public string Name = "Default Dungeon";
     public string DisplayName = "";
