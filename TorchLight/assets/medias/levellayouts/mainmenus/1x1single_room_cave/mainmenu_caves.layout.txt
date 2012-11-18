@@ -1829,13 +1829,123 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1719765
+GUID:
+POSITION:-25.45,-2.38419E-07,-11.57
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1723326
+GUID:
+POSITION:-26.55,-2.38419E-07,-16.58
+ROTARION:0,45,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1687884
+GUID:
+POSITION:-11.39,-5.5,-31.32
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6
+GUID:
+POSITION:3.18,-2.38419E-07,0.29
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1660501
+GUID:
+POSITION:-0.81,-2.38419E-07,3.35
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1732215
+GUID:
+POSITION:-29.93,-8.25,-17.37
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1701717
+GUID:
+POSITION:-22.48,-2.38419E-07,-14.18
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1678130
+GUID:
+POSITION:-6.92,-2.75,-6.83
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link6_clone1737867
+GUID:
+POSITION:-27.86,-8.25,-25
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link5_clone791799
+GUID:
+POSITION:-22.04,13.75,-36.62
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link5
+GUID:
+POSITION:-25.78,13.75,-32.82
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Light2
 GUID:
 POSITION:-11.32,-5.5,-30.6
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1845,7 +1955,7 @@ GUID:
 POSITION:-27.89,-5.5,-14.4
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1855,7 +1965,7 @@ GUID:
 POSITION:-27.83,-5.5,-24.77
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1865,7 +1975,7 @@ GUID:
 POSITION:-2.03003,-5.5,-32.1901
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/cave/cave_circle_02.fbx
+RESFILE:cave/cave_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1875,7 +1985,7 @@ GUID:
 POSITION:-30.69,-5.5,-7.82003
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/cave/cave_circle_02.fbx
+RESFILE:cave/cave_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1885,7 +1995,7 @@ GUID:
 POSITION:-32.87,-5.5,-24.25
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/cave/cave_circle_02.fbx
+RESFILE:cave/cave_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1895,6 +2005,6 @@ GUID:
 POSITION:-19.69,-5.5,-21.97
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/cave/cave_circle_02.fbx
+RESFILE:cave/cave_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]

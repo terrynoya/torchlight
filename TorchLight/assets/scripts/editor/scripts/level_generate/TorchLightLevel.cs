@@ -124,10 +124,6 @@ public class TorchLightLevel {
         return PieceItems;
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-
     public static string DESCREPTION_MONSTER        = "Monster";
     public static string DESCREPTION_ROOM_PIECE     = "Room Piece";
     public static string DESCREPTION_PARTICLE       = "Layout Link Particle";
@@ -152,13 +148,32 @@ public class TorchLightLevel {
         public string ResFile = null;
 
         public string ExternInfo;
+
+        public LevelItem() { }
+        public LevelItem(LevelItem Clone)
+        {
+            Name        = Clone.Name;
+            Tag         = Clone.Tag;
+            Position    = Clone.Position;
+            Rotation    = Clone.Rotation;
+            Scaling     = Clone.Scaling;
+            GUID        = Clone.GUID;
+            ResFile     = Clone.ResFile;
+            ExternInfo  = Clone.ExternInfo;
+        }
     }
 
+    static Dictionary<string, List<LevelItem>> GLevelLayoutsCache = new Dictionary<string, List<LevelItem>>();
     static public List<LevelItem> ParseLevelLayout(string LayoutPath)
     {
+        if (GLevelLayoutsCache.ContainsKey(LayoutPath))
+            return GLevelLayoutsCache[LayoutPath];
+
         List<LevelItem> LevelItems = new List<LevelItem>();
         {
             StreamReader Reader = EditorTools.GetStreamReaderFromAsset(LayoutPath + ".txt");
+            if (Reader == null) return null;
+
             while (!Reader.EndOfStream)
             {
                 string Line = Reader.ReadLine().Trim();
@@ -190,6 +205,8 @@ public class TorchLightLevel {
 
             Reader.Close();
         }
+
+        GLevelLayoutsCache.Add(LayoutPath, LevelItems);
         return LevelItems;
     }
 }

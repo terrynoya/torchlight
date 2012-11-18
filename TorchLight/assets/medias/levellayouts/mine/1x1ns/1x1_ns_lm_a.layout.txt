@@ -6809,13 +6809,753 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone605895
+GUID:
+POSITION:10.61,0,-71.79
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/mine_props/puddles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone610747
+GUID:
+POSITION:12.67,0,-60.03
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/mine_props/puddles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone1036073
+GUID:
+POSITION:8.83001,-2.7,-67.7699
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/fishinghole.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone312350
+GUID:
+POSITION:-14.24,0,-22.55
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/quake.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone315067
+GUID:
+POSITION:10.97,0,-27.18
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/quake.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone316763
+GUID:
+POSITION:-6.77999,0,-47.16
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/quake.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone318459
+GUID:
+POSITION:12.49,0,-72.18
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/quake.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone683390
+GUID:
+POSITION:3.74999,0.12,-25.0499
+ROTARION:0,342,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone684935
+GUID:
+POSITION:9.30999,0.65,-26.4799
+ROTARION:0,107,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone686483
+GUID:
+POSITION:8.49998,1.1,-26.0999
+ROTARION:0,310,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone625428
+GUID:
+POSITION:-11.72,0,-39.24
+ROTARION:0,346,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone691124
+GUID:
+POSITION:-14.18,0.12,-65.4499
+ROTARION:0,342,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone692665
+GUID:
+POSITION:-14.58,0.12,-65.0099
+ROTARION:0,320,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone694209
+GUID:
+POSITION:-2.36391,0.12,-75.8015
+ROTARION:0,22.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone695750
+GUID:
+POSITION:-2.3875,0.12,-75.2073
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light
+GUID:
+POSITION:0,0,-0.5
+ROTARION:0,265.0001,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light_clone158844
+GUID:
+POSITION:0,0,-12.5
+ROTARION:0,279.0001,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light_clone311039
+GUID:
+POSITION:-0.249999,0,-89.1001
+ROTARION:0,96.00004,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone309106
+GUID:
+POSITION:-2.15,0,-73.85
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone306326
+GUID:
+POSITION:-10.93,0,-17.43
+ROTARION:0,160,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone178786
+GUID:
+POSITION:-11,0,-41.25
+ROTARION:0,66,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone180596
+GUID:
+POSITION:-3.75,0,-49
+ROTARION:0,240,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone697303
+GUID:
+POSITION:-17.3675,0.12,-19.1873
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone698844
+GUID:
+POSITION:-17.3439,0.12,-19.7815
+ROTARION:0,22.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone700388
+GUID:
+POSITION:-2.64751,0.12,-7.66732
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone701929
+GUID:
+POSITION:-2.62392,0.12,-8.26151
+ROTARION:0,22.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone627840
+GUID:
+POSITION:-18.48,0,-25.11
+ROTARION:0,351,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone629386
+GUID:
+POSITION:3.52999,0,-34.3599
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone630931
+GUID:
+POSITION:9.25999,0,-21.3999
+ROTARION:0,147,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone703473
+GUID:
+POSITION:7.87744,0.12,-34.5776
+ROTARION:0,277,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone705014
+GUID:
+POSITION:8.4696,0.12,-34.3741
+ROTARION:0,255.0001,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone632476
+GUID:
+POSITION:11.5,0,-32.0799
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone634021
+GUID:
+POSITION:-2.97002,0,-10.0899
+ROTARION:0,22.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone635566
+GUID:
+POSITION:-11.59,0,-54.9099
+ROTARION:0,22.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone706581
+GUID:
+POSITION:5.4496,0.12,-35.2541
+ROTARION:0,255.0001,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone708122
+GUID:
+POSITION:6.01744,0.12,-35.0776
+ROTARION:0,277,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone637110
+GUID:
+POSITION:-9.68001,0,-68.13
+ROTARION:0,337,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone638655
+GUID:
+POSITION:-2.90001,0,-86.18
+ROTARION:0,32.00004,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone733824
+GUID:
+POSITION:4.91,-5.5,-67.0401
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone709674
+GUID:
+POSITION:13.0574,0.12,-27.0676
+ROTARION:0,277,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone711218
+GUID:
+POSITION:-10.1326,0.12,-48.5276
+ROTARION:0,277,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone640200
+GUID:
+POSITION:15.79,0,-73.73
+ROTARION:0,254,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone641745
+GUID:
+POSITION:18.75,0,-61.99
+ROTARION:0,161,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone643290
+GUID:
+POSITION:22.61,0,-68.78
+ROTARION:0,161,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone712763
+GUID:
+POSITION:-13.6926,0.12,-58.8176
+ROTARION:0,341,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone644834
+GUID:
+POSITION:10.19,0,-57.44
+ROTARION:0,112,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone646379
+GUID:
+POSITION:-2.7,0,-58.57
+ROTARION:0,44.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone647924
+GUID:
+POSITION:-0.139997,0,-51
+ROTARION:0,14,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone736925
+GUID:
+POSITION:8.85999,-5.38,-69.0799
+ROTARION:0,342,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone738466
+GUID:
+POSITION:8.45998,-5.38,-68.6399
+ROTARION:0,320,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone714318
+GUID:
+POSITION:-12.3926,0.12,-57.9076
+ROTARION:0,54.99998,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone715863
+GUID:
+POSITION:-13.0826,0.12,-58.5476
+ROTARION:0,9.999987,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone717408
+GUID:
+POSITION:-7.7426,0.665,-51.1375
+ROTARION:0,81.00003,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone652020
+GUID:
+POSITION:-5.58,0,-43.37
+ROTARION:0,14,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone653561
+GUID:
+POSITION:-10.1,0,-30.21
+ROTARION:0,194,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone655104
+GUID:
+POSITION:-0.709996,0,-28.8
+ROTARION:0,199,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone656646
+GUID:
+POSITION:13.2,0,-22
+ROTARION:0,199,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone658187
+GUID:
+POSITION:-5.27,0,-16.38
+ROTARION:0,131,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone718960
+GUID:
+POSITION:-8.1026,0.665,-51.5775
+ROTARION:0,136,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone659731
+GUID:
+POSITION:-11.66,0,-35.93
+ROTARION:0,51.00002,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone661273
+GUID:
+POSITION:-10.39,0,-52.46
+ROTARION:0,238,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone846866
+GUID:
+POSITION:-5.1,0,-23.95
+ROTARION:0,290.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone662816
+GUID:
+POSITION:-3.23001,0,-78.11
+ROTARION:0,238,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone664357
+GUID:
+POSITION:9.06999,0,-75.66
+ROTARION:0,342,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone665899
+GUID:
+POSITION:19.73,0,-65.16
+ROTARION:0,278,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone850450
+GUID:
+POSITION:-8.85,0,-66
+ROTARION:0,32.99998,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone671544
+GUID:
+POSITION:-10.75,0,-44.56
+ROTARION:0,55.99998,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone673942
+GUID:
+POSITION:-11.06,0,-30.63
+ROTARION:0,55.99998,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone675486
+GUID:
+POSITION:-13.12,1.28,-19.11
+ROTARION:0,193,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone677043
+GUID:
+POSITION:-14.44,1.28,-26.17
+ROTARION:0,20.99999,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone678596
+GUID:
+POSITION:0.369989,0,-23.2099
+ROTARION:0,320,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone1047507
+GUID:
+POSITION:-3.08,0,-97.2999
+ROTARION:0,128,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone680145
+GUID:
+POSITION:3.34999,0.12,-24.6099
+ROTARION:0,320,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone1049057
+GUID:
+POSITION:-3.06,0,-84.8499
+ROTARION:0,128,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Light0
 GUID:
 POSITION:-4.22,0,-31.65
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6825,7 +7565,7 @@ GUID:
 POSITION:-13.59,0,-22.06
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6835,7 +7575,7 @@ GUID:
 POSITION:3.65,0,-19.68
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6845,7 +7585,7 @@ GUID:
 POSITION:10.24,0,-23.84
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6855,7 +7595,7 @@ GUID:
 POSITION:10.31,0,-30.05
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6865,7 +7605,7 @@ GUID:
 POSITION:4.96,0,-24.75
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6875,7 +7615,7 @@ GUID:
 POSITION:3.03,0,-31.03
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6885,7 +7625,7 @@ GUID:
 POSITION:-8.11,0,-53.61
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6895,7 +7635,7 @@ GUID:
 POSITION:0.080003,0,-54.37
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6905,7 +7645,7 @@ GUID:
 POSITION:1.84,0,-60.69
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6915,7 +7655,7 @@ GUID:
 POSITION:7.16,0,-59.47
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6925,7 +7665,7 @@ GUID:
 POSITION:12.88,0,-59.48
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6935,7 +7675,7 @@ GUID:
 POSITION:17.07,0,-65.59
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6945,7 +7685,7 @@ GUID:
 POSITION:19.07,0,-69.96
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6955,7 +7695,7 @@ GUID:
 POSITION:12.21,0,-72.24
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6965,7 +7705,7 @@ GUID:
 POSITION:-1.73,0,-66.19
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6975,7 +7715,7 @@ GUID:
 POSITION:3.32,0,-76.41
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -6985,7 +7725,27 @@ GUID:
 POSITION:-11.45,0,-61.56
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone2269935
+GUID:
+POSITION:-10.28,0,-28.3
+ROTARION:0,79.00001,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low_clone1242583
+GUID:
+POSITION:-14.21,0,-33.72
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/shrines/foremans_table.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7206,5 +7966,25 @@ POSITION:-17.9,0,-61.7
 ROTARION:0,180,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link5_clone1159955
+GUID:
+POSITION:-4.43,0,-31.68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link5_clone1172155
+GUID:
+POSITION:1.7,0,-59.04
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
 EXTERNINFO:
 [/PROPERTIES]

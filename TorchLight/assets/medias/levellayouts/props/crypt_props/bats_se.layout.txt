@@ -1,0 +1,10 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:bats
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/batsse.layout
+EXTERNINFO:
+[/PROPERTIES]

@@ -1,4 +1,14 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1
+GUID:
+POSITION:7.32,2.75,-31.76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece0_clone350143
 GUID:-8808461814060084770
@@ -13289,13 +13299,93 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Wall Light_clone352180
+GUID:
+POSITION:16,-2.75,-68
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Light_clone354162
+GUID:
+POSITION:16,-2.75,-60
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Light_clone356091
+GUID:
+POSITION:16,-2.75,-36
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Light_clone358024
+GUID:
+POSITION:16,-2.75,-28
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone361883
+GUID:
+POSITION:-28,0,-43
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone363857
+GUID:
+POSITION:-28,0,-53
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Big Light Column_clone1146735
+GUID:
+POSITION:27,-2.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone1503122
+GUID:
+POSITION:-18.98,0,-45.84
+ROTARION:0,263,0
+SCALE:1
+RESFILE:props/fortress_props/ballista_working.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Light3
 GUID:
 POSITION:-0.300001,5.5,-31.74
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13305,7 +13395,7 @@ GUID:
 POSITION:-37.99,5.5,-47.98
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13315,7 +13405,7 @@ GUID:
 POSITION:-22.08,5.5,-60.76
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13325,7 +13415,7 @@ GUID:
 POSITION:-22.09,5.5,-31.96
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13335,7 +13425,7 @@ GUID:
 POSITION:1.58,5.5,-9.38999
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13345,7 +13435,7 @@ GUID:
 POSITION:21.42,5.5,-61.14
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13355,7 +13445,7 @@ GUID:
 POSITION:21.36,5.5,-34.42
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13365,7 +13455,7 @@ GUID:
 POSITION:21.84,5.5,-47.73
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13375,7 +13465,7 @@ GUID:
 POSITION:-5.30001,5.5,-48.12
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13385,7 +13475,7 @@ GUID:
 POSITION:-27.46,5.5,-47.51
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13395,6 +13485,6 @@ GUID:
 POSITION:-0.300001,5.5,-63.73
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]

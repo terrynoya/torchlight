@@ -1,0 +1,30 @@
+[PROPERTIES]
+TAG:Room Piece
+NAME:Room Piece1
+GUID:-3473238860744879650
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle5
+GUID:
+POSITION:0.3,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/palaceprops/monsterportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle5_clone854899
+GUID:
+POSITION:0.3,0,0
+ROTARION:0,0,0
+SCALE:1
+RESFILE:objects/palaceprops/monsterportal.layout
+EXTERNINFO:
+[/PROPERTIES]

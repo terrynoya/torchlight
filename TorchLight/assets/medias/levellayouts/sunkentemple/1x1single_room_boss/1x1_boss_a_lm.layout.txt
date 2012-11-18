@@ -29,6 +29,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle1
+GUID:
+POSITION:-2,2.75,30
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/teleporter.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Monster
 NAME:seer
 GUID:
@@ -45435,7 +45445,7 @@ GUID:
 POSITION:-24.44,13.75,-145.63
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45445,7 +45455,7 @@ GUID:
 POSITION:19.16,13.75,-146.45
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45455,7 +45465,7 @@ GUID:
 POSITION:-15.84,5.5,-57.44
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45465,7 +45475,7 @@ GUID:
 POSITION:-3.74001,5.5,-77.5
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45475,7 +45485,7 @@ GUID:
 POSITION:-24.19,5.5,-104.35
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45485,7 +45495,7 @@ GUID:
 POSITION:-26.15,5.5,-131.9
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45495,7 +45505,7 @@ GUID:
 POSITION:-12.93,5.5,-126.06
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45505,7 +45515,7 @@ GUID:
 POSITION:10.68,5.5,-125.49
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45515,7 +45525,7 @@ GUID:
 POSITION:21.69,5.5,-129.95
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45525,7 +45535,7 @@ GUID:
 POSITION:9.65997,5.5,-154.57
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45535,7 +45545,7 @@ GUID:
 POSITION:10.23,5.5,-140.47
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45545,7 +45555,7 @@ GUID:
 POSITION:-14.48,5.5,-140.72
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45555,7 +45565,7 @@ GUID:
 POSITION:-14.11,5.5,-154.14
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45565,7 +45575,7 @@ GUID:
 POSITION:-24.52,5.5,-122.62
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45575,7 +45585,7 @@ GUID:
 POSITION:-23.89,5.5,-113.69
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45585,7 +45595,7 @@ GUID:
 POSITION:17.22,5.5,-98.2398
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45595,7 +45605,7 @@ GUID:
 POSITION:24.66,5.5,-99.0598
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45605,7 +45615,7 @@ GUID:
 POSITION:25.33,5.5,-106.43
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45615,7 +45625,7 @@ GUID:
 POSITION:30.32,5.5,-135.76
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45625,7 +45635,7 @@ GUID:
 POSITION:30.61,5.5,-50.8199
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45635,7 +45645,7 @@ GUID:
 POSITION:29.66,13.75,-64.8298
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45645,7 +45655,7 @@ GUID:
 POSITION:28.45,13.75,-24.3299
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45655,7 +45665,7 @@ GUID:
 POSITION:-30.99,13.75,-21.3199
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45665,7 +45675,7 @@ GUID:
 POSITION:-30.53,13.75,-37.0899
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45675,7 +45685,7 @@ GUID:
 POSITION:-32.13,13.75,-50.5999
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45685,7 +45695,7 @@ GUID:
 POSITION:-31.33,13.75,-63.3699
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45695,7 +45705,7 @@ GUID:
 POSITION:-17.07,13.75,11.2702
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45705,7 +45715,7 @@ GUID:
 POSITION:-13.83,13.75,27.9502
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45715,7 +45725,7 @@ GUID:
 POSITION:-19.43,13.75,20.9302
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45725,7 +45735,7 @@ GUID:
 POSITION:17.77,13.75,27.6002
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45735,7 +45745,7 @@ GUID:
 POSITION:17.28,13.75,12.9202
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45745,7 +45755,7 @@ GUID:
 POSITION:10.76,13.75,15.1602
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45755,7 +45765,7 @@ GUID:
 POSITION:9.21998,13.75,25.8502
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45765,7 +45775,7 @@ GUID:
 POSITION:-2.47002,13.75,13.7702
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45775,7 +45785,7 @@ GUID:
 POSITION:12.02,13.75,-28.1898
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45785,7 +45795,7 @@ GUID:
 POSITION:14.94,13.75,-49.4898
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45795,7 +45805,7 @@ GUID:
 POSITION:-0.860016,13.75,-42.1098
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45805,7 +45815,7 @@ GUID:
 POSITION:-2.10002,13.75,-95.6398
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45815,7 +45825,7 @@ GUID:
 POSITION:-2.44002,13.75,-124.94
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45825,7 +45835,7 @@ GUID:
 POSITION:-2.35002,13.75,-107.98
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45835,7 +45845,7 @@ GUID:
 POSITION:18.38,13.75,-106.86
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45845,7 +45855,7 @@ GUID:
 POSITION:-6.68002,13.75,-139.95
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45855,7 +45865,7 @@ GUID:
 POSITION:2.50998,13.75,-140.31
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45865,7 +45875,67 @@ GUID:
 POSITION:-2.72002,13.75,-153.43
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Start
+GUID:
+POSITION:-2,11,-162
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/sunken_entrance_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone1379561
+GUID:
+POSITION:4.5,0,-48.5
+ROTARION:0,141.6483,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone1381648
+GUID:
+POSITION:4.6,0,-35.5
+ROTARION:0,201.3938,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone1382842
+GUID:
+POSITION:-8.6,0,-35.5
+ROTARION:0,42.02131,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone1384031
+GUID:
+POSITION:-8.5,0,-48.5
+ROTARION:0,182.0024,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone1142317
+GUID:
+POSITION:-2,5.5,-108
+ROTARION:0,271.6483,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

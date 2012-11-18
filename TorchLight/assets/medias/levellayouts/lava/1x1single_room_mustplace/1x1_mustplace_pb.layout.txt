@@ -1,4 +1,324 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4
+GUID:
+POSITION:20.09,-9.625,-27.83
+ROTARION:0,315,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone1143689
+GUID:
+POSITION:-1.89002,-9.625,-10.07
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone1147006
+GUID:
+POSITION:13.9,-3.14,-10.64
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone1286003
+GUID:
+POSITION:-16.62,-9.625,-20.86
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone698351
+GUID:
+POSITION:-12.93,-4.06,-53.3799
+ROTARION:0,105,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8
+GUID:
+POSITION:38.11,-10.95,-21.46
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1211239
+GUID:
+POSITION:41.18,-10.95,-34.62
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1213146
+GUID:
+POSITION:36.71,-10.95,-47.73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1215053
+GUID:
+POSITION:22.23,-10.95,-51.87
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1216965
+GUID:
+POSITION:13.9,-10.95,-45.24
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1218872
+GUID:
+POSITION:5.92997,-10.95,-29.28
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1220779
+GUID:
+POSITION:42.87,-10.95,-6.92006
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1222686
+GUID:
+POSITION:35.73,-10.95,4.84994
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1224593
+GUID:
+POSITION:26.78,-10.95,8.81995
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1226500
+GUID:
+POSITION:15.19,-10.95,12.3299
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1228407
+GUID:
+POSITION:7.81997,-10.95,7.95994
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone1230314
+GUID:
+POSITION:-0.170031,-10.95,3.95994
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone696795
+GUID:
+POSITION:12.43,-10.95,-61.12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone698702
+GUID:
+POSITION:3.11997,-10.95,-74.64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone700609
+GUID:
+POSITION:-9.23003,-10.95,-76.85
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone702516
+GUID:
+POSITION:-22.09,-10.95,-87.41
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone704423
+GUID:
+POSITION:-33.64,-10.95,-83.46
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone706330
+GUID:
+POSITION:-44.96,-10.95,-74.27
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone708237
+GUID:
+POSITION:-46.77,-10.95,-60.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone710144
+GUID:
+POSITION:-44.07,-10.95,-48.38
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone712051
+GUID:
+POSITION:-46.42,-10.95,-38.01
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone713958
+GUID:
+POSITION:-43.87,-10.95,-23.31
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone715865
+GUID:
+POSITION:-42.52,-10.95,-11.17
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone717772
+GUID:
+POSITION:-37.97,-10.95,3.70003
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone719679
+GUID:
+POSITION:-25.85,-10.95,8.51003
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone721586
+GUID:
+POSITION:-13.74,-10.95,12.56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8_clone723493
+GUID:
+POSITION:-2.09,-10.95,11.75
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece3_clone927312
 GUID:-5154249244995350050
@@ -4099,13 +4419,23 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle13
+GUID:
+POSITION:-20.69,-9.625,-68.3801
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/townportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Light6
 GUID:
 POSITION:20.07,-9.625,-26.93
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4115,7 +4445,7 @@ GUID:
 POSITION:-16.75,-9.625,-20.42
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4125,7 +4455,7 @@ GUID:
 POSITION:13.49,-9.625,-10.65
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4135,7 +4465,7 @@ GUID:
 POSITION:-0.970004,-9.625,-12.19
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

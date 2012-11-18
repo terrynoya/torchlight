@@ -1,0 +1,20 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle6
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/puddle_slow.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle7
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/puddle.layout
+EXTERNINFO:
+[/PROPERTIES]

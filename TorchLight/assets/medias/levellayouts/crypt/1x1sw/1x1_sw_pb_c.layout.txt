@@ -1115,7 +1115,7 @@ GUID:
 POSITION:16,-11,-5.5
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/light_circle_03.fbx
+RESFILE:light_circle_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1125,7 +1125,7 @@ GUID:
 POSITION:16,0,-33
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1135,7 +1135,7 @@ GUID:
 POSITION:0,0,-76
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_circle_01.fbx
+RESFILE:light_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1145,7 +1145,7 @@ GUID:
 POSITION:31,0,-8
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/light_circle_01.fbx
+RESFILE:light_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1155,7 +1155,7 @@ GUID:
 POSITION:9.63,0,-16.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1165,7 +1165,7 @@ GUID:
 POSITION:6.63,0,-17.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1175,7 +1175,7 @@ GUID:
 POSITION:25.63,0,-17.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1185,7 +1185,7 @@ GUID:
 POSITION:22.63,0,-16.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1195,7 +1195,7 @@ GUID:
 POSITION:9.63,0,-48.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1205,7 +1205,237 @@ GUID:
 POSITION:5.63,0,-45.3
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone96152
+GUID:
+POSITION:-2,3.365,-62.15
+ROTARION:0,29.99999,0
+SCALE:1
+RESFILE:props/crypt_props/skull_candle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone78369
+GUID:
+POSITION:0.470001,0.00999987,-40.31
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone80130
+GUID:
+POSITION:0.470001,0.00999987,-24.31
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone144240
+GUID:
+POSITION:36.47,0.00999989,-3.81001
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone97685
+GUID:
+POSITION:-6,0,-70.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone98229
+GUID:
+POSITION:6,0,-70.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone98773
+GUID:
+POSITION:6,0,-82.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone99317
+GUID:
+POSITION:-6,0,-82.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone7445
+GUID:
+POSITION:9.35,1.375,-38.6
+ROTARION:0,45.00004,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone8241
+GUID:
+POSITION:22.6,1.375,-38.6
+ROTARION:0,315,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone8763
+GUID:
+POSITION:22.6,1.375,-25.35
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone24087
+GUID:
+POSITION:31.07,0.985,-9.01002
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/skull_candle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone9285
+GUID:
+POSITION:9.35,1.375,-25.35
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2
+GUID:
+POSITION:16,1.375,-31.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/tomb_lit.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone9784
+GUID:
+POSITION:10,1.375,-17.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone10624
+GUID:
+POSITION:22,1.375,-17.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone11168
+GUID:
+POSITION:10,1.375,-46.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone11712
+GUID:
+POSITION:22,1.375,-46.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone14105
+GUID:
+POSITION:38,1.375,-26
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone73655
+GUID:
+POSITION:22,-11,-3.4
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone14649
+GUID:
+POSITION:38,1.375,-38
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone74479
+GUID:
+POSITION:10.25,-11,-3.4
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone20984
+GUID:
+POSITION:8,1.375,-32
+ROTARION:0,90.00004,0
+SCALE:1
+RESFILE:props/crypt_props/fireplace.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -10636,5 +10866,55 @@ POSITION:19,3.135,-40.58
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:FishingHole
+GUID:
+POSITION:3.54999,-1.215,-20.08
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fishinghole.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:WeaponRack
+GUID:
+POSITION:-5.04,0,-41.0901
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:WeaponRack
+GUID:
+POSITION:-5.04,0,-51.65
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ArmorRack
+GUID:
+POSITION:3.81,0,-57.1501
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/shrines/all_armor_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lectern
+GUID:
+POSITION:-7.43,0,-79.41
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/shrines/all_lectern_crypt.layout
 EXTERNINFO:
 [/PROPERTIES]

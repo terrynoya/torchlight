@@ -379,6 +379,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link143
+GUID:
+POSITION:-32,0,36
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/fortress_props/longtable.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece0_clone413698
 GUID:2674581685470695902
@@ -676,5 +686,105 @@ POSITION:12,5.5,-96
 ROTARION:0,89.99997,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier
+GUID:
+POSITION:-28,0,44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/brazier_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle
+GUID:
+POSITION:-28,0,40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/candle_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Forge
+GUID:
+POSITION:-24,0,44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/forge.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lamp
+GUID:
+POSITION:-24,0,40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/lamp_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Big Light Column
+GUID:
+POSITION:-16,0,44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column
+GUID:
+POSITION:-16,0,40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar
+GUID:
+POSITION:-8,0,44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod
+GUID:
+POSITION:0,0,44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Floor Light
+GUID:
+POSITION:-20,0,40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/trim_straight_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Light
+GUID:
+POSITION:-12,0,40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
 EXTERNINFO:
 [/PROPERTIES]

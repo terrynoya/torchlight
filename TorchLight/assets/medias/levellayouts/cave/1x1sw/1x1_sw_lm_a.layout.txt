@@ -5359,6 +5359,486 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Spit1_clone636694
+GUID:
+POSITION:-32,0,-51.2
+ROTARION:0,162,0
+SCALE:1
+RESFILE:props/cave_props/tribal_spit_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone696424
+GUID:
+POSITION:1.04,0,-7.54
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone698457
+GUID:
+POSITION:12.84,-1.375,-9.05
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone700495
+GUID:
+POSITION:-4.28,-1.375,-17.49
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone702528
+GUID:
+POSITION:-4.11,0,-45.23
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone640933
+GUID:
+POSITION:30.53,0,-42.89
+ROTARION:0,54.00001,0
+SCALE:1
+RESFILE:props/cave_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone704571
+GUID:
+POSITION:-17.88,0,-51.19
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone706609
+GUID:
+POSITION:-30.91,0,-54.61
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone708642
+GUID:
+POSITION:20.95,0,-47
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone710675
+GUID:
+POSITION:29.21,0,-46.92
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone712708
+GUID:
+POSITION:44.64,0,-46.97
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone714741
+GUID:
+POSITION:39.28,-1.375,-36.41
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone716779
+GUID:
+POSITION:27.13,-1.375,-29.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone718812
+GUID:
+POSITION:-11.6,-1.375,-22.98
+ROTARION:0,154,0
+SCALE:1
+RESFILE:props/cave_props/stalagmite_lichen_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone643444
+GUID:
+POSITION:34.11,0,-51.49
+ROTARION:0,102,0
+SCALE:1
+RESFILE:props/cave_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone721090
+GUID:
+POSITION:-26.65,0,-57.43
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/puddle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone723363
+GUID:
+POSITION:24.46,0,-43.67
+ROTARION:0,62.00004,0
+SCALE:1
+RESFILE:props/cave_props/puddle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone740069
+GUID:
+POSITION:0.299988,0,-42.53
+ROTARION:0,59,0
+SCALE:1
+RESFILE:props/cave_props/stalagmite_lichen_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone741500
+GUID:
+POSITION:4.94999,-1.375,-20.38
+ROTARION:0,93.00001,0
+SCALE:1
+RESFILE:props/cave_props/stalagmite_lichen_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom1_clone646189
+GUID:
+POSITION:25.18,0,-49.69
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom2_clone648357
+GUID:
+POSITION:16.08,0,-49.76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom1_clone650578
+GUID:
+POSITION:41.71,0,-49.65
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom1_clone652757
+GUID:
+POSITION:30.41,-1.375,-27.34
+ROTARION:0,68.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom2_clone657137
+GUID:
+POSITION:34.22,-1.375,-39.12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom2_clone659321
+GUID:
+POSITION:41.43,-1.375,-33.95
+ROTARION:0,309,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom2_clone661505
+GUID:
+POSITION:43.97,0,-43.83
+ROTARION:0,146,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom1_clone663723
+GUID:
+POSITION:-2.82,0,-6.38
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom2_clone665891
+GUID:
+POSITION:-4.31,0,-1.88
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom2_clone668103
+GUID:
+POSITION:4.25,-1.34,-17.29
+ROTARION:0,166,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom2_clone670292
+GUID:
+POSITION:11.6,-1.34,-4.75
+ROTARION:0,149,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom1_clone672481
+GUID:
+POSITION:7.71,-1.34,-16.33
+ROTARION:0,226,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom1_clone674685
+GUID:
+POSITION:-10.98,-1.34,-26.6
+ROTARION:0,226,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom2_clone676874
+GUID:
+POSITION:-9.31,-1.34,-25.3
+ROTARION:0,166,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone1086881
+GUID:
+POSITION:3.59,23.375,-64.53
+ROTARION:0,137,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone1087835
+GUID:
+POSITION:1.45,23.375,-63.19
+ROTARION:0,101,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone1088789
+GUID:
+POSITION:-10.8,23.375,-60.4
+ROTARION:0,134,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle_clone1089743
+GUID:
+POSITION:-3.25,23.375,-63
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch
+GUID:
+POSITION:20.16,0,-39
+ROTARION:0,344,0
+SCALE:1
+RESFILE:props/cave_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:BlueShroom1_clone681243
+GUID:
+POSITION:-2.8,0,-41.83
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_6.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:BlueShroom2_clone683411
+GUID:
+POSITION:-3.5,0,-50.9
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:BlueShroom1_clone685623
+GUID:
+POSITION:-16.12,0,-54.41
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_6.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:PurpleShroom1_clone689988
+GUID:
+POSITION:-28.61,0,-51.97
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:PurpleShroom1_clone692172
+GUID:
+POSITION:-32.52,0,-58.86
+ROTARION:0,221,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:PurpleShroom1_clone694356
+GUID:
+POSITION:-35.66,0,-52.14
+ROTARION:0,195,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly_clone308300
+GUID:
+POSITION:-8.51,-1.375,-21.04
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:hut
+GUID:
+POSITION:29.03,0,-54.05
+ROTARION:0,136,0
+SCALE:1
+RESFILE:props/cave_props/hut_2_spawner.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:hut_clone3324803
+GUID:
+POSITION:-28.54,0,-61.66
+ROTARION:0,89.00001,0
+SCALE:1
+RESFILE:props/cave_props/hut_2_spawner.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone3326271
+GUID:
+POSITION:18.04,0,-50.39
+ROTARION:0,344,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece1_clone538830
 GUID:-5651414499935120930
@@ -7145,7 +7625,7 @@ GUID:
 POSITION:30.2,0,-34.33
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7155,7 +7635,7 @@ GUID:
 POSITION:37.32,0,-48.19
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7165,7 +7645,7 @@ GUID:
 POSITION:-6.19,0,-45.46
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7175,7 +7655,7 @@ GUID:
 POSITION:17.76,0,-45.61
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7185,7 +7665,7 @@ GUID:
 POSITION:-30.58,0,-55.17
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7195,7 +7675,7 @@ GUID:
 POSITION:-4.92,0,-22.81
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7205,7 +7685,7 @@ GUID:
 POSITION:4.86999,0,-11.17
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -7215,7 +7695,7 @@ GUID:
 POSITION:-2.34,0,-2.44999
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

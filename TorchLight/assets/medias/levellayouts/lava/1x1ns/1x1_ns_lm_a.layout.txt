@@ -5,7 +5,7 @@ GUID:
 POSITION:6.25,5.5,-30
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:6.25,5.5,-25.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:8.5,5.5,-55.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:2,5.5,-2
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45,7 +45,7 @@ GUID:
 POSITION:24,5.5,-71.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -55,7 +55,7 @@ GUID:
 POSITION:23.75,5.5,-56.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -65,7 +65,7 @@ GUID:
 POSITION:8.75,5.5,-71.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -75,7 +75,7 @@ GUID:
 POSITION:12,5.5,-54.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -85,7 +85,7 @@ GUID:
 POSITION:12.25,5.5,-73.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -95,7 +95,7 @@ GUID:
 POSITION:26.25,5.5,-67
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -105,7 +105,7 @@ GUID:
 POSITION:6.25,5.5,-63.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -115,7 +115,7 @@ GUID:
 POSITION:26.25,5.5,-59.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -125,7 +125,7 @@ GUID:
 POSITION:6.25,5.5,-59.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -135,7 +135,7 @@ GUID:
 POSITION:-6,5.5,-13
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -145,7 +145,7 @@ GUID:
 POSITION:2,5.5,-14
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -155,7 +155,7 @@ GUID:
 POSITION:1.75,5.5,-24
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -165,7 +165,7 @@ GUID:
 POSITION:-5.5,5.5,-24
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -175,7 +175,7 @@ GUID:
 POSITION:2.25,5.5,-67
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -185,7 +185,7 @@ GUID:
 POSITION:2.5,5.5,-79.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -195,7 +195,7 @@ GUID:
 POSITION:-10,5.5,-83.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -205,7 +205,7 @@ GUID:
 POSITION:2,5.5,-91.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -215,7 +215,7 @@ GUID:
 POSITION:-5.75,5.5,-93
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -225,7 +225,7 @@ GUID:
 POSITION:-6,5.5,-64.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -235,7 +235,7 @@ GUID:
 POSITION:-3.75,5.5,-77.25
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -245,7 +245,7 @@ GUID:
 POSITION:3.75,5.5,-22
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -255,7 +255,7 @@ GUID:
 POSITION:-8,5.5,-22
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -265,7 +265,7 @@ GUID:
 POSITION:-16,5.5,-78.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -275,7 +275,7 @@ GUID:
 POSITION:-19,5.5,-89.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -285,7 +285,7 @@ GUID:
 POSITION:2,5.5,-44.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -295,7 +295,7 @@ GUID:
 POSITION:-5.75,5.5,-44.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -305,7 +305,7 @@ GUID:
 POSITION:-2.25,5.5,-41.25
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -315,7 +315,7 @@ GUID:
 POSITION:-1.5,5.5,-18
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -325,7 +325,7 @@ GUID:
 POSITION:-2,5.5,-2.25
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -335,7 +335,7 @@ GUID:
 POSITION:-2,5.5,-68.5
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -345,7 +345,7 @@ GUID:
 POSITION:-2,5.5,-77.75
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -355,7 +355,7 @@ GUID:
 POSITION:-2.25,5.5,-92.75
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -365,7 +365,7 @@ GUID:
 POSITION:-1.5,5.5,-85
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -375,7 +375,7 @@ GUID:
 POSITION:11.5,5.5,-67.5
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -385,7 +385,7 @@ GUID:
 POSITION:11.75,5.5,-60.5
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -395,7 +395,7 @@ GUID:
 POSITION:14.25,5.5,-44.5
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -405,7 +405,7 @@ GUID:
 POSITION:12.25,5.5,-25
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -415,7 +415,7 @@ GUID:
 POSITION:21.25,5.5,-35.25
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/lava/lava_gradient_03.fbx
+RESFILE:lava/lava_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -425,7 +425,7 @@ GUID:
 POSITION:-7.5,5.5,-17.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -435,7 +435,7 @@ GUID:
 POSITION:-6,5.5,-0.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -445,7 +445,7 @@ GUID:
 POSITION:-15.75,5.5,-15.5
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -455,7 +455,7 @@ GUID:
 POSITION:-15,5.5,-7
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -465,7 +465,7 @@ GUID:
 POSITION:-15.75,5.5,-52
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -475,7 +475,7 @@ GUID:
 POSITION:-16.25,5.5,-83.75
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -485,7 +485,7 @@ GUID:
 POSITION:25.5,5.5,-22.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -495,7 +495,7 @@ GUID:
 POSITION:26,5.5,-31.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -505,7 +505,7 @@ GUID:
 POSITION:18,5.5,-44.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -515,7 +515,7 @@ GUID:
 POSITION:14.25,5.5,-49.75
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -525,7 +525,7 @@ GUID:
 POSITION:10.25,5.5,-44.25
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -535,7 +535,7 @@ GUID:
 POSITION:7.75,5.5,-35.5
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/lava/lava_gradient_01.fbx
+RESFILE:lava/lava_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -545,7 +545,7 @@ GUID:
 POSITION:-16.25,5.5,-26
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -555,7 +555,7 @@ GUID:
 POSITION:-23.47,5.5,-15.36
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/lava/lava_gradient_02.fbx
+RESFILE:lava/lava_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11639,6 +11639,26 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone505773
+GUID:
+POSITION:11.875,0,-63.99
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/trollspawnerrandom.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone417842
+GUID:
+POSITION:9.43,3,-28.75
+ROTARION:0,140,0
+SCALE:1
+RESFILE:props/lava_props/skullbrazier_hanging.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:wallchain 3_clone250653
 GUID:588863905690554846
@@ -11646,6 +11666,26 @@ POSITION:27.5,-2.75,-37.8
 ROTARION:0,91.99993,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone421732
+GUID:
+POSITION:11.93,0,-60
+ROTARION:0,49.99997,0
+SCALE:1
+RESFILE:props/lava_props/skullbrazier_hanging.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone423994
+GUID:
+POSITION:11.93,0,-68
+ROTARION:0,140,0
+SCALE:1
+RESFILE:props/lava_props/skullbrazier_hanging.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11729,6 +11769,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone528402
+GUID:
+POSITION:8.5,-11,-6
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:wall chain slant_clone250930
 GUID:3800694141025522142
@@ -11789,6 +11839,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Bubbling Cauldron_clone365847
+GUID:
+POSITION:12,-5.5,-28
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/lava_props/bubblingcauldron_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:wallchain 3_clone251119
 GUID:588863905690554846
@@ -11796,6 +11856,26 @@ POSITION:3.5,-5.5,-48
 ROTARION:0,79.00001,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone406538
+GUID:
+POSITION:-28,4.125,-12
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/lava_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone408804
+GUID:
+POSITION:-8,5,-18
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/lava_props/torch_wall.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11809,6 +11889,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone411060
+GUID:
+POSITION:-8,5,-22
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/lava_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:wallchain 3_clone250614
 GUID:588863905690554846
@@ -11816,6 +11906,206 @@ POSITION:5,0,-16
 ROTARION:0,349,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone161836
+GUID:
+POSITION:10.5,5.5,-23.99
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/brazier_broken.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone164897
+GUID:
+POSITION:-13.5,-11,-38
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone167639
+GUID:
+POSITION:-27.5,-11,-36
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone169340
+GUID:
+POSITION:-9.5,-11,-72
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone171030
+GUID:
+POSITION:-14.5,-11,-68
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone172720
+GUID:
+POSITION:-24.5,-11,-69
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone174418
+GUID:
+POSITION:-1.5,-11,-30
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone176287
+GUID:
+POSITION:-38.5,-11,-14
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone178153
+GUID:
+POSITION:-38.5,-11,-46
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone180017
+GUID:
+POSITION:-38.5,-11,-59
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone183569
+GUID:
+POSITION:-10.5,-11,-97
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone185259
+GUID:
+POSITION:-21.5,-11,-97
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone187125
+GUID:
+POSITION:-42.5,-11,-86
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone188991
+GUID:
+POSITION:12.5,-11,-86
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone190856
+GUID:
+POSITION:30.5,-11,-78
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone192722
+GUID:
+POSITION:30.5,-11,-59
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone194586
+GUID:
+POSITION:22.5,-11,-43
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone196450
+GUID:
+POSITION:30.5,-11,-21
+ROTARION:0,260,0
+SCALE:1
+RESFILE:props/lava_props/lavabubbles.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone1541667
+GUID:
+POSITION:19.93,0,-60
+ROTARION:0,49.99997,0
+SCALE:1
+RESFILE:props/lava_props/skullbrazier_hanging.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch_clone1543019
+GUID:
+POSITION:19.93,0,-68
+ROTARION:0,49.99997,0
+SCALE:1
+RESFILE:props/lava_props/skullbrazier_hanging.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11846,5 +12136,25 @@ POSITION:8,5.5,-24
 ROTARION:0,90,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1
+GUID:
+POSITION:-24.17,5.5,-16.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:armor
+GUID:
+POSITION:-28.74,5.5,-19.16
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/shrines/all_armor_rack.layout
 EXTERNINFO:
 [/PROPERTIES]

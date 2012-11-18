@@ -5,7 +5,7 @@ GUID:
 POSITION:-22,-2.75,-48
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:16,-2.75,-64
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:16,-2.75,-48
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:-19,-9.625,-85
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45,7 +45,7 @@ GUID:
 POSITION:17,-2.75,-32
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -55,7 +55,7 @@ GUID:
 POSITION:-26,-9.625,-18
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -65,7 +65,7 @@ GUID:
 POSITION:43,-9.625,-31
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -75,7 +75,7 @@ GUID:
 POSITION:43,-9.625,-50
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -85,7 +85,7 @@ GUID:
 POSITION:43,-9.625,-85
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -95,7 +95,7 @@ GUID:
 POSITION:-32,-2.75,-48
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -105,7 +105,7 @@ GUID:
 POSITION:-25,-2.75,-62
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -115,7 +115,7 @@ GUID:
 POSITION:-25,-2.75,-34
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -125,7 +125,7 @@ GUID:
 POSITION:-4,-2.75,-34
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -135,7 +135,7 @@ GUID:
 POSITION:-4,-2.75,-62
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -145,7 +145,7 @@ GUID:
 POSITION:17,-2.75,-55
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -155,7 +155,7 @@ GUID:
 POSITION:17,-2.75,-40
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -165,7 +165,7 @@ GUID:
 POSITION:35,-2.75,-44
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -175,7 +175,7 @@ GUID:
 POSITION:2,2.75,-78
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -185,7 +185,7 @@ GUID:
 POSITION:16,2.75,-78
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -195,7 +195,7 @@ GUID:
 POSITION:32,2.75,-77
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -205,7 +205,7 @@ GUID:
 POSITION:34,2.75,-63
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_circle_01.fbx
+RESFILE:fortress/fortress_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15906,5 +15906,715 @@ POSITION:16,5.5,-96
 ROTARION:0,89.99998,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone472519
+GUID:
+POSITION:17,-13.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Big Light Column_clone694198
+GUID:
+POSITION:-9,0,-78
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Forge
+GUID:
+POSITION:-15.76,-8.25,-48.04
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/forge.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Big Light Column
+GUID:
+POSITION:-22,-6.875,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod
+GUID:
+POSITION:-12.65,-8.25,-53
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone570427
+GUID:
+POSITION:-12.83,-8.25,-43.31
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone409765
+GUID:
+POSITION:8,-13.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone411783
+GUID:
+POSITION:26,-13.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone413811
+GUID:
+POSITION:17,-13.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone415823
+GUID:
+POSITION:8,-13.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone417835
+GUID:
+POSITION:26,-13.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone419853
+GUID:
+POSITION:17,-13.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone421865
+GUID:
+POSITION:26,-13.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone423877
+GUID:
+POSITION:8,-13.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone696169
+GUID:
+POSITION:12,-2.75,-72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone698121
+GUID:
+POSITION:19,-5.5,-72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone700070
+GUID:
+POSITION:19,-5.5,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone870725
+GUID:
+POSITION:-6,-8.25,-66
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone871495
+GUID:
+POSITION:-6,-8.25,-29
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone819643
+GUID:
+POSITION:17,-24.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone821655
+GUID:
+POSITION:17,-24.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone823667
+GUID:
+POSITION:8,-24.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone825679
+GUID:
+POSITION:26,-24.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone827691
+GUID:
+POSITION:8,-24.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone829703
+GUID:
+POSITION:26,-24.75,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone831715
+GUID:
+POSITION:26,-24.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone833727
+GUID:
+POSITION:8,-24.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone835739
+GUID:
+POSITION:17,-24.75,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone585916
+GUID:
+POSITION:12,-2.75,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Forge_clone710350
+GUID:
+POSITION:34.16,-8.25,-24.69
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/forge.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone999966
+GUID:
+POSITION:-17,-8.25,-68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone1001943
+GUID:
+POSITION:-17,-8.25,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone587875
+GUID:
+POSITION:-35,-5.5,-53
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone1003895
+GUID:
+POSITION:-17,-8.25,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone1005851
+GUID:
+POSITION:-17,-8.25,-28
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Light Column_clone589845
+GUID:
+POSITION:-35,-5.5,-43
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone943577
+GUID:
+POSITION:42,-24.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone945589
+GUID:
+POSITION:42,-13.75,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone947607
+GUID:
+POSITION:42,-24.75,-60
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone949619
+GUID:
+POSITION:42,-13.75,-60
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone951635
+GUID:
+POSITION:42,-24.75,-72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone953647
+GUID:
+POSITION:42,-13.75,-72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone955663
+GUID:
+POSITION:42,-24.75,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone957675
+GUID:
+POSITION:42,-13.75,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone959705
+GUID:
+POSITION:42,-24.75,-36
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone961717
+GUID:
+POSITION:42,-13.75,-36
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone963732
+GUID:
+POSITION:42,-13.75,-24
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone965744
+GUID:
+POSITION:42,-24.75,-24
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1106613
+GUID:
+POSITION:-19,-13.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1108625
+GUID:
+POSITION:-19,-24.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1110637
+GUID:
+POSITION:-10,-24.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1112649
+GUID:
+POSITION:-10,-13.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1114661
+GUID:
+POSITION:-28,-13.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1116673
+GUID:
+POSITION:-28,-24.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1126746
+GUID:
+POSITION:0,-24.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone1128758
+GUID:
+POSITION:0,-13.75,-20
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2051599
+GUID:
+POSITION:-24,-24.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2053611
+GUID:
+POSITION:-24,-13.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2055635
+GUID:
+POSITION:-32,-24.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2057647
+GUID:
+POSITION:-32,-13.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2059664
+GUID:
+POSITION:-40,-13.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Pillar_clone2061676
+GUID:
+POSITION:-40,-24.75,-76
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Forge_clone462435
+GUID:
+POSITION:35.16,-5.5,-86.69
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/forge.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap
+GUID:
+POSITION:24,-8.25,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap_clone2684781
+GUID:
+POSITION:16,-8.25,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap_clone2686042
+GUID:
+POSITION:8,-8.25,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap_clone2687356
+GUID:
+POSITION:24,-8.25,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap_clone2688622
+GUID:
+POSITION:16,-8.25,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:spiketrap_clone2689878
+GUID:
+POSITION:8,-8.25,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/fortress_spiketrap_2row_centered.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:MainDoor
+GUID:
+POSITION:-36,-5.5,-48
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/entryexitdoor.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:EntranceNode
+GUID:
+POSITION:-38.77,-4.27,-48
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/entrance_node.layout
 EXTERNINFO:
 [/PROPERTIES]

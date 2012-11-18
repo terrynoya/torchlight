@@ -1508,3 +1508,143 @@ SCALE:1
 RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ShroomAll
+GUID:
+POSITION:-8,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_random.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Puddle
+GUID:
+POSITION:-8,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/puddle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Spit1
+GUID:
+POSITION:-12,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/tribal_spit_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Spit2
+GUID:
+POSITION:-12,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/tribal_spit_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Firefly
+GUID:
+POSITION:3,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch
+GUID:
+POSITION:3,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom1
+GUID:
+POSITION:-6,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:BlueShroom2
+GUID:
+POSITION:-4,0,10
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:PurpleShroom2
+GUID:
+POSITION:0,0,10
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:PurpleShroom1
+GUID:
+POSITION:0,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom1
+GUID:
+POSITION:-2,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:BlueShroom1
+GUID:
+POSITION:-4,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_6.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:GreenShroom2
+GUID:
+POSITION:-6,0,10
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:OrangeShroom2
+GUID:
+POSITION:-2,0,10
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]

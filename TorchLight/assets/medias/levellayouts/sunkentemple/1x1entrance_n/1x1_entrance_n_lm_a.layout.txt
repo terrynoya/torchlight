@@ -1,4 +1,234 @@
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8
+GUID:
+POSITION:-22.97,1.375,-50.58
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1191038
+GUID:
+POSITION:-21.83,1.375,-37.14
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1191519
+GUID:
+POSITION:-2.87,0,-38.15
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1192010
+GUID:
+POSITION:-3.74,0,-51.88
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1192491
+GUID:
+POSITION:-4.38,0,-67.13
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1192972
+GUID:
+POSITION:-4.65,0,-79.67
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1193453
+GUID:
+POSITION:-0.130003,0,-90.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1193934
+GUID:
+POSITION:-7.82,0,-90.87
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1194415
+GUID:
+POSITION:-15.04,9.625,-70.54
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1194931
+GUID:
+POSITION:11.15,9.625,-70.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1195412
+GUID:
+POSITION:-39.18,-1.375,-54.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1195938
+GUID:
+POSITION:-38.96,-1.375,-36.44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1196419
+GUID:
+POSITION:-18.06,-1.375,-24.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1196900
+GUID:
+POSITION:-0.899997,-1.375,-25.12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1197381
+GUID:
+POSITION:9.11,-1.375,-25.58
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1197862
+GUID:
+POSITION:11.72,-1.375,-35.78
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1198343
+GUID:
+POSITION:12.05,-1.375,-49.56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1198824
+GUID:
+POSITION:9.40001,-1.375,-58.19
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1199305
+GUID:
+POSITION:4.10001,-1.375,-65.39
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1199791
+GUID:
+POSITION:-16.17,-1.375,-79.05
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1200272
+GUID:
+POSITION:-20.62,-1.375,-86.81
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1200753
+GUID:
+POSITION:-27.28,-1.375,-93.14
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8_clone1201234
+GUID:
+POSITION:9.74,-1.375,-90.2601
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece2_clone750642
 GUID:-5185432091493592610
@@ -11865,7 +12095,7 @@ GUID:
 POSITION:-4.53,3.8147E-06,-44.47
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11875,7 +12105,7 @@ GUID:
 POSITION:-24.51,3.8147E-06,-50.35
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11885,7 +12115,7 @@ GUID:
 POSITION:-21.85,3.8147E-06,-35.07
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11895,7 +12125,7 @@ GUID:
 POSITION:-4.7,3.8147E-06,-64.55
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11905,7 +12135,7 @@ GUID:
 POSITION:-4.68,3.8147E-06,-79.58
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11915,7 +12145,7 @@ GUID:
 POSITION:-5.44,3.8147E-06,-92.86
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11925,7 +12155,7 @@ GUID:
 POSITION:-15.17,12.375,-70.02
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11935,7 +12165,7 @@ GUID:
 POSITION:-25.37,12.375,-64.67
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11945,7 +12175,7 @@ GUID:
 POSITION:9.24,12.375,-69.78
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11955,7 +12185,7 @@ GUID:
 POSITION:11.96,12.375,-40.64
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11965,7 +12195,7 @@ GUID:
 POSITION:10.51,12.375,-26.04
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11975,7 +12205,7 @@ GUID:
 POSITION:-0.860004,12.375,-23.73
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11985,7 +12215,7 @@ GUID:
 POSITION:0.899996,12.375,-34.63
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -11995,7 +12225,7 @@ GUID:
 POSITION:-9.29,12.375,-34.39
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12005,7 +12235,7 @@ GUID:
 POSITION:-9.85001,12.375,-42.4
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12015,7 +12245,7 @@ GUID:
 POSITION:-10.09,12.375,-51.6
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12025,7 +12255,7 @@ GUID:
 POSITION:-0.100008,12.375,-52.38
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12035,7 +12265,7 @@ GUID:
 POSITION:-0.230007,12.375,-88.67
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12045,6 +12275,106 @@ GUID:
 POSITION:-7.31001,12.375,-89.77
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone752926
+GUID:
+POSITION:-12,-4.41074E-06,-44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone756624
+GUID:
+POSITION:4,-4.41074E-06,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone758662
+GUID:
+POSITION:-12,-4.41074E-06,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone760700
+GUID:
+POSITION:-12,-4.41074E-06,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone762738
+GUID:
+POSITION:4,-4.41074E-06,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone764781
+GUID:
+POSITION:-12,-4.41074E-06,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone766819
+GUID:
+POSITION:-12,-4.41074E-06,-96
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone768857
+GUID:
+POSITION:4,-4.41074E-06,-96
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone770895
+GUID:
+POSITION:4,-4.41074E-06,-84
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4_clone707420
+GUID:
+POSITION:-22,1.375,-44
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunken_entrance_node.layout
 EXTERNINFO:
 [/PROPERTIES]

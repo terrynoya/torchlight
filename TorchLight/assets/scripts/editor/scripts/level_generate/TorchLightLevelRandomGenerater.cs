@@ -140,7 +140,6 @@ public class TorchLightLevelRandomGenerater
         {
             int ChunkNum = Random.Range(CurLevelInfo.MinChunkNum, CurLevelInfo.MaxChunkNum + 1);
 
-            Debug.Log(CurLevelInfo.MinChunkNum + " - " + CurLevelInfo.MaxChunkNum + " - " + ChunkNum);
             ChunkNum = Mathf.Min(ChunkNum, TorchLightConfig.TorchLightStartaChunkNum_MAX - 2);
 
             List<LevelChunk> EnteranceChunks    = new List<LevelChunk>();

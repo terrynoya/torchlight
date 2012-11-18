@@ -1,0 +1,10 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle8
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/sunbeam.layout
+EXTERNINFO:
+[/PROPERTIES]

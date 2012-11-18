@@ -5,7 +5,7 @@ GUID:
 POSITION:-11.96,0,2.95001
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:-7.93,0,-23.7
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:-13.61,-2.75,-10.63
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_quarter_01.fbx
+RESFILE:fortress/fortress_quarter_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:-4.39999,-2.75,-8.20999
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45,7 +45,7 @@ GUID:
 POSITION:-2,-2.75,-10.79
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_half_01.fbx
+RESFILE:fortress/fortress_half_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1826,5 +1826,25 @@ POSITION:4.45,-2.75,-15.84
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone263630
+GUID:
+POSITION:-1.84999,-2.7,-16.83
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone257779
+GUID:
+POSITION:-16.85,-2.7,-16.83
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_02.layout
 EXTERNINFO:
 [/PROPERTIES]

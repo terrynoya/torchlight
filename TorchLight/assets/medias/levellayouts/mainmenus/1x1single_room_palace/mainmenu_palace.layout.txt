@@ -1929,13 +1929,143 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone500850
+GUID:
+POSITION:-24,-2.75,-24
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone487225
+GUID:
+POSITION:-12,-5.5,-36
+ROTARION:0,89.99997,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone507911
+GUID:
+POSITION:-36.5,-5.5,-32.5
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/lightcolumn1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone510299
+GUID:
+POSITION:-11.5,-5.5,-32.5
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/lightcolumn1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone531073
+GUID:
+POSITION:-3.83,-5.5,-27.6
+ROTARION:0,44.00002,0
+SCALE:1
+RESFILE:props/palace_props/chamber_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone467829
+GUID:
+POSITION:-36,-5.5,-36
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone535656
+GUID:
+POSITION:7.17,-5.5,-27.6
+ROTARION:0,44.00002,0
+SCALE:1
+RESFILE:props/palace_props/chamber_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone536172
+GUID:
+POSITION:1.17,-5.5,-27.6
+ROTARION:0,359,0
+SCALE:1
+RESFILE:props/palace_props/alchemy_table_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone536736
+GUID:
+POSITION:-39.9,-5.5,-19.83
+ROTARION:0,314,0
+SCALE:1
+RESFILE:props/palace_props/chamber_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone537191
+GUID:
+POSITION:-39.9,-5.5,-8.83
+ROTARION:0,314,0
+SCALE:1
+RESFILE:props/palace_props/chamber_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone537633
+GUID:
+POSITION:-39.9,-5.5,-14.83
+ROTARION:0,89.00002,0
+SCALE:1
+RESFILE:props/palace_props/alchemy_table_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone492119
+GUID:
+POSITION:-8,-5.5,-32
+ROTARION:0,89.99997,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone493170
+GUID:
+POSITION:-40,-5.5,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Purp
 GUID:
 POSITION:-23.56,0,-32.9
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/palace/palace_gradient_01.fbx
+RESFILE:palace/palace_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1945,7 +2075,7 @@ GUID:
 POSITION:-6.74002,0,-4.13
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1955,6 +2085,6 @@ GUID:
 POSITION:-23.47,0,-21.94
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]

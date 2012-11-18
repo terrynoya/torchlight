@@ -1,0 +1,20 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/crypt_dustmotes.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link13
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/quake_quest.layout
+EXTERNINFO:
+[/PROPERTIES]

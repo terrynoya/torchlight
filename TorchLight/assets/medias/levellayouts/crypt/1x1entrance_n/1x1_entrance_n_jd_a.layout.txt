@@ -79,6 +79,376 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone137781
+GUID:
+POSITION:-3.5,-5.5,-53
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone139599
+GUID:
+POSITION:-8.5,-5.5,-53
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone141417
+GUID:
+POSITION:-3.5,-5.5,-59
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone179635
+GUID:
+POSITION:-17,-5.5,-87.5
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone181453
+GUID:
+POSITION:-17,-5.5,-80.5
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone143235
+GUID:
+POSITION:-8.5,-5.5,-59
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone113932
+GUID:
+POSITION:-3,5.5,-70
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone57812
+GUID:
+POSITION:3,5.5,-70
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone61190
+GUID:
+POSITION:0,5.5,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone62012
+GUID:
+POSITION:-24,6.875,-44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone183271
+GUID:
+POSITION:-25,-5.5,-80.5
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone185089
+GUID:
+POSITION:-25,-5.5,-87.5
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone115490
+GUID:
+POSITION:-24,6.875,-68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone117308
+GUID:
+POSITION:23,-5.5,-74
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone119126
+GUID:
+POSITION:17,-5.5,-74
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone120944
+GUID:
+POSITION:23,-5.5,-66
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone124580
+GUID:
+POSITION:17,-5.5,-54
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone126398
+GUID:
+POSITION:23,-5.5,-54
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone128216
+GUID:
+POSITION:23,-5.5,-46
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone130034
+GUID:
+POSITION:17,-5.5,-46
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone144341
+GUID:
+POSITION:-4,0,-94.8
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone130573
+GUID:
+POSITION:8,5.5,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone131112
+GUID:
+POSITION:16,5.5,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone144894
+GUID:
+POSITION:4,0,-94.8
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone111547
+GUID:
+POSITION:8,5.5,-19
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone132190
+GUID:
+POSITION:-32,6.875,-43
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone175425
+GUID:
+POSITION:17,-5.5,-66
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone132729
+GUID:
+POSITION:-32,6.875,-37
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone112100
+GUID:
+POSITION:8,5.5,-24.8
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone133268
+GUID:
+POSITION:-32,6.875,-69
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone133807
+GUID:
+POSITION:-32,6.875,-75
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone177250
+GUID:
+POSITION:-40,0,-90
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone158207
+GUID:
+POSITION:-12.2,5.5,-36.3
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone121386
+GUID:
+POSITION:-26.2,6.875,-49.8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone123147
+GUID:
+POSITION:-26.6,6.875,-62.2
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone152779
+GUID:
+POSITION:-27.8,6.875,-39.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Brazier_clone153315
+GUID:
+POSITION:-27.7,6.875,-71.7
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece_clone172691
 GUID:-8756847616668069410
@@ -11769,6 +12139,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0
+GUID:
+POSITION:-8,0,-16
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/largebuilding.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Chair2_clone112114
 GUID:-8756847444869377570
@@ -11846,6 +12226,16 @@ POSITION:-0.749999,6.875,-70.4999
 ROTARION:0,135,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:LitTomb
+GUID:
+POSITION:-20.5,5.5,-56
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/tomb_lit.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12205,7 +12595,7 @@ GUID:
 POSITION:6.5,5.5,-56.5
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_circle_02.fbx
+RESFILE:light_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12215,7 +12605,7 @@ GUID:
 POSITION:-5.5,5.5,-40.6
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_circle_02.fbx
+RESFILE:light_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12225,7 +12615,7 @@ GUID:
 POSITION:-17.63,5.5,-56.5
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/light_circle_02.fbx
+RESFILE:light_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12235,7 +12625,7 @@ GUID:
 POSITION:-7.5,5.5,-70.5
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_circle_02.fbx
+RESFILE:light_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12245,7 +12635,7 @@ GUID:
 POSITION:-13,5.5,-75.8
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/light_quarter_03.fbx
+RESFILE:light_quarter_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12255,7 +12645,7 @@ GUID:
 POSITION:8,5.5,-22.5
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_circle_02.fbx
+RESFILE:light_circle_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12265,7 +12655,7 @@ GUID:
 POSITION:0.5,5.5,-89.5
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/light_circle_01.fbx
+RESFILE:light_circle_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -12275,7 +12665,7 @@ GUID:
 POSITION:13,5.5,-55.8
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/light_half_03.fbx
+RESFILE:light_half_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13419,6 +13809,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link8
+GUID:
+POSITION:-32,8.25,-56
+ROTARION:0,89.99998,0
+SCALE:1
+RESFILE:props/entrance_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Unit Trigger11
 GUID:
@@ -13426,6 +13826,16 @@ POSITION:0,5.5,-22
 ROTARION:0,90.00002,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lectern
+GUID:
+POSITION:-22.75,6.875,-56.03
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/shrines/all_lectern_crypt.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

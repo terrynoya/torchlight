@@ -1,0 +1,10 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]

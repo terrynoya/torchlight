@@ -1,4 +1,24 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:MainDoor
+GUID:
+POSITION:60,0,-68
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/entryexitdoor.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ExitNode
+GUID:
+POSITION:-28,0,-48.11
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/exit_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:ExitDoor
 GUID:
@@ -6,6 +26,16 @@ POSITION:-32,0,-48
 ROTARION:0,270,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:EntranceNode
+GUID:
+POSITION:59.75,1.375,-70.85
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/entrance_node.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5179,6 +5209,146 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2140312
+GUID:
+POSITION:51.7001,-5.5,-39.4301
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2140815
+GUID:
+POSITION:68.1601,-5.5,-39.4301
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone642351
+GUID:
+POSITION:-22.97,0,-59.01
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone734014
+GUID:
+POSITION:21.98,0,-59.01
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/pillar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone739089
+GUID:
+POSITION:44,-5.5,-52
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone465429
+GUID:
+POSITION:-28,0,-42
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone472479
+GUID:
+POSITION:44,-5.5,-44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2044721
+GUID:
+POSITION:-28,0,-54
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/fortress_props/light_wall_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2131711
+GUID:
+POSITION:14.15,0,-62.41
+ROTARION:0,315,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2134286
+GUID:
+POSITION:-6.03999,0,-62.5
+ROTARION:0,45,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2134789
+GUID:
+POSITION:-16.03,0,-59.28
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2136659
+GUID:
+POSITION:4.18999,0,-32.8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2137203
+GUID:
+POSITION:48.8,-5.5,-55.96
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Stasis Pod_clone2137866
+GUID:
+POSITION:71.165,-5.5,-56.0001
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/fortress_props/stasispod_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece0_clone1123427
 GUID:7658529111086010846
@@ -5295,7 +5465,7 @@ GUID:
 POSITION:44.02,-5.5,-47.84
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5305,7 +5475,7 @@ GUID:
 POSITION:3.70994,0,-48.4399
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5315,7 +5485,7 @@ GUID:
 POSITION:14.8699,0,-48.45
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5325,7 +5495,7 @@ GUID:
 POSITION:-18.2901,0,-48.4399
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5335,7 +5505,17 @@ GUID:
 POSITION:59.67,-5.5,-44.08
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:WarpOut3
+GUID:
+POSITION:0.109997,0.46,-52.28
+ROTARION:0,180,0
+SCALE:1
+RESFILE:monsters/henchman/warp.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -5369,6 +5549,56 @@ RESFILE:henchman/henchman.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:WarpIn1
+GUID:
+POSITION:-16.62,0.46,-51.8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:monsters/henchman/warp.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:WarpIn2
+GUID:
+POSITION:-16.53,0.33,-45.71
+ROTARION:0,180,0
+SCALE:1
+RESFILE:monsters/henchman/warp.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:WarpOut1
+GUID:
+POSITION:-3.52001,0.67,-54.92
+ROTARION:0,180,0
+SCALE:1
+RESFILE:monsters/henchman/warp.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:WarpOut2
+GUID:
+POSITION:-3.6,0.85,-49.58
+ROTARION:0,180,0
+SCALE:1
+RESFILE:monsters/henchman/warp.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Forge finish particles
+GUID:
+POSITION:4,0,-60.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/fortressprops/emberforge_finish.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Ember Forge
 GUID:8028768058067325406
@@ -5376,6 +5606,36 @@ POSITION:4,0,-60.18
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Constant Particles
+GUID:
+POSITION:4,0,-60.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/fortressprops/emberforge_idle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Forge Activated Particles
+GUID:
+POSITION:4,0,-60.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/fortressprops/emberforge_activated.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Syl Slam Staff Particles
+GUID:
+POSITION:4,0,-60.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/fortressprops/emberforge_sylzap.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

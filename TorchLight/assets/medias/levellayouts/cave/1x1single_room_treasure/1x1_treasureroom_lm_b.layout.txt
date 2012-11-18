@@ -5,7 +5,7 @@ GUID:
 POSITION:-18.17,7.5,-54.88
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:-14.89,7.5,-74.27
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:-16.99,7.5,-99.08
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:20.8,7.5,-84.66
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45,7 +45,7 @@ GUID:
 POSITION:16.79,7.5,-68.1
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -55,7 +55,7 @@ GUID:
 POSITION:16.56,7.5,-48.4
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -65,7 +65,7 @@ GUID:
 POSITION:22,7.5,-31.24
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_01.fbx
+RESFILE:cave/cave_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -75,7 +75,7 @@ GUID:
 POSITION:-20.62,7.5,-24.36
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -85,7 +85,7 @@ GUID:
 POSITION:-33.28,7.5,-12.18
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_03.fbx
+RESFILE:cave/cave_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -95,7 +95,7 @@ GUID:
 POSITION:2.65,7.5,-46.49
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -105,7 +105,7 @@ GUID:
 POSITION:1.83,7.5,-62.32
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -115,7 +115,7 @@ GUID:
 POSITION:2.68,7.5,-78.46
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -125,7 +125,7 @@ GUID:
 POSITION:0.699999,7.5,-92.59
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/cave/cave_gradient_02.fbx
+RESFILE:cave/cave_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15799,6 +15799,516 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone642104
+GUID:
+POSITION:-13.64,2.38419E-07,-21.93
+ROTARION:0,277.0001,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone643330
+GUID:
+POSITION:-12.71,6.875,-57.81
+ROTARION:0,313,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone644506
+GUID:
+POSITION:-17.05,6.875,-45.49
+ROTARION:0,313,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone645682
+GUID:
+POSITION:-23.56,6.875,-43.96
+ROTARION:0,268,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone646858
+GUID:
+POSITION:-17.98,6.875,-50.78
+ROTARION:0,268,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone648034
+GUID:
+POSITION:-15.43,6.875,-81.5499
+ROTARION:0,268,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone649210
+GUID:
+POSITION:-12.4,6.875,-93.7199
+ROTARION:0,279,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone650386
+GUID:
+POSITION:-17.77,6.875,-91.59
+ROTARION:0,227,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone651562
+GUID:
+POSITION:-14.58,6.875,-97.81
+ROTARION:0,339,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone652738
+GUID:
+POSITION:-8.28,6.875,-100.89
+ROTARION:0,131,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone653914
+GUID:
+POSITION:-12.06,6.875,-103.69
+ROTARION:0,47.00003,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone655090
+GUID:
+POSITION:15.9,4.125,-75.8299
+ROTARION:0,326,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone656276
+GUID:
+POSITION:13.25,4.125,-78.6799
+ROTARION:0,156,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone657452
+GUID:
+POSITION:21.44,4.125,-94.18
+ROTARION:0,156,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone658628
+GUID:
+POSITION:14.1,4.125,-92.28
+ROTARION:0,282,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone659804
+GUID:
+POSITION:10.16,4.125,-62.44
+ROTARION:0,105,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone660980
+GUID:
+POSITION:16.73,4.125,-52.91
+ROTARION:0,42.99998,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone662156
+GUID:
+POSITION:14.61,4.125,-57.95
+ROTARION:0,248,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone663332
+GUID:
+POSITION:15.72,4.125,-41.57
+ROTARION:0,248,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone664508
+GUID:
+POSITION:15.61,4.125,-36.46
+ROTARION:0,106,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone665684
+GUID:
+POSITION:11.94,4.125,-39.02
+ROTARION:0,51.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone666860
+GUID:
+POSITION:14.9,4.125,-27.52
+ROTARION:0,51.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1296599
+GUID:
+POSITION:-5.69999,0,-80.7699
+ROTARION:0,200,0
+SCALE:1
+RESFILE:props/cave_props/hut_1_spawner.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1324771
+GUID:
+POSITION:2.39,2.38419E-07,-40.91
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1332038
+GUID:
+POSITION:-11.03,6.875,-62.38
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1333854
+GUID:
+POSITION:-33.84,2.38419E-07,-6.88998
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1337481
+GUID:
+POSITION:-5.95999,2.38419E-07,-69.6
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1297904
+GUID:
+POSITION:-28.16,0,-27.69
+ROTARION:0,166,0
+SCALE:1
+RESFILE:props/cave_props/hut_2_spawner.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone654236
+GUID:
+POSITION:16,2.75,-84.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall
+GUID:
+POSITION:-12,5.5,-88.66
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone537673
+GUID:
+POSITION:-12,5.5,-67.85
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone604972
+GUID:
+POSITION:12,2.75,-68.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone606015
+GUID:
+POSITION:12,2.75,-47.34
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone652767
+GUID:
+POSITION:16,2.75,-31.84
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone621767
+GUID:
+POSITION:-13.52,5.5,-51.33
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/cave_props/waterfall_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1345082
+GUID:
+POSITION:-2.02,2.38419E-07,-58.29
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1346297
+GUID:
+POSITION:-3.09,2.38419E-07,-51.15
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1317604
+GUID:
+POSITION:2.04,2.38419E-07,-77.26
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/cave_props/bonfire_03.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1323066
+GUID:
+POSITION:-17.7,2.38419E-07,-22.95
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:props/cave_props/bonfire_03.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone1290861
+GUID:
+POSITION:-6.68999,0,-74.13
+ROTARION:0,155,0
+SCALE:1
+RESFILE:props/cave_props/hut_1_spawner.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone628839
+GUID:
+POSITION:7.38,2.38419E-07,-78.36
+ROTARION:0,97.00004,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone630015
+GUID:
+POSITION:1.97,2.38419E-07,-101.86
+ROTARION:0,97.00004,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone631201
+GUID:
+POSITION:-7.70999,2.38419E-07,-63.66
+ROTARION:0,193,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone632377
+GUID:
+POSITION:-6.06,2.38419E-07,-84.68
+ROTARION:0,145,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone633553
+GUID:
+POSITION:9.88,2.38419E-07,-98.07
+ROTARION:0,204,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_0.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone635013
+GUID:
+POSITION:11.41,2.38419E-07,-91.18
+ROTARION:0,249,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_7.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone637380
+GUID:
+POSITION:-37.59,2.38419E-07,-15.22
+ROTARION:0,265,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone638556
+GUID:
+POSITION:-26.77,2.38419E-07,-22.28
+ROTARION:0,278.0001,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone639742
+GUID:
+POSITION:-29.32,2.38419E-07,-22.38
+ROTARION:0,185,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Waterfall_clone640923
+GUID:
+POSITION:-17.62,2.38419E-07,-34.58
+ROTARION:0,301.0001,0
+SCALE:1
+RESFILE:props/cave_props/mushroom_5.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3
+GUID:
+POSITION:-4,0,-100
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/townportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Unit Trigger2
 GUID:
@@ -15817,6 +16327,76 @@ ROTARION:0,176,0
 SCALE:1
 RESFILE:
 EXTERNINFO:LASTDUNGEON
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3
+GUID:
+POSITION:15.5,2.85,-87
+ROTARION:0,90,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1286744
+GUID:
+POSITION:12.5,2.85,-70
+ROTARION:0,90,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1287280
+GUID:
+POSITION:12.75,2.85,-50.25
+ROTARION:0,90,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1287811
+GUID:
+POSITION:-12.75,5.6,-70.75
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1288357
+GUID:
+POSITION:-13.25,5.6,-91.75
+ROTARION:0,89.99999,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1288888
+GUID:
+POSITION:-11.75,5.6,-53.75
+ROTARION:0,44.99997,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone1289429
+GUID:
+POSITION:15.5,2.85,-35
+ROTARION:0,89.99998,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
 TAG:Unit Trigger

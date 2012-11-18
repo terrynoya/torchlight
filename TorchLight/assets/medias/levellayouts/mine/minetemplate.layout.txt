@@ -359,6 +359,106 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light
+GUID:
+POSITION:-20,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern
+GUID:
+POSITION:8,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post
+GUID:
+POSITION:12,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post Low
+GUID:
+POSITION:12,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch
+GUID:
+POSITION:12,0,4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/wall_torch.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone272518
+GUID:
+POSITION:16,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone274912
+GUID:
+POSITION:20,0,8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone281405
+GUID:
+POSITION:16,0,12
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_all.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone287025
+GUID:
+POSITION:16,0,4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone289419
+GUID:
+POSITION:20,0,4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_4.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Pulley
 GUID:-598689028067749410

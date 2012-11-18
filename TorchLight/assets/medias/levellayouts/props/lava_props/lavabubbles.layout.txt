@@ -1,0 +1,20 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Lava Bubbles
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/lavabubble.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Flare
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/lavaprops/flare.layout
+EXTERNINFO:
+[/PROPERTIES]

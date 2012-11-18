@@ -9,6 +9,46 @@ RESFILE:critters/roach/roach.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone406560
+GUID:
+POSITION:2.72001,-1.90735E-06,-49.86
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone406991
+GUID:
+POSITION:-17.13,-1.90735E-06,-39.68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone407422
+GUID:
+POSITION:-9.01999,-1.90735E-06,-58.7
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone407853
+GUID:
+POSITION:-2.11999,-1.90735E-06,-75.44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Monster
 NAME:VarkolynDead
 GUID:
@@ -39,6 +79,16 @@ RESFILE:varkolyn_bc/varkolyn_bc.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark
+GUID:
+POSITION:14.07,-1.90735E-06,-72.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Monster
 NAME:VarkolynDead
 GUID:
@@ -46,6 +96,26 @@ POSITION:14.36,0.46,-80.1699
 ROTARION:0,159,0
 SCALE:1
 RESFILE:varkolyn_bc/varkolyn_bc.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone440677
+GUID:
+POSITION:3.87001,-1.90735E-06,-65.74
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone441132
+GUID:
+POSITION:16.16,-1.90735E-06,-59.86
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -66,6 +136,36 @@ POSITION:16.84,-2.11,-47.6
 ROTARION:0,46.00003,0
 SCALE:1.13999
 RESFILE:troll/troll.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone458770
+GUID:
+POSITION:18,-2,-46.89
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone459508
+GUID:
+POSITION:21.26,-0.520003,-58.04
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:scorchMark_clone460246
+GUID:
+POSITION:13.72,0.0399976,-79.94
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/crater.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -146,6 +246,26 @@ POSITION:21.57,0,-84.07
 ROTARION:0,326,0
 SCALE:1.32332
 RESFILE:ratmanforeman/ratman_foreman.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:shield
+GUID:
+POSITION:27.64,0.17,-90.43
+ROTARION:0,180,0
+SCALE:1
+RESFILE:cinematics/sylshield.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:shielddestroy
+GUID:
+POSITION:27.08,0,-91.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:playerskills/vanquisherpush/detonate.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -416,6 +536,86 @@ POSITION:16.8385,-2.595,-46.6432
 ROTARION:0,45.99995,0
 SCALE:1.15
 RESFILE:npcs/townsfolk/male_01/npc_town_male_01.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleOne
+GUID:
+POSITION:18.1495,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleMine
+GUID:
+POSITION:18.1595,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleCrypt
+GUID:
+POSITION:18.1595,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleRuins
+GUID:
+POSITION:18.1595,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleCave
+GUID:
+POSITION:18.1495,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleLava
+GUID:
+POSITION:18.1495,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticleFOrtress
+GUID:
+POSITION:18.1595,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Portal ParticlePalace
+GUID:
+POSITION:18.1495,-3.065,-48.7772
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/hatchportal.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -1146,6 +1346,26 @@ POSITION:39.4699,0.0945606,-96.02
 ROTARION:0,262.0001,0
 SCALE:1.25
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Fireflies
+GUID:
+POSITION:7,-1.375,-37.7
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Fireflies_clone707522
+GUID:
+POSITION:-14.3,0,-27.5
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/fireflies.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3915,7 +4135,7 @@ GUID:
 POSITION:-2.55999,0,-55.21
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3925,7 +4145,7 @@ GUID:
 POSITION:-20.61,-0.0249993,-37.8899
 ROTARION:0,180,0
 SCALE:1.6
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3935,7 +4155,7 @@ GUID:
 POSITION:13.34,-0.0249993,-49.7499
 ROTARION:0,180,0
 SCALE:1.75
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3945,7 +4165,7 @@ GUID:
 POSITION:5.14,-0.0249993,-40.6599
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3955,7 +4175,7 @@ GUID:
 POSITION:-11.11,-0.0249993,-55.1699
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_half_02.fbx
+RESFILE:stemple/stemple_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3965,7 +4185,7 @@ GUID:
 POSITION:-11.29,-0.0249993,-52.3199
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_half_02.fbx
+RESFILE:stemple/stemple_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3975,7 +4195,7 @@ GUID:
 POSITION:-15.11,-0.0249993,-48.2299
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_half_02.fbx
+RESFILE:stemple/stemple_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3985,7 +4205,7 @@ GUID:
 POSITION:22.72,-0.0249993,-59.4198
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -3995,7 +4215,7 @@ GUID:
 POSITION:17.46,-0.0249993,-27.8399
 ROTARION:0,180,0
 SCALE:1.75
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4005,7 +4225,7 @@ GUID:
 POSITION:-3.53001,0,-77.56
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4015,7 +4235,7 @@ GUID:
 POSITION:-23.43,0,-53.6599
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4025,7 +4245,7 @@ GUID:
 POSITION:-30.13,0,-27.8099
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4035,7 +4255,7 @@ GUID:
 POSITION:17.35,-4.155,-71.4099
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4045,7 +4265,7 @@ GUID:
 POSITION:28.42,0,-67.55
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4055,7 +4275,7 @@ GUID:
 POSITION:-19.81,0,-42.0799
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4065,7 +4285,7 @@ GUID:
 POSITION:12.23,-2.75,8.60001
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4075,7 +4295,7 @@ GUID:
 POSITION:7.47,-2.75,3.37
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4085,7 +4305,7 @@ GUID:
 POSITION:6.78999,-2.75,-8.31999
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4095,7 +4315,7 @@ GUID:
 POSITION:-0.510006,-2.75,-24.21
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4105,7 +4325,7 @@ GUID:
 POSITION:-7.08001,-2.75,-32.57
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4115,7 +4335,7 @@ GUID:
 POSITION:-11.14,-2.75,-16.36
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4125,7 +4345,7 @@ GUID:
 POSITION:-17.84,0,-21.09
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4135,7 +4355,7 @@ GUID:
 POSITION:-34.33,0,-19.9199
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4145,7 +4365,7 @@ GUID:
 POSITION:-29.83,2.75,-31.5099
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4155,7 +4375,7 @@ GUID:
 POSITION:-28.59,2.75,-35.1899
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4165,7 +4385,7 @@ GUID:
 POSITION:14.53,0,-79.8299
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4175,7 +4395,7 @@ GUID:
 POSITION:26.75,0,-57.79
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4185,7 +4405,7 @@ GUID:
 POSITION:25.7,-4.155,-37.2999
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4195,7 +4415,7 @@ GUID:
 POSITION:15.22,-2.75,-31.53
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4205,7 +4425,7 @@ GUID:
 POSITION:-23.18,0,-59.5
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4215,7 +4435,7 @@ GUID:
 POSITION:-9.01001,0,-74.57
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4225,7 +4445,7 @@ GUID:
 POSITION:-14.38,0,-45.8999
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4235,7 +4455,7 @@ GUID:
 POSITION:-9.44,0,-42.5699
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4245,7 +4465,7 @@ GUID:
 POSITION:6.48001,0,-43.1099
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4255,7 +4475,7 @@ GUID:
 POSITION:11.58,0,-47.6999
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4265,7 +4485,7 @@ GUID:
 POSITION:-15.19,0,-60.7099
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4275,7 +4495,7 @@ GUID:
 POSITION:-11.05,0,-65.9899
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4285,7 +4505,7 @@ GUID:
 POSITION:10,0,-62.97
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4295,7 +4515,7 @@ GUID:
 POSITION:4.38001,0,-67.6399
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4305,7 +4525,7 @@ GUID:
 POSITION:30.99,0,-93.8
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4315,7 +4535,7 @@ GUID:
 POSITION:4.15,-2.75,-34.56
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4325,7 +4545,7 @@ GUID:
 POSITION:15.13,-4.155,-68.5699
 ROTARION:0,180,0
 SCALE:1
-RESFILE:lights/light_gradient_02.fbx
+RESFILE:light_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4335,7 +4555,7 @@ GUID:
 POSITION:-10.93,0,-52.2099
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4345,7 +4565,7 @@ GUID:
 POSITION:-22.85,-2.75,-54.74
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4355,7 +4575,7 @@ GUID:
 POSITION:-3.23001,-2.75,-76.61
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4365,7 +4585,7 @@ GUID:
 POSITION:-10.92,0.379999,-56.61
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4375,7 +4595,7 @@ GUID:
 POSITION:-3.62001,-0.0249993,-60.1599
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4385,7 +4605,7 @@ GUID:
 POSITION:2.03999,-0.0249993,-67.1799
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4395,7 +4615,967 @@ GUID:
 POSITION:-19.36,-0.0249993,-45.8799
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone129408
+GUID:
+POSITION:-9.3709,-3.1,-14.2029
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fishinghole.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone840977
+GUID:
+POSITION:1.11,-3.76,-1.74011
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone840327
+GUID:
+POSITION:19.33,-3.76,-8.98011
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone737209
+GUID:
+POSITION:15.29,-5.06,-31.56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone737909
+GUID:
+POSITION:6.95999,-5.06,-8.13002
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone738574
+GUID:
+POSITION:10.64,-5.06,10.16
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone739239
+GUID:
+POSITION:-34.22,-1.67,-20.26
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone739934
+GUID:
+POSITION:-24.8,0.249995,-54.33
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone740619
+GUID:
+POSITION:-16.63,0.249995,-66.58
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone741284
+GUID:
+POSITION:-3.38997,0.249995,-78.44
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone741949
+GUID:
+POSITION:26.55,0.249995,-58.2601
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Water Splash_clone709401
+GUID:
+POSITION:20.39,-6.02001,-15.62
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone460076
+GUID:
+POSITION:-12.4999,3.47,-44.71
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone460854
+GUID:
+POSITION:-9.33995,3.47,-42.03
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone461632
+GUID:
+POSITION:-7.49995,3.47,-40.54
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Water Rings
+GUID:
+POSITION:-11.7,-3.51,-12.61
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water rings.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Fireflies
+GUID:
+POSITION:27.58,-2.51,-46.1101
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water glimmer_clone507519
+GUID:
+POSITION:-30.7899,-2.15,-7.8801
+ROTARION:0,270,0
+SCALE:1
+RESFILE:atmosphere/watersparkle_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water glimmer_small
+GUID:
+POSITION:-3.26997,-3.89,-12.83
+ROTARION:0,270,0
+SCALE:1
+RESFILE:atmosphere/watersparkle_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:dust
+GUID:
+POSITION:-0.74,2.36,-57.1299
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/dustmotes.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Clouds
+GUID:
+POSITION:6,0,-47.5
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/clouds.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Water Splash
+GUID:
+POSITION:17.81,-6.66001,-19.69
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water_splash_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Water Splash
+GUID:
+POSITION:21.39,-6.02001,-20.82
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:objects/caveprops/waterfall_mist.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water grate
+GUID:
+POSITION:23.76,-7.37,-15.77
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:atmosphere/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water Grate
+GUID:
+POSITION:24.15,-7.59001,-19.82
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:atmosphere/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water grate
+GUID:
+POSITION:23.85,-7.31001,-17.44
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:atmosphere/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:waterfall
+GUID:
+POSITION:21,-7.3,-13.3
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/waterfall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water glimmer
+GUID:
+POSITION:-43.79,-2.43,-19.41
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/watersparkle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies
+GUID:
+POSITION:35.93,-2.72,-79.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water rings
+GUID:
+POSITION:-8,-3.9,-16.15
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water rings.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water rings
+GUID:
+POSITION:-7.75,-3.9,-19.9
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water rings.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water rings
+GUID:
+POSITION:-10.5,-3.16,-16.15
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water rings.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water rings
+GUID:
+POSITION:-10.75,-3.9,-19.9
+ROTARION:0,180,0
+SCALE:1
+RESFILE:atmosphere/water rings.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water grate
+GUID:
+POSITION:25.19,-8.87,-21.77
+ROTARION:0,90,0
+SCALE:1
+RESFILE:atmosphere/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:water grate
+GUID:
+POSITION:22.66,-6.77,-16.43
+ROTARION:0,90,0
+SCALE:1
+RESFILE:atmosphere/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies
+GUID:
+POSITION:13.58,-3.76,12.7899
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Big Torch
+GUID:
+POSITION:-1.71,4.97,-54.36
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/town/torch.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0
+GUID:
+POSITION:7.83001,3.47,-43.73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone467742
+GUID:
+POSITION:12.08,3.47,-48.81
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone468437
+GUID:
+POSITION:10.45,0.639999,-46.88
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone452276
+GUID:
+POSITION:10.43,3.47,-46.88
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone453054
+GUID:
+POSITION:9.05002,3.47,-64.0199
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone469371
+GUID:
+POSITION:-9.35998,0.629999,-42.1399
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone453837
+GUID:
+POSITION:5.81003,3.47,-66.68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone454615
+GUID:
+POSITION:3.94003,3.47,-68.28
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone455393
+GUID:
+POSITION:11.01,3.47,-62.4201
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone470036
+GUID:
+POSITION:-11.28,0.47,-65.2999
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone470701
+GUID:
+POSITION:3.93001,0.449999,-68.2799
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/moths.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone456171
+GUID:
+POSITION:-11.3,3.47,-65.2
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone456949
+GUID:
+POSITION:-9.69995,3.47,-67.17
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone457727
+GUID:
+POSITION:-14,3.47,-62.1
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone458510
+GUID:
+POSITION:-15.56,3.47,-60.2
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone459288
+GUID:
+POSITION:-14.43,3.47,-46.31
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone703539
+GUID:
+POSITION:-37.42,-1.135,-31.6101
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone704066
+GUID:
+POSITION:-31.12,0.24,-39.1101
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone704578
+GUID:
+POSITION:-28.02,0.24,-61.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone705085
+GUID:
+POSITION:-24.82,0.24,-68.91
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone705592
+GUID:
+POSITION:-16.72,0.24,-72.41
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone706099
+GUID:
+POSITION:-8.22,0.24,-80.5098
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:fireflies_clone706606
+GUID:
+POSITION:1.58,0.24,-83.4098
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/caveprops/fireflies.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Water Splash_clone488771
+GUID:
+POSITION:8.58998,-0.340008,-77.14
+ROTARION:0,60.00002,0
+SCALE:1
+RESFILE:objects/townforge.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone970912
+GUID:
+POSITION:9.72001,0.47,-79.8699
+ROTARION:0,340,0
+SCALE:1
+RESFILE:objects/town/forgelight.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone522718
+GUID:
+POSITION:6.2,3.47,-41.82
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone529274
+GUID:
+POSITION:-22.61,3.41,-60.52
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone529981
+GUID:
+POSITION:-24.25,3.47,-58.6301
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone530683
+GUID:
+POSITION:-10.64,3.79,-74.72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle0_clone531385
+GUID:
+POSITION:-8.98999,3.79,-76.66
+ROTARION:0,180,0
+SCALE:1
+RESFILE:latnern_full_low.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3
+GUID:
+POSITION:7.7,7.65,-78.1
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone239935
+GUID:
+POSITION:-31,6.12,-55.6
+ROTARION:0,40.00004,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone240899
+GUID:
+POSITION:-15,10.17,-68.1
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone394027
+GUID:
+POSITION:14.25,6.52,-54.6
+ROTARION:0,40.00004,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone394526
+GUID:
+POSITION:-3.75,6.52,-40.6
+ROTARION:0,40.00004,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle3_clone395020
+GUID:
+POSITION:7.75,1.42,-28.1
+ROTARION:0,40.00004,0
+SCALE:1
+RESFILE:objects/chimney_smoke.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone735647
+GUID:
+POSITION:-16.99,3.45,-67.1701
+ROTARION:0,318.0001,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone607708
+GUID:
+POSITION:28.12,2.36,-68.2
+ROTARION:0,350,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone613917
+GUID:
+POSITION:-3.53,4.16,-78.74
+ROTARION:0,350,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone615073
+GUID:
+POSITION:-24.24,4.45,-54
+ROTARION:0,350,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone616219
+GUID:
+POSITION:-30.31,1.8,-27.96
+ROTARION:0,350,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone493333
+GUID:
+POSITION:-20.69,-0.0539608,-42.1299
+ROTARION:0,99.99993,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone490800
+GUID:
+POSITION:-10.54,-0.27,-15.68
+ROTARION:0,19.99998,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone492089
+GUID:
+POSITION:-7.12,-1.42896,-31.66
+ROTARION:0,99.99993,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone821397
+GUID:
+POSITION:-17.39,-0.0349996,-20.48
+ROTARION:0,311.9999,0
+SCALE:1
+RESFILE:props/lava_props/cookingtripod.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone482317
+GUID:
+POSITION:9.83999,-4.22,11.26
+ROTARION:0,131.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone462831
+GUID:
+POSITION:6.05999,-4.22,-7.15999
+ROTARION:0,131.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone182610
+GUID:
+POSITION:29.1,-0.0400004,-94.6401
+ROTARION:0,29.99999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone184476
+GUID:
+POSITION:14.26,-5.09,-30.71
+ROTARION:0,134.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone186430
+GUID:
+POSITION:-35.17,-0.7,-19.69
+ROTARION:0,104.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone166506
+GUID:
+POSITION:25.69,-0.58,-60.78
+ROTARION:0,350,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone564783
+GUID:
+POSITION:-0.129998,-3.02,-22.78
+ROTARION:0,200,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone484819
+GUID:
+POSITION:19.1,-4.19304,-5.91999
+ROTARION:0,311.9999,0
+SCALE:1
+RESFILE:props/crypt_props/skull_candle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone596240
+GUID:
+POSITION:7.14001,-2.85485,3.96002
+ROTARION:0,81.99985,0
+SCALE:1
+RESFILE:props/crypt_props/skull_candle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone2073882
+GUID:
+POSITION:13.09,-0.0149999,-82
+ROTARION:0,80.00002,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone495849
+GUID:
+POSITION:3.29,-2.56734,-35.9599
+ROTARION:0,29.00001,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone515145
+GUID:
+POSITION:22.13,-0.19896,-71.3801
+ROTARION:0,279.9999,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link1_clone564783
+GUID:
+POSITION:-0.129998,-3.02,-22.78
+ROTARION:0,200,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern_low.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Particles
+GUID:
+POSITION:34.0631,0.11999,-98.6047
+ROTARION:0,19.99993,0
+SCALE:1
+RESFILE:entrance.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4489,6 +5669,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2_clone445006
+GUID:
+POSITION:-26.27,1.08,-35.5
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/ore_3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece1_clone437591
 GUID:-2876440468631645730
@@ -4496,6 +5686,16 @@ POSITION:-27.0893,-0.24,-36.1593
 ROTARION:0,22.00002,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link2
+GUID:
+POSITION:-27.28,1.08,-35.4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candles.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -4626,6 +5826,16 @@ POSITION:9.35327,-4.10001,4.39483
 ROTARION:0,154.0004,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:random dungeon entrance particle
+GUID:
+POSITION:9.26663,-4.27001,4.4555
+ROTARION:0,204.0004,0
+SCALE:1
+RESFILE:entrance.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

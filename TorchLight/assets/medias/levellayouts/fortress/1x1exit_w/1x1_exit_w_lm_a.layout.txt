@@ -5,7 +5,7 @@ GUID:
 POSITION:18.39,0,-47.74
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:-7.34001,0,-47.41
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/fortress/fortress_gradient_03.fbx
+RESFILE:fortress/fortress_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:30.28,0,-42.74
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:29.91,0,-52.63
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/fortress/fortress_gradient_01.fbx
+RESFILE:fortress/fortress_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -8759,6 +8759,66 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone489240
+GUID:
+POSITION:18.94,-11,-67.63
+ROTARION:0,253,0
+SCALE:1
+RESFILE:props/fortress_props/chairs.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone490591
+GUID:
+POSITION:16.31,-11,-68.58
+ROTARION:0,29.00001,0
+SCALE:1
+RESFILE:props/fortress_props/stools.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone491980
+GUID:
+POSITION:17.48,-9.69967,-67.09
+ROTARION:0,29.00001,0
+SCALE:1
+RESFILE:props/fortress_props/candle_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone516797
+GUID:
+POSITION:-24,-11,-48
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/exit_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone519882
+GUID:
+POSITION:30,-5.5,-56
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candle_clone523043
+GUID:
+POSITION:30,-5.5,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/fortress_props/light_column_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Room Piece0_clone303880
 GUID:-3858119358970523170
@@ -8936,5 +8996,15 @@ POSITION:24,-11,-68
 ROTARION:0,270,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0
+GUID:
+POSITION:-20,-11,-48
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/fortress_props/entryexitdoor.layout
 EXTERNINFO:
 [/PROPERTIES]

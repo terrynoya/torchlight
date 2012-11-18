@@ -1,4 +1,504 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone796511
+GUID:
+POSITION:-12.26,-5.5,-70.68
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone797725
+GUID:
+POSITION:6.77999,-6.875,-55.31
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone798924
+GUID:
+POSITION:-5.18001,-6.875,-13.3
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone800118
+GUID:
+POSITION:24.59,-11,-16.62
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone801327
+GUID:
+POSITION:39.75,-11,-59.82
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone802521
+GUID:
+POSITION:35.85,-8.25,-96.73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone803725
+GUID:
+POSITION:3.23998,-8.25,-92.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds_clone804924
+GUID:
+POSITION:-19.29,-8.25,-94.92
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone739458
+GUID:
+POSITION:-39.3799,9.625,-44.9
+ROTARION:0,90.00003,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone739933
+GUID:
+POSITION:-39.3799,9.625,-35.11
+ROTARION:0,90.00003,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone964264
+GUID:
+POSITION:36,-11,-32
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/straight_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone965819
+GUID:
+POSITION:36,-11,-48
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/straight_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone980639
+GUID:
+POSITION:15,0,-36
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone981813
+GUID:
+POSITION:15,0,-44
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone983179
+GUID:
+POSITION:-11,0,-36
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone984282
+GUID:
+POSITION:-11,0,-44
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone1184833
+GUID:
+POSITION:0.559999,9.875,-85.97
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone720139
+GUID:
+POSITION:-12.55,2.98023E-08,-23.21
+ROTARION:0,90.00006,0
+SCALE:1
+RESFILE:props/palace_props/stone1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone711659
+GUID:
+POSITION:-10.08,-22,-69.58
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar3.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone712106
+GUID:
+POSITION:2.56,9.875,-39.97
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone712553
+GUID:
+POSITION:-8.65001,-17.875,-27.98
+ROTARION:0,90.00004,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone715071
+GUID:
+POSITION:-20.03,0,-39.96
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone715523
+GUID:
+POSITION:-37.78,5.5,-48.25
+ROTARION:0,45.00004,0
+SCALE:1
+RESFILE:props/palace_props/statue1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone715982
+GUID:
+POSITION:-37.95,5.5,-31.81
+ROTARION:0,135.0001,0
+SCALE:1
+RESFILE:props/palace_props/statue2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone716431
+GUID:
+POSITION:-12.55,2.98023E-08,-57.21
+ROTARION:0,90.00006,0
+SCALE:1
+RESFILE:props/palace_props/stone1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone962472
+GUID:
+POSITION:21.68,2.75,-51.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone287962
+GUID:
+POSITION:-36,5.5,-56
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/straight_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone290610
+GUID:
+POSITION:-24,0,-20
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone292105
+GUID:
+POSITION:-24,0,-60
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/concave_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone293075
+GUID:
+POSITION:-28,5.5,-40
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0
+GUID:
+POSITION:-36,5.5,-24
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/straight_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone963005
+GUID:
+POSITION:26.47,2.75,-51.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone719594
+GUID:
+POSITION:3.34999,-18.375,-71.98
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone963433
+GUID:
+POSITION:16.05,-4.29153E-06,-70.93
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone963861
+GUID:
+POSITION:16.05,-4.29153E-06,-84.48
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar2.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone964980
+GUID:
+POSITION:-4.5,2.75,-78
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/altar1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone985177
+GUID:
+POSITION:-36.33,8.25,-52
+ROTARION:0,90.00003,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone985790
+GUID:
+POSITION:-36.33,8.25,-28
+ROTARION:0,90.00003,0
+SCALE:1
+RESFILE:props/palace_props/hanging_brazier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone977568
+GUID:
+POSITION:-8,-22,-24
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/straight_window.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone1194354
+GUID:
+POSITION:24,0,-40
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/large_altar_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone1195677
+GUID:
+POSITION:-23.03,0,-22.96
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/lightcolumn1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone1196999
+GUID:
+POSITION:-23.03,0,-56.96
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/lightcolumn1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone909500
+GUID:
+POSITION:17.61,0,-57.42
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone909945
+GUID:
+POSITION:20.17,0,-87.63
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone910390
+GUID:
+POSITION:28.01,0,-87.63
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone910835
+GUID:
+POSITION:30.57,0,-57.43
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Clouds
+GUID:
+POSITION:-35.4,0,-76.1199
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/palace_props/cloud.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone3006608
+GUID:
+POSITION:25.56,9.875,-63.97
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link0_clone3008082
+GUID:
+POSITION:25.56,9.875,-76.97
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/palace_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:EntranceNode
+GUID:
+POSITION:-34,6.875,-40
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/entrance_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Floor SW_clone1125911
 GUID:1294221033999372766
@@ -18185,7 +18685,7 @@ GUID:
 POSITION:-38.0199,6.875,-45.14
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18195,7 +18695,7 @@ GUID:
 POSITION:-38.0199,6.875,-35.35
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18205,7 +18705,7 @@ GUID:
 POSITION:37.1,-11,-40.33
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18215,7 +18715,7 @@ GUID:
 POSITION:-21.25,0,-40.5099
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18225,7 +18725,7 @@ GUID:
 POSITION:-16.5,0,-52.4199
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/palace/palace_quarter_02.fbx
+RESFILE:palace/palace_quarter_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18235,7 +18735,7 @@ GUID:
 POSITION:-21.68,0,-22.4699
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18245,7 +18745,7 @@ GUID:
 POSITION:-22.26,0,-57.7599
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18255,7 +18755,7 @@ GUID:
 POSITION:-16.23,0,-26.7399
 ROTARION:0,180,0
 SCALE:3.5
-RESFILE:lights/palace/palace_quarter_02.fbx
+RESFILE:palace/palace_quarter_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18265,7 +18765,7 @@ GUID:
 POSITION:-1.84,5.5,-78.7
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18275,7 +18775,7 @@ GUID:
 POSITION:-34.97,5.5,-52.24
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18285,7 +18785,7 @@ GUID:
 POSITION:-34.91,5.5,-28.35
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18295,7 +18795,7 @@ GUID:
 POSITION:-30.68,5.5,-40.3
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18305,7 +18805,7 @@ GUID:
 POSITION:-18.73,0,-40.9499
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/palace/palace_half_02.fbx
+RESFILE:palace/palace_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18315,7 +18815,7 @@ GUID:
 POSITION:14.95,0,-40.14
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/palace/palace_gradient_02.fbx
+RESFILE:palace/palace_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18325,7 +18825,7 @@ GUID:
 POSITION:23.46,0,-40.31
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18335,7 +18835,7 @@ GUID:
 POSITION:22.76,0,-45.26
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/palace/palace_half_01.fbx
+RESFILE:palace/palace_half_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18345,7 +18845,7 @@ GUID:
 POSITION:23.72,0,-61.82
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/palace/palace_half_01.fbx
+RESFILE:palace/palace_half_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -18355,6 +18855,46 @@ GUID:
 POSITION:21.22,0,-75.87
 ROTARION:0,180,0
 SCALE:7
-RESFILE:lights/palace/palace_gradient_03.fbx
+RESFILE:palace/palace_gradient_03.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:WeaponRack
+GUID:
+POSITION:15.32,1.90735E-06,-67.99
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ArmorRack
+GUID:
+POSITION:8.02,2.75,-80.65
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/shrines/all_armor_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Shrine
+GUID:
+POSITION:24.21,1.90735E-06,-70.37
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ArmorRack
+GUID:
+POSITION:4.1,2.75,-80.65
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/shrines/all_armor_rack.layout
 EXTERNINFO:
 [/PROPERTIES]

@@ -5,7 +5,7 @@ GUID:
 POSITION:-38.21,8.25,-75.3
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15,7 +15,7 @@ GUID:
 POSITION:24.02,8.25,-47.73
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -25,7 +25,7 @@ GUID:
 POSITION:18.34,8.25,-56.57
 ROTARION:0,180,0
 SCALE:2.5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -35,7 +35,7 @@ GUID:
 POSITION:-4.05998,5.5,-58.55
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -45,7 +45,7 @@ GUID:
 POSITION:-17.63,5.5,-73.22
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -55,7 +55,7 @@ GUID:
 POSITION:-1.14997,0,-78.68
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -65,7 +65,7 @@ GUID:
 POSITION:-42.24,0,-48.15
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -75,7 +75,7 @@ GUID:
 POSITION:-19.73,8.25,-49.06
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -85,7 +85,7 @@ GUID:
 POSITION:-8.84001,8.25,-48.54
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -95,7 +95,7 @@ GUID:
 POSITION:14.98,8.25,-65.83
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -105,7 +105,7 @@ GUID:
 POSITION:-0.790013,5.5,-65.0099
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -115,7 +115,7 @@ GUID:
 POSITION:-17.54,5.5,-62.55
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -125,7 +125,7 @@ GUID:
 POSITION:-17.19,5.5,-82.15
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -135,7 +135,7 @@ GUID:
 POSITION:-2.81003,0,-91.8899
 ROTARION:0,180,0
 SCALE:3
-RESFILE:lights/stemple/stemple_gradient_02.fbx
+RESFILE:stemple/stemple_gradient_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -145,7 +145,7 @@ GUID:
 POSITION:-6.11001,8.25,-34.8
 ROTARION:0,180,0
 SCALE:4
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -155,7 +155,7 @@ GUID:
 POSITION:-2.72001,8.25,-41.58
 ROTARION:0,180,0
 SCALE:1.5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -165,7 +165,7 @@ GUID:
 POSITION:-3.60001,8.25,-21.34
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -175,7 +175,7 @@ GUID:
 POSITION:33.13,8.25,-38.4
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -185,7 +185,7 @@ GUID:
 POSITION:33.38,8.25,-55.68
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_03.fbx
+RESFILE:stemple/stemple_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -195,7 +195,7 @@ GUID:
 POSITION:-31.12,8.25,-47.79
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -205,7 +205,7 @@ GUID:
 POSITION:-18.83,8.25,-37.65
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -215,7 +215,47 @@ GUID:
 POSITION:11.34,8.25,-38.74
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/stemple/stemple_gradient_01.fbx
+RESFILE:stemple/stemple_gradient_01.fbx
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lectern
+GUID:
+POSITION:31.84,8.25,-49.18
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_lectern_stemple.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Shrine
+GUID:
+POSITION:6.90999,8.25,-37.37
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:WeaponRack
+GUID:
+POSITION:-15.3,8.25,-39.9
+ROTARION:0,45,0
+SCALE:1
+RESFILE:props/shrines/all_weapon_rack.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:ArmorRack
+GUID:
+POSITION:-16.2,5.54064,-84.9999
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/shrines/all_armor_rack.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -2586,6 +2626,516 @@ POSITION:24.17,3.67498,-58.96
 ROTARION:0,90,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone467698
+GUID:
+POSITION:-43.64,-1.375,-31.85
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone468184
+GUID:
+POSITION:-31.68,-1.375,-37.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone468665
+GUID:
+POSITION:-18.16,-1.375,-24.03
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone469146
+GUID:
+POSITION:-2.79998,-1.375,-24.1
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone469627
+GUID:
+POSITION:-4.66998,-1.375,-12.73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone470108
+GUID:
+POSITION:-4.66998,-1.375,-12.73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone470589
+GUID:
+POSITION:3.94002,-1.375,-15.78
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone471070
+GUID:
+POSITION:22.96,-1.375,-22.35
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone471551
+GUID:
+POSITION:27.52,-1.375,-35.61
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone472032
+GUID:
+POSITION:28.12,-1.375,-48.49
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone472513
+GUID:
+POSITION:39.9,-1.375,-42.55
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone472994
+GUID:
+POSITION:41.39,-1.375,-57.43
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone473475
+GUID:
+POSITION:29.06,-1.375,-61.51
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone473956
+GUID:
+POSITION:29.08,-1.375,-73.8
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone474437
+GUID:
+POSITION:13.65,-1.375,-77.4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone474923
+GUID:
+POSITION:9.55004,-1.375,-93.85
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone475404
+GUID:
+POSITION:-11.3,-1.375,-93.62
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone475885
+GUID:
+POSITION:-27.63,-1.375,-93.17
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone476366
+GUID:
+POSITION:-36.4,-1.375,-87.7399
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone476852
+GUID:
+POSITION:-36.7899,-1.375,-70.8099
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone477333
+GUID:
+POSITION:-32.0999,-1.375,-61.0399
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone477814
+GUID:
+POSITION:-46.88,-1.375,-66.7899
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone478300
+GUID:
+POSITION:-10.03,2.825,-20.32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone478816
+GUID:
+POSITION:12.93,2.825,-26.37
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone479680
+GUID:
+POSITION:-46.97,-1.375,-30.43
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone480544
+GUID:
+POSITION:-31.78,-1.375,-36.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone481403
+GUID:
+POSITION:-35.66,-1.375,-63.07
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone482262
+GUID:
+POSITION:-3.60002,-1.375,-23.93
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone483121
+GUID:
+POSITION:31.73,-1.375,-42.6399
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone483980
+GUID:
+POSITION:37.23,-1.375,-47.6999
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone484839
+GUID:
+POSITION:29.72,-1.375,-53.9599
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone485698
+GUID:
+POSITION:10.75,-1.375,-82.9599
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone486557
+GUID:
+POSITION:-11.52,-1.375,-91.8099
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1313883
+GUID:
+POSITION:-1.48001,0.0749998,-91.02
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1314399
+GUID:
+POSITION:-1.17,0.0749998,-77.48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1308497
+GUID:
+POSITION:-44.13,0.0749996,-50.81
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1309008
+GUID:
+POSITION:-19.06,8.325,-46.72
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1309529
+GUID:
+POSITION:-17.42,8.325,-35.21
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1310010
+GUID:
+POSITION:-4.36002,8.325,-49
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1310491
+GUID:
+POSITION:11.38,8.325,-46.9
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1310972
+GUID:
+POSITION:15.22,8.325,-37.66
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1311453
+GUID:
+POSITION:18.16,8.325,-64.67
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1311934
+GUID:
+POSITION:5.18999,5.575,-63.99
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1312440
+GUID:
+POSITION:-6.88001,5.575,-63.53
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1312921
+GUID:
+POSITION:-14.91,5.575,-64.2
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1313402
+GUID:
+POSITION:-17.05,5.575,-79.47
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes
+GUID:
+POSITION:-7.62998,-1.375,-34.92
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:RainDropSplashes_clone1675429
+GUID:
+POSITION:-1.13998,0,-41.48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/sunkenruins/splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs
+GUID:
+POSITION:-10.03,-1.375,-35.13
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone996848
+GUID:
+POSITION:-6.93,-1.375,-45.86
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Bugs_clone997707
+GUID:
+POSITION:-0.459999,-1.375,-35.45
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/sunkentemple_props/waterskippers.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -14856,6 +15406,126 @@ POSITION:-24,5.5,-72
 ROTARION:0,180,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1177172
+GUID:
+POSITION:-20.41,4.365,-61.99
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/sunkentemple_props/wall_sconce_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1178517
+GUID:
+POSITION:-17.23,4.365,-84.4
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/wall_sconce_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1179847
+GUID:
+POSITION:3.75001,-0.010006,-82.27
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/fountain_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3
+GUID:
+POSITION:-20.67,7.115,-52.45
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/wall_sconce_01.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1187450
+GUID:
+POSITION:-39.15,-0.0300003,-52.64
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1191143
+GUID:
+POSITION:-39.15,-0.0300003,-43.07
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1193171
+GUID:
+POSITION:-8.71998,8.22,-51.02
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1195229
+GUID:
+POSITION:7.23002,8.22,-50.84
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1197252
+GUID:
+POSITION:15.16,8.22,-68.4701
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1199275
+GUID:
+POSITION:-6.86998,5.47,-68.5001
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1201313
+GUID:
+POSITION:-12.14,-0.0300007,-75.9101
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link3_clone1203371
+GUID:
+POSITION:-4.55999,-0.0300007,-91.76
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/sunkentemple_props/brazier_1.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

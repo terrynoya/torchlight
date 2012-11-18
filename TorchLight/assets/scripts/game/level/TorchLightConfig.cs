@@ -19,8 +19,9 @@ public class TorchLightConfig
     public static string TorchLightOrignalLayoutFolder      = "assets/medias/layouts/";
     public static string TorchLightConvertedLayoutFolder    = "assets/medias/levellayouts/";
     public static string TorchLightModelsFolder             = "assets/resources/models/";
-
-    public static string TorchLightLevelSetFolder            = "assets/medias/levelsets/";
+    //public static string TorchLightParticleFolder           = "assets/resources/models/";
+    public static string TorchLightLevelSetFolder           = "assets/medias/levelsets/";
+    public static string TorchLightLightsFolder             = "assets/medias/lights/";
 
     public static string TorchLightOrignalLevelSetPath      = "assets/medias/levelsets/levelset.layout";
     public static string TorchLightConvertedLevelSetPath    = "assets/medias/levelsets/levelset.items.txt";

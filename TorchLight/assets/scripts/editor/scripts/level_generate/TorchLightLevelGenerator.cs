@@ -385,7 +385,14 @@ public class TorchLightLevelGenerator : EditorWindow {
     {
         if (bGenerateLevel)
         {
-            ProcessGenerateLevel();
+            try
+            {
+                ProcessGenerateLevel();
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogError("Generate Level Failed!");
+            }
             bGenerateLevel = false;
         }
     }

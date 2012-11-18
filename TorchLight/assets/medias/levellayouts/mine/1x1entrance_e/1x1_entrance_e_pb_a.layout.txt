@@ -1,4 +1,24 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:EntranceNode
+GUID:
+POSITION:-7.56,0.43,-60.9
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/entrance_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:EarthQuake
+GUID:
+POSITION:-25.889,0,-48.124
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/quake.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Door
 GUID:
@@ -2569,6 +2589,46 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light_clone440496
+GUID:
+POSITION:-8,0,-50
+ROTARION:0,60,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Support with Light
+GUID:
+POSITION:-35.5,0,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/arch_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern
+GUID:
+POSITION:-16.04,2.61,-50.17
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/mine_props/lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Lantern on Post
+GUID:
+POSITION:-26.47,0,-53.53
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/mine_props/post_lantern.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Signpost_clone496303
 GUID:1140101638172316126
@@ -2675,7 +2735,7 @@ GUID:
 POSITION:-7.92,0,-55.78
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -2685,7 +2745,7 @@ GUID:
 POSITION:-11.9,0,-46.3
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -2695,7 +2755,7 @@ GUID:
 POSITION:-26.17,0,-49.81
 ROTARION:0,180,0
 SCALE:6
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -2705,6 +2765,6 @@ GUID:
 POSITION:-43.43,0,-47.9001
 ROTARION:0,180,0
 SCALE:8
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]

@@ -9,6 +9,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle5
+GUID:
+POSITION:-0.12,0.9,-39.81
+ROTARION:0,180,0
+SCALE:1
+RESFILE:quest/passivecomment.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Chest
 GUID:
@@ -96,6 +106,486 @@ POSITION:-23.7,-1.375,-49.3
 ROTARION:0,45.00004,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch
+GUID:
+POSITION:0,0,-88
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra
+GUID:
+POSITION:-3.4,-0.3,-36.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle
+GUID:
+POSITION:-32,0,-45.8
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Chandelier
+GUID:
+POSITION:-12,-1.375,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post
+GUID:
+POSITION:-26,0,-38
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Fireplace
+GUID:
+POSITION:-30,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/fireplace.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1451356
+GUID:
+POSITION:-4,0,-6.10003
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1453261
+GUID:
+POSITION:-4,0,-9.79997
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1455169
+GUID:
+POSITION:4,0,-9.90003
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1457074
+GUID:
+POSITION:4,0,-6.20009
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1458998
+GUID:
+POSITION:-4,0,-62.1
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1460903
+GUID:
+POSITION:4,0,-65.9
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1462808
+GUID:
+POSITION:4,0,-62.2001
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1464713
+GUID:
+POSITION:-4,0,-65.8
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1046488
+GUID:
+POSITION:-32,0,-42.1
+ROTARION:0,90,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1048432
+GUID:
+POSITION:32,0,-45.9
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone1050337
+GUID:
+POSITION:32,0,-42.2001
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2692502
+GUID:
+POSITION:-18,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2694407
+GUID:
+POSITION:-14.1,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2696334
+GUID:
+POSITION:17.9,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2698239
+GUID:
+POSITION:14,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1518057
+GUID:
+POSITION:3,0,0
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1520346
+GUID:
+POSITION:-3,0,0
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Chandelier_clone1404504
+GUID:
+POSITION:12,-1.375,-32
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Chandelier_clone1409713
+GUID:
+POSITION:-12,-1.375,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Chandelier_clone1414909
+GUID:
+POSITION:12,-1.375,-48
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/chandelier.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1735819
+GUID:
+POSITION:2,0,-22
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1738048
+GUID:
+POSITION:-2,0,-22
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone954765
+GUID:
+POSITION:-3.5,-0.3,-43.4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1262740
+GUID:
+POSITION:-10,0,-22
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1264963
+GUID:
+POSITION:-18,0,-30
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1267188
+GUID:
+POSITION:18,0,-30
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1269408
+GUID:
+POSITION:10,0,-22
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Torch Post_clone1271628
+GUID:
+POSITION:26,0,-38
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_post.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2055933
+GUID:
+POSITION:-23.9,0,-26.7
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone960915
+GUID:
+POSITION:3.2,-0.3,-43.4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone967046
+GUID:
+POSITION:3.3,-0.3,-36.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2057851
+GUID:
+POSITION:-21.3,0,-24.1
+ROTARION:0,135,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2059762
+GUID:
+POSITION:23.9231,0,-26.6
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2061667
+GUID:
+POSITION:21.323,0,-24
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2063585
+GUID:
+POSITION:-3,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone2065497
+GUID:
+POSITION:2.9,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Fireplace_clone773837
+GUID:
+POSITION:30,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/fireplace.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1442644
+GUID:
+POSITION:6,0,-88
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1444906
+GUID:
+POSITION:-6,0,-88
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1447171
+GUID:
+POSITION:-8,0,-80
+ROTARION:0,89.99998,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone1449438
+GUID:
+POSITION:8,0,-80
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Candle_clone676821
+GUID:
+POSITION:17.9,0,-56
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/candle_wall.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13409,6 +13899,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Skull Candle
+GUID:
+POSITION:0.8,0.99,-39.9
+ROTARION:0,225,0
+SCALE:1
+RESFILE:props/crypt_props/skull_candle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Table2
 GUID:-8756847307430424098
@@ -13426,6 +13926,16 @@ POSITION:0,-0.4,-42
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:LitTomb
+GUID:
+POSITION:16,0,-56.3
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/tomb_lit.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13939,13 +14449,23 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:LitTomb_clone674405
+GUID:
+POSITION:16,0,-56.3
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/tomb_lit.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Light
 NAME:Light4
 GUID:
 POSITION:0,0,-59.7
 ROTARION:0,180,0
 SCALE:20
-RESFILE:lights/light_half_02.fbx
+RESFILE:light_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13955,7 +14475,7 @@ GUID:
 POSITION:0,0,-8
 ROTARION:0,180,0
 SCALE:5
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13965,7 +14485,7 @@ GUID:
 POSITION:0,0,-59.7
 ROTARION:0,180,0
 SCALE:20
-RESFILE:lights/light_half_02.fbx
+RESFILE:light_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -14939,6 +15459,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Exit
+GUID:
+POSITION:0,-0.7,-80
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/exit_node.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Dust
 GUID:7739875189096583646
@@ -15309,6 +15839,56 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle_clone2923036
+GUID:
+POSITION:-14.6,4.225,-62
+ROTARION:0,270,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle_clone2924204
+GUID:
+POSITION:-29.4,4.225,-66
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle_clone2925365
+GUID:
+POSITION:-29.4,4.225,-62
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle_clone2926541
+GUID:
+POSITION:-18,4.225,-69.4
+ROTARION:0,0,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle_clone2927702
+GUID:
+POSITION:-26,4.225,-69.4
+ROTARION:0,0,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Lever
 GUID:
@@ -15326,6 +15906,16 @@ POSITION:-16,0,-56
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Candle
+GUID:
+POSITION:-14.6,4.225,-66
+ROTARION:0,270,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

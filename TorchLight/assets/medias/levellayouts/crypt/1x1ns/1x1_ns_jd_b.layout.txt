@@ -1,4 +1,14 @@
 [PROPERTIES]
+TAG:Layout Link
+NAME:Layout Link4
+GUID:
+POSITION:-18.92,5.5,-67.4
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/shrines/all_shrines.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Cobweb_clone70740
 GUID:-8756846792034348578
@@ -76,6 +86,296 @@ POSITION:-7.8,0,-59.8
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone73239
+GUID:
+POSITION:3,0,-92.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone75063
+GUID:
+POSITION:-3,0,-92.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone48556
+GUID:
+POSITION:14,-5.5,-57
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch
+GUID:
+POSITION:-20,5.5,-10
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra
+GUID:
+POSITION:-14,5.5,-24
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone50384
+GUID:
+POSITION:19,-5.5,-64
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone52212
+GUID:
+POSITION:19,-5.5,-73
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone54052
+GUID:
+POSITION:19,-5.5,-82
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone55876
+GUID:
+POSITION:16,-5.5,-89
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone57712
+GUID:
+POSITION:-24,-5.5,-88
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone59548
+GUID:
+POSITION:-32,-5.5,-82
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone61380
+GUID:
+POSITION:-24,-5.5,-76
+ROTARION:0,270,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone63208
+GUID:
+POSITION:-16,-5.5,-82
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra_nocollide.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone69368
+GUID:
+POSITION:-0.5,0,-51.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone71192
+GUID:
+POSITION:-0.5,0,-25.6
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Candlabra_clone66360
+GUID:
+POSITION:-14,5.5,-52
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/candelabra.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone66922
+GUID:
+POSITION:-20,5.5,-18
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone67484
+GUID:
+POSITION:-20,5.5,-58
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone41092
+GUID:
+POSITION:-20,5.5,-26
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone41654
+GUID:
+POSITION:-20,5.5,-50
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone42216
+GUID:
+POSITION:-20,5.49,-66
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone42778
+GUID:
+POSITION:-8,0,-68
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone43340
+GUID:
+POSITION:-8,0,-60
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone43902
+GUID:
+POSITION:-8,0,-16
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone44464
+GUID:
+POSITION:-8,0,-8
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone45026
+GUID:
+POSITION:8,-5.5,-12
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone45588
+GUID:
+POSITION:8,-5.5,-4
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone46150
+GUID:
+POSITION:8,-5.5,-60
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Wall Torch_clone46712
+GUID:
+POSITION:8,-5.5,-68
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/torch_wall.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13109,6 +13409,26 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone39911
+GUID:
+POSITION:12,-8.25,-27.89
+ROTARION:0,0,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone40439
+GUID:
+POSITION:12,-8.25,-48.11
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Bench_clone67530
 GUID:-8712577202308640290
@@ -13156,6 +13476,26 @@ POSITION:-29,5.5,-63.45
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Gargoyle
+GUID:
+POSITION:-28,8.25,-42
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_gargoyle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate
+GUID:
+POSITION:-19.89,2.75,-38
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13239,6 +13579,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:LitTomb
+GUID:
+POSITION:-20.5,5.5,-23
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/tomb_lit.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Bench
 GUID:-8756847462049246754
@@ -13276,6 +13626,16 @@ POSITION:14.2,-5.5,-63.8
 ROTARION:0,89.99997,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash Small
+GUID:
+POSITION:-20.9,0,-42
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash_small.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13469,6 +13829,36 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Water Gargoyle_clone34049
+GUID:
+POSITION:-28,8.25,-34
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_gargoyle.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash_clone34586
+GUID:
+POSITION:-27.7,5.5,-42
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash_clone35123
+GUID:
+POSITION:-27.7,5.5,-34
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Tomb1_clone63216
 GUID:-8756847410509639202
@@ -13579,6 +13969,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone35651
+GUID:
+POSITION:-19.89,2.75,-42
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Pillar_clone40517
 GUID:-2063409370970123810
@@ -13586,6 +13986,16 @@ POSITION:-32,-5.5,-76
 ROTARION:0,270,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone36179
+GUID:
+POSITION:-19.89,2.75,-34
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13636,6 +14046,26 @@ POSITION:-24,-4.125,-4
 ROTARION:0,0,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash Small_clone36716
+GUID:
+POSITION:-20.9,0,-38
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash Small_clone37253
+GUID:
+POSITION:-20.9,0,-34
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash_small.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13799,6 +14229,46 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash Small_clone37790
+GUID:
+POSITION:7.1,-5.5,-40
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone38318
+GUID:
+POSITION:8.1,-2.75,-40
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Splash Small_clone38855
+GUID:
+POSITION:7.1,-5.5,-36
+ROTARION:0,180,0
+SCALE:1
+RESFILE:props/crypt_props/water_splash_small.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link
+NAME:Water Grate_clone39383
+GUID:
+POSITION:8.1,-2.75,-36
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:props/crypt_props/water_grate.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Room Piece
 NAME:Small Rug_clone201317
 GUID:444910749179711966
@@ -13815,7 +14285,7 @@ GUID:
 POSITION:5.5,0,-38
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/light_half_03.fbx
+RESFILE:light_half_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13825,7 +14295,7 @@ GUID:
 POSITION:-11,0,-14.5
 ROTARION:0,180,0
 SCALE:12
-RESFILE:lights/light_half_02.fbx
+RESFILE:light_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13835,7 +14305,7 @@ GUID:
 POSITION:-26.5,0,-82.5
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/light_gradient_03.fbx
+RESFILE:light_gradient_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13845,7 +14315,7 @@ GUID:
 POSITION:-17.5,0,-5.7
 ROTARION:0,180,0
 SCALE:2
-RESFILE:lights/light_half_03.fbx
+RESFILE:light_half_03.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13855,7 +14325,7 @@ GUID:
 POSITION:-11,0,-57
 ROTARION:0,180,0
 SCALE:9
-RESFILE:lights/light_half_02.fbx
+RESFILE:light_half_02.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -13865,7 +14335,7 @@ GUID:
 POSITION:-21.5,0,-38
 ROTARION:0,180,0
 SCALE:10
-RESFILE:lights/light_gradient_01.fbx
+RESFILE:light_gradient_01.fbx
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
@@ -15839,6 +16309,16 @@ RESFILE:
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]
+TAG:Layout Link Particle
+NAME:Secret Flame
+GUID:
+POSITION:-33.44,9.695,-62
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
 TAG:Unit Trigger
 NAME:Chest_clone67506
 GUID:
@@ -15846,6 +16326,36 @@ POSITION:-31.5,5.5,-60
 ROTARION:0,90.00002,0
 SCALE:1
 RESFILE:
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Secret Flame2
+GUID:
+POSITION:-33.44,9.695,-58
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Secret Flame3
+GUID:
+POSITION:-33.44,9.695,-18
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Secret Flame4
+GUID:
+POSITION:-33.44,9.695,-14
+ROTARION:0,90.00002,0
+SCALE:1
+RESFILE:candlewith_light_half.layout
 EXTERNINFO:
 [/PROPERTIES]
 [PROPERTIES]

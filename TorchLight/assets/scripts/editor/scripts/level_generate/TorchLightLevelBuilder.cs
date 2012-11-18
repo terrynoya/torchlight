@@ -12,7 +12,7 @@ public class TorchLightLevelBuilder : MonoBehaviour
     static Dictionary<string, Mesh>                         CollisionMeshCache  = new Dictionary<string, Mesh>();
     static Dictionary<string, TorchLightLevel.PirceItem>    GAllPieceItems      = null;
 
-    static GameObject GetCachedGameObject(string FbxPath, TorchLightLevel.LevelItem AItem)
+    static GameObject GetCachedGameObject(string FbxPath)
     {
         GameObject Obj = null;
         if (PrefabsCache.ContainsKey(FbxPath))
@@ -100,7 +100,7 @@ public class TorchLightLevelBuilder : MonoBehaviour
         else
             MeshFile = TorchLightConfig.TorchLightModelsFolder + AItem.ResFile;
 
-        GameObject Obj = GetCachedGameObject(MeshFile, AItem);
+        GameObject Obj = GetCachedGameObject(MeshFile);
         if (Obj != null)
         {
             Obj = Instantiate(Obj, AItem.Position, AItem.Rotation) as GameObject;
@@ -121,15 +121,19 @@ public class TorchLightLevelBuilder : MonoBehaviour
 
             if (!bNpcs)
             {
-                GameObject ObjRemove = Obj;
-                GameObject MeshObj = Obj.GetComponentInChildren<MeshRenderer>().gameObject;
+                MeshRenderer Render = Obj.GetComponentInChildren<MeshRenderer>();
+                if (Render != null)
                 {
-                    MeshObj.transform.parent = null;
-                    MeshObj.transform.position = AItem.Position;
-                    MeshObj.transform.rotation = AItem.Rotation;
-                    Obj = MeshObj;
+                    GameObject ObjRemove    = Obj;
+                    GameObject MeshObj      = Render.gameObject;
+                    {
+                        MeshObj.transform.parent = null;
+                        MeshObj.transform.position = AItem.Position;
+                        MeshObj.transform.rotation = AItem.Rotation;
+                        Obj = MeshObj;
+                    }
+                    DestroyImmediate(ObjRemove);
                 }
-                DestroyImmediate(ObjRemove);
             }
 
             Obj.name                    = AItem.Name;
@@ -138,6 +142,42 @@ public class TorchLightLevelBuilder : MonoBehaviour
         }
         else
             Debug.LogError(MeshFile + "  Not Found");
+    }
+
+    static void InstanceUnitTrigger(TorchLightLevel.LevelItem AItem, GameObject LevelTriggers)
+    {
+        GameObject TriggerObj         = new GameObject(AItem.Name);
+        TriggerObj.transform.position = AItem.Position + LightOffset;
+        TriggerObj.transform.parent   = LevelTriggers.transform;
+
+    }
+
+    static Quaternion Turn_180_Degree = Quaternion.Euler(new Vector3(0.0f, 180.0f, 0.0f));
+    static void InstanceLayoutLinkObject(TorchLightLevel.LevelItem AItem, GameObject LevelObjects, GameObject LevelEffects)
+    {
+        List<TorchLightLevel.LevelItem> LayoutLinkObjs = TorchLightLevel.ParseLevelLayout(TorchLightConfig.TorchLightConvertedLayoutFolder + AItem.ResFile);
+        if (LayoutLinkObjs != null)
+        {
+            // Here linked layout levelsets are in local coordinate system
+            foreach (TorchLightLevel.LevelItem Item in LayoutLinkObjs)
+            {
+                TorchLightLevel.LevelItem TmpItem = new TorchLightLevel.LevelItem(Item);
+                {
+                    TmpItem.Name        = "Link_" + TmpItem.Name;
+                    TmpItem.Position    = AItem.Position + (AItem.Rotation * Turn_180_Degree) * TmpItem.Position;
+                    TmpItem.Rotation    = AItem.Rotation;
+                    TmpItem.Scaling     = AItem.Scaling;
+                    if (TmpItem.Tag == TorchLightLevel.DESCREPTION_ROOM_PIECE)
+                    {
+                        TorchLightLevelBuilder.InstanceObj(TmpItem, LevelObjects);
+                    }
+                    else if (TmpItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
+                    {
+
+                    }
+                }
+            }
+        }
     }
 
     static public void InitiAllPieceItems()
@@ -175,17 +215,26 @@ public class TorchLightLevelBuilder : MonoBehaviour
                 {
                     TorchLightLevelBuilder.InstanceLight(AItem, LevelLights);
                 }
-
-                if (AItem.Tag == TorchLightLevel.DESCREPTION_MONSTER)
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_MONSTER)
                 {
                     TorchLightLevelBuilder.InstanceObj(AItem, LevelNpcs);
                 }
-
-                if (AItem.Tag == TorchLightLevel.DESCREPTION_ROOM_PIECE)
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_ROOM_PIECE)
                 {
                     TorchLightLevelBuilder.InstanceObj(AItem, LevelObjects);
                 }
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_LAYOUT_LINK)
+                {
+                    TorchLightLevelBuilder.InstanceLayoutLinkObject(AItem, LevelObjects, LevelEffects);
+                }
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
+                {
 
+                }
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_UNIT_TRIGGER)
+                {
+                    TorchLightLevelBuilder.InstanceUnitTrigger(AItem, LevelTriggers);
+                }
             }
             return Level;
         }

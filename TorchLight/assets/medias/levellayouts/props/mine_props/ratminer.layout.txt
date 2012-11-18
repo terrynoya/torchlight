@@ -1,0 +1,10 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Layout Link Particle7
+GUID:
+POSITION:-0.1,0.59,-1.26
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/mineprops/minespark.layout
+EXTERNINFO:
+[/PROPERTIES]

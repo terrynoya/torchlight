@@ -1,0 +1,20 @@
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Seal
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/magic_seal.layout
+EXTERNINFO:
+[/PROPERTIES]
+[PROPERTIES]
+TAG:Layout Link Particle
+NAME:Seal Burst
+GUID:
+POSITION:0,0,0
+ROTARION:0,180,0
+SCALE:1
+RESFILE:objects/magic_seal_open.layout
+EXTERNINFO:
+[/PROPERTIES]
