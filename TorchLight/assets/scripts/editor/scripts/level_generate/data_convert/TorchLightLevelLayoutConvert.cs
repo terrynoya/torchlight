@@ -31,8 +31,13 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                     Writer.WriteLine("POSITION:" + Item.Position.x + "," + Item.Position.y + "," + Item.Position.z);
                     Writer.WriteLine("ROTARION:" + Item.Rotation.eulerAngles.x + "," + Item.Rotation.eulerAngles.y + "," + Item.Rotation.eulerAngles.z);
                     Writer.WriteLine("SCALE:" + Item.Scaling);
-                    Writer.WriteLine("RESFILE:" + Item.ResFile);
-                    Writer.WriteLine("EXTERNINFO:" + Item.ExternInfo);
+                    if (TorchLightLevel.DESCREPTION_PARTICLE == Item.Tag)
+                    {
+                        Writer.WriteLine("ParticleFile:" + Item.ResFile);
+                    }else{
+                      Writer.WriteLine("RESFILE:" + Item.ResFile);
+                      Writer.WriteLine("EXTERNINFO:" + Item.ExternInfo);
+                    }
                 }
                 Writer.WriteLine(TorchLightLevel.ChunkEnd);
             }
@@ -64,8 +69,7 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                         Value == TorchLightLevel.DESCREPTION_LIGHT ||
                         Value == TorchLightLevel.DESCREPTION_UNIT_TRIGGER ||
                         Value == TorchLightLevel.DESCREPTION_WARPER ||
-                        Value == TorchLightLevel.DESCREPTION_PARTICLE ||
-                        Value == TorchLightLevel.DESCREPTION_LAYOUT_LINK)
+						Value == TorchLightLevel.DESCREPTION_PARTICLE)
                     {
                         TorchLightLevel.LevelItem AItem = new TorchLightLevel.LevelItem();
                         AItem.Tag = Value;
@@ -77,6 +81,7 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                         {
                             EditorTools.ParseLine(Line, ref Tag, ref Value);
 
+                            // Debug.Log(Value);
                             if (Tag == "NAME") AItem.Name = Value;
                             else if (Tag == "POSITIONX")                    AItem.Position.x = float.Parse(Value);
                             else if (Tag == "POSITIONY")                    AItem.Position.y = float.Parse(Value);
@@ -87,8 +92,14 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                             else if (Tag == "SCALE")                        AItem.Scaling = float.Parse(Value);
                             else if (Tag == "SCALE X")                      AItem.Scaling = float.Parse(Value);
                             else if (Tag == "GUID")                         AItem.GUID = Value;
-                            else if (Tag == "FILE" || Tag == "LAYOUT FILE") AItem.ResFile = TLPathConvertToUnityPath(Value); // Mesh Path
+                            else if (Tag == "FILE") AItem.ResFile = TLPathConvertToUnityPath(Value); // Mesh Path
                             else if (Tag == "DUNGEON NAME")                 AItem.ExternInfo = Value;
+							// particle link file                           
+							else if(Tag == "LAYOUT FILE" && AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
+							{
+								AItem.ResFile = ParticleFileConvertToUnityPath(Value);
+								// Debug.Log(Value);
+							}														
 
                             Line = Reader.ReadLine().Trim();
                         }
@@ -124,5 +135,53 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
         NewPath = NewPath.Substring(0, NewPath.IndexOf('.')) + Suffix;
         NewPath = NewPath.Substring(NewPath.IndexOf(Folder) + Folder.Length);
         return NewPath;
+    }
+	
+	public static string ParticleFileConvertToUnityPath(string Path)
+    {
+        const string MediasPath = "particles/";
+
+        string NewPath = Path.ToLower();
+        NewPath = NewPath.Substring(0, NewPath.Length);
+        NewPath = NewPath.Substring(NewPath.IndexOf(MediasPath) + MediasPath.Length);
+        return NewPath;
+    }
+
+    public static void ConvertALevelLayoutOnly(string Layout)
+    {
+        string Folder = EditorTools.GetFullFolder(Layout).ToLower();
+        Folder = EditorTools.ConvertBasePath(Folder, TorchLightConfig.TorchLightConvertedLayoutFolder, TorchLightConfig.FolderOrignalLevelLayout);
+
+        EditorTools.CheckFolderExit(Folder);
+
+        string FileName = EditorTools.GetNameWithoutSuffix(Layout) + ".layout.txt";
+        string SavePath = Folder + FileName;
+        StreamWriter Writer = new StreamWriter(SavePath.ToLower());
+
+        List<TorchLightLevel.LevelItem> Items = ParseOriginalLevelLayout(Layout);
+        foreach (TorchLightLevel.LevelItem Item in Items)
+        {
+            Writer.WriteLine(TorchLightLevel.ChunkBegin);
+            {
+                Writer.WriteLine("TAG:" + Item.Tag);
+                Writer.WriteLine("NAME:" + Item.Name);
+                Writer.WriteLine("GUID:" + Item.GUID);
+                Writer.WriteLine("POSITION:" + Item.Position.x + "," + Item.Position.y + "," + Item.Position.z);
+                Writer.WriteLine("ROTARION:" + Item.Rotation.eulerAngles.x + "," + Item.Rotation.eulerAngles.y + "," + Item.Rotation.eulerAngles.z);
+                Writer.WriteLine("SCALE:" + Item.Scaling);
+                if (TorchLightLevel.DESCREPTION_PARTICLE == Item.Tag)
+                {
+                    Writer.WriteLine("ParticleFile:" + Item.ResFile);
+                }
+                else
+                {
+                    Writer.WriteLine("RESFILE:" + Item.ResFile);
+                    Writer.WriteLine("EXTERNINFO:" + Item.ExternInfo);
+                }
+            }
+            Writer.WriteLine(TorchLightLevel.ChunkEnd);
+        }
+
+        Writer.Close();
     }
 }

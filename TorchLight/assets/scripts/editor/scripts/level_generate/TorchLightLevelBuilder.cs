@@ -223,13 +223,9 @@ public class TorchLightLevelBuilder : MonoBehaviour
                 {
                     TorchLightLevelBuilder.InstanceObj(AItem, LevelObjects);
                 }
-                else if (AItem.Tag == TorchLightLevel.DESCREPTION_LAYOUT_LINK)
+                else if (AItem.Tag == TorchLightLevel.DESCREPTION_LAYOUT_LINK || AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
                 {
                     TorchLightLevelBuilder.InstanceLayoutLinkObject(AItem, LevelObjects, LevelEffects);
-                }
-                else if (AItem.Tag == TorchLightLevel.DESCREPTION_PARTICLE)
-                {
-
                 }
                 else if (AItem.Tag == TorchLightLevel.DESCREPTION_UNIT_TRIGGER)
                 {

@@ -108,6 +108,10 @@ public class TorchLightLevelGenerator : EditorWindow {
             GUILayout.Space(20);
             ButtonPress = GUILayout.Button("(Test) Load A Level Layout", GUILayout.Width(200));
             ProcessLoadALevelLayout(ButtonPress);
+
+            GUILayout.Space(20);
+            ButtonPress = GUILayout.Button("Convert A Level Layout Only", GUILayout.Width(200));
+            ProcessConvertATorchLightLevelLayout(ButtonPress);
         }
         GUILayout.EndHorizontal();
         
@@ -131,6 +135,20 @@ public class TorchLightLevelGenerator : EditorWindow {
                 Path = EditorTools.GetUnityRelativePath(Path);
                 Path = EditorTools.GetFullFolder(Path) + EditorTools.GetNameWithoutSuffix(Path);
                 TorchLightLevelBuilder.LoadLevelLayoutToScene(Path + ".layout");
+            }
+        }
+    }
+
+    void ProcessConvertATorchLightLevelLayout(bool ButtonPress)
+    {
+        if (ButtonPress)
+        {
+            string Path = "";
+            if (EditorGUIUtil.OpenFile("Select Level Layout", "layout", ref Path))
+            {
+                Path = EditorTools.GetUnityRelativePath(Path);
+                Path = EditorTools.GetFullFolder(Path) + EditorTools.GetNameWithoutSuffix(Path) + ".layout";
+                TorchLightLevelLayoutConvert.ConvertALevelLayoutOnly(Path);
             }
         }
     }
