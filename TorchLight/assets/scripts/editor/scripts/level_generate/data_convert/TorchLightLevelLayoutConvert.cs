@@ -31,13 +31,8 @@ public class TorchLightLevelLayoutConvert : MonoBehaviour {
                     Writer.WriteLine("POSITION:" + Item.Position.x + "," + Item.Position.y + "," + Item.Position.z);
                     Writer.WriteLine("ROTARION:" + Item.Rotation.eulerAngles.x + "," + Item.Rotation.eulerAngles.y + "," + Item.Rotation.eulerAngles.z);
                     Writer.WriteLine("SCALE:" + Item.Scaling);
-                    if (TorchLightLevel.DESCREPTION_PARTICLE == Item.Tag)
-                    {
-                        Writer.WriteLine("ParticleFile:" + Item.ResFile);
-                    }else{
-                      Writer.WriteLine("RESFILE:" + Item.ResFile);
-                      Writer.WriteLine("EXTERNINFO:" + Item.ExternInfo);
-                    }
+                    Writer.WriteLine("RESFILE:" + Item.ResFile);
+                    Writer.WriteLine("EXTERNINFO:" + Item.ExternInfo); 
                 }
                 Writer.WriteLine(TorchLightLevel.ChunkEnd);
             }
